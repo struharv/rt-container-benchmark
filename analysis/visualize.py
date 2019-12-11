@@ -30,7 +30,7 @@ class Draw:
 		#previous = line[2] 
 
 
-		print min, max, range
+		#print min, max, range
 		im = Image.new('RGB', (datalen, 30), color = 'red')
 
 		i = 0		
@@ -76,7 +76,7 @@ class Result:
 		for r in self.raw_data:
 			#print r[1]
 			tmp[r[1]] = 0
-
+		i = 0
 		start = 0
 		for r in self.raw_data:
 			id = r[1]
@@ -85,18 +85,51 @@ class Result:
 				
 			if state == "ON":
 				start = time	
-			else:
+			elif state=="OFF" and i != 0:
 				#print(self.proc_info[id], tmp[id], time, start, time-start)
 				tmp[id] += (time-start)
-				
+			i += 1
 		return tmp
 
+	def sum_NR(self, processes):
+		sum = 0
+		
+		for key in processes:
+			if self.proc_info[key] != "sample":
+				sum += processes[key]
+		return sum
+
+
+		
 
 	def print_analyse_timing(self):
 		tmp = self.analyse_timing();
 		for key in tmp:
 			print key, tmp[key], self.proc_info[key]
 			#, self.proc_info[key], tmp[key]
+
+
+	def print_analyse_timing_gnuplot(self):
+		i = 1;		
+		tmp = self.analyse_timing();
+		for key in tmp:
+			print i, self.proc_info[key], tmp[key]
+			i += 1
+
+	def print_analyse_timing_gnuplot_sum(self):
+		i = 0		
+		tmp = self.analyse_timing();
+		
+		for key in tmp:
+
+			if self.proc_info[key] == "sample":			
+				print i, self.proc_info[key], tmp[key]
+				i += 1
+		
+		print i, "non-RT", self.sum_NR(tmp)
+
+
+
 		
 	def draw(self):
 		print("drawing")
@@ -104,16 +137,13 @@ class Result:
 	def getRawData(self):
 		return self.raw_data
 			
-		
-	
-
-
-
 
 res = Result() 
-res.load_file("results1")
+res.load_file("../systemtap/results40-40-20")
 #res.analyse_timing()
-res.print_analyse_timing()
+#res.print_analyse_timing()
+#res.print_analyse_timing_gnuplot()
+res.print_analyse_timing_gnuplot_sum()
 
 
 draw = Draw(res)
