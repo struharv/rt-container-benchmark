@@ -122,7 +122,7 @@ class Result:
 		
 		for key in tmp:
 
-			if self.proc_info[key] == "sample":			
+			if self.proc_info[key] == "rt_sample":			
 				print i, self.proc_info[key], tmp[key]
 				i += 1
 		
@@ -139,7 +139,7 @@ class Result:
 			
 
 res = Result() 
-res.load_file("../systemtap/results40-40-20")
+res.load_file("../systemtap/tee")
 #res.analyse_timing()
 #res.print_analyse_timing()
 #res.print_analyse_timing_gnuplot()

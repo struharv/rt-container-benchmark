@@ -2,10 +2,10 @@ global threads
 
 probe scheduler.cpu_on
 {
-    printf("ON %d %lu %d %s\n", tid(), gettimeofday_ns(), cpu(), execname());
+    printf("ON %d %lu %s\n", tid(), gettimeofday_ns(), execname());
 }
 
 probe scheduler.cpu_off
 {
-    printf("OFF %d %lu %d %s\n", tid(), gettimeofday_ns(), cpu(), execname());
+    printf("OFF %d %lu %s\n", tid(), gettimeofday_ns(), execname());
 }

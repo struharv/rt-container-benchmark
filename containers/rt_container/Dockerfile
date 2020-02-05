@@ -1,3 +1,3 @@
 FROM debian:jessie
-COPY sample /sample
-ENTRYPOINT ["/sample", "-mf10 -ar20 -i i"]
+COPY sample /rt_sample
+ENTRYPOINT ["/rt_sample", "-mf10 -ar20 -i i"]
