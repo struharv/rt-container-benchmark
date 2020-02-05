@@ -1,1 +1,1 @@
-stap process_monitor.stp -T 30 > stap_result
+stap process_monitor.stp -T 40 > stap_result

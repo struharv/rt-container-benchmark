@@ -33,8 +33,9 @@ static void display_thread_sched_attr(char *msg) {
 int main(int argc, char *argv[]) {
 	struct sched_param param;
 	int i;
-	
-	param.sched_priority = 11;
+		
+
+	param.sched_priority = strtol(argv[1], NULL, 10);
 	pthread_setschedparam(pthread_self(), SCHED_FIFO, &param);
 	display_thread_sched_attr("Scheduler settings of main thread");
 	printf("\n");

@@ -97,7 +97,7 @@ class Result:
 		return tmp 
 
 
-	def analyse_timingf(self, filename):
+	def analyse_timingf(self, proc1, proc2, filename):
 		start = 0
 		cnt = 0
 		i = 0
@@ -113,9 +113,10 @@ class Result:
 				start = time
 				i += 1
 			elif state=="OFF" and i != 0:
-				if name == "rt_sample" :
+				if name == proc1 or name == proc2 :
 					cnt += 1		
-					f.write("%d %d\n" % (cnt, (time-start)))
+					if name == proc1:					
+						f.write("%d %d\n" % (cnt, (time-start)))
 		f.close();
 
 
@@ -175,13 +176,9 @@ class Result:
 
 res = Result() 
 res.load_file("../systemtap/stap_result")
-#res.analyse_timing()
-#res.print_analyse_timing_gnuplot()
+
 res.print_analyse_timing_gnuplot_sum("points_sum.dat")
-res.analyse_timingf("points_runtime.dat")
-#res.print_verbose();
+res.analyse_timingf("rt_sample", "rt_sample1", "points_runtime.dat")
+res.analyse_timingf("rt_sample1", "rt_sample", "points_runtime1.dat")
 
-
-draw = Draw(res)
-draw.draw("/tmp/something.png")
 
