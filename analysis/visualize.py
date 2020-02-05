@@ -78,25 +78,54 @@ class Result:
 			tmp[r[1]] = 0
 		i = 0
 		start = 0
+		cnt = 0
 		for r in self.raw_data:
 			id = r[1]
 			state = r[0]
 			time = long(r[2])
+			name = r[3]
 				
 			if state == "ON":
 				start = time	
 			elif state=="OFF" and i != 0:
 				#print(self.proc_info[id], tmp[id], time, start, time-start)
 				tmp[id] += (time-start)
-				print (time-start), r[3] 
+				if name == "rt_sample":
+					cnt += 1		
+					#print cnt, (time-start) 
 			i += 1
 		return tmp 
+
+
+	def analyse_timingf(self, filename):
+		start = 0
+		cnt = 0
+		i = 0
+
+		f = open(filename, "w")
+		for r in self.raw_data:
+			id = r[1]
+			state = r[0]
+			time = long(r[2])
+			name = r[3]
+				
+			if state == "ON":
+				start = time
+				i += 1
+			elif state=="OFF" and i != 0:
+				if name == "rt_sample" :
+					cnt += 1		
+					f.write("%d %d\n" % (cnt, (time-start)))
+		f.close();
+
+
+
 
 	def sum_NR(self, processes):
 		sum = 0
 		
 		for key in processes:
-			if self.proc_info[key] != "sample":
+			if self.proc_info[key] != "rt_sample" or self.proc_info[key] == "rt_sample1":
 				sum += processes[key]
 		return sum
 
@@ -117,17 +146,19 @@ class Result:
 			print i, self.proc_info[key], tmp[key]
 			i += 1
 
-	def print_analyse_timing_gnuplot_sum(self):
+	def print_analyse_timing_gnuplot_sum(self, filename):
 		i = 0		
 		tmp = self.analyse_timing();
-		
+		f = open(filename, "w")
 		for key in tmp:
 
-			if self.proc_info[key] == "rt_sample":			
-				print i, self.proc_info[key], tmp[key]
+			if self.proc_info[key] == "rt_sample" or self.proc_info[key] == "rt_sample1":			
+				f.write("%d %s %d\n" % (i, self.proc_info[key], tmp[key]))
+				#print i, self.proc_info[key], tmp[key]
 				i += 1
+		f.write("%d non-RT %d\n" % (i, self.sum_NR(tmp)))
 		
-		print i, "non-RT", self.sum_NR(tmp)
+		f.close()
 
 	def print_verbose(self):
 		for data in self.raw_data:
@@ -143,16 +174,11 @@ class Result:
 			
 
 res = Result() 
-<<<<<<< HEAD
-res.load_file("../systemtap/results40-40-20")
-res.analyse_timing()
-=======
 res.load_file("../systemtap/tee")
 #res.analyse_timing()
->>>>>>> d1e33b4f571a05d9ae7a98663ca8c601693990e5
-#res.print_analyse_timing()
 #res.print_analyse_timing_gnuplot()
-#res.print_analyse_timing_gnuplot_sum()
+res.print_analyse_timing_gnuplot_sum("data.dat")
+res.analyse_timingf("points.dat")
 #res.print_verbose();
 
 
