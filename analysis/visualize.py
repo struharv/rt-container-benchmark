@@ -174,11 +174,11 @@ class Result:
 			
 
 res = Result() 
-res.load_file("../systemtap/tee")
+res.load_file("../systemtap/stap_result")
 #res.analyse_timing()
 #res.print_analyse_timing_gnuplot()
-res.print_analyse_timing_gnuplot_sum("data.dat")
-res.analyse_timingf("points.dat")
+res.print_analyse_timing_gnuplot_sum("points_sum.dat")
+res.analyse_timingf("points_runtime.dat")
 #res.print_verbose();
 
 

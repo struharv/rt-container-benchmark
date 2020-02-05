@@ -4,4 +4,4 @@ set xlabel "instance"
 set ylabel "runtime"
 
 
-plot 'point_ln' w p ls 1, 400000000
+plot 'points_runtime.dat' w p ls 1, 400000000
