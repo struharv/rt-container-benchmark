@@ -88,8 +88,9 @@ class Result:
 			elif state=="OFF" and i != 0:
 				#print(self.proc_info[id], tmp[id], time, start, time-start)
 				tmp[id] += (time-start)
+				print (time-start), r[3] 
 			i += 1
-		return tmp
+		return tmp 
 
 	def sum_NR(self, processes):
 		sum = 0
@@ -128,7 +129,10 @@ class Result:
 		
 		print i, "non-RT", self.sum_NR(tmp)
 
-
+	def print_verbose(self):
+		for data in self.raw_data:
+			print data
+		
 
 		
 	def draw(self):
@@ -140,10 +144,11 @@ class Result:
 
 res = Result() 
 res.load_file("../systemtap/results40-40-20")
-#res.analyse_timing()
+res.analyse_timing()
 #res.print_analyse_timing()
 #res.print_analyse_timing_gnuplot()
-res.print_analyse_timing_gnuplot_sum()
+#res.print_analyse_timing_gnuplot_sum()
+#res.print_verbose();
 
 
 draw = Draw(res)
