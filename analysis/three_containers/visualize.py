@@ -177,7 +177,7 @@ class Result:
 			
 
 res = Result() 
-res.load_file("../../systemtap/stap_result")
+res.load_file("../systemtap/stap_result")
 
 res.print_analyse_timing_gnuplot_sum("points_sum.dat")
 res.analyse_timingf("rt_sample", "rt_sample1", "points_runtime.dat")

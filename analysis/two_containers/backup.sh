@@ -4,4 +4,5 @@ cp *.png $tmpfile/
 cp *.plt $tmpfile/
 cp *.dat $tmpfile/
 cp *.py $tmpfile/
-cp ../systemtap/stap_result $tmpfile/
+cp *.txt $tmpfile/
+cp ../../systemtap/stap_result $tmpfile/
