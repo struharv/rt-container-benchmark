@@ -111,11 +111,11 @@ class Result:
 
 
 res = Result() 
-res.load_file("results1")
+res.load_file("tee")
 #res.analyse_timing()
 res.print_analyse_timing()
 
 
 draw = Draw(res)
-draw.draw("/tmp/something.png")
+draw.draw("/tmp/somethingx.png")
 
