@@ -1,3 +1,0 @@
-FROM debian:jessie
-COPY rt_sample /rt_sampleNR
-ENTRYPOINT ["/rt_sampleNR", "90"]
