@@ -7,4 +7,6 @@ find  $LNX                                                                \
 	-path "$LNX/scripts*" -prune -o                                       \
 	-path "$LNX/drivers*" -prune -o                                       \
         -name "*.[chxsS]" -print > cscope.files
+
+#cscope -b -q -k
 #cscope -Rbkq
