@@ -1,4 +1,4 @@
-#LNX=/home/jru/linux-2.4.18
+LNX=/home/vasik/kernel/linux-stable
 find  $LNX                                                                \
 	-path "$LNX/arch/*" ! -path "$LNX/arch/i386*" -prune -o               \
 	-path "$LNX/include/asm-*" ! -path "$LNX/include/asm-i386*" -prune -o \
@@ -8,5 +8,5 @@ find  $LNX                                                                \
 	-path "$LNX/drivers*" -prune -o                                       \
         -name "*.[chxsS]" -print > cscope.files
 
-#cscope -b -q -k
+cscope -b -q -k
 #cscope -Rbkq
