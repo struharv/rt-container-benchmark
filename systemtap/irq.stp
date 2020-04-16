@@ -1,0 +1,1 @@
+stap --all-modules -e ' probe irq_handler.entry, irq_handler.exit { printf("%-16s %s irq %d dev %s\n", pn(), symname(handler), irq, kernel_string(dev_name)); }  '
