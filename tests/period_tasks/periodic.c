@@ -49,6 +49,8 @@ static void * thread_start(void *arg) {
 	
 	struct sched_param param;
 	unsigned long counter;	
+	unsigned long total = 0;
+	int i = 0;
 	
 
 	printf("tick id = %d\n", tinfo->id);	
@@ -59,17 +61,27 @@ static void * thread_start(void *arg) {
 	while (1) {
 		start = get_time_now();
  		counter = 0;
-		while (1) {		
-			if ( (stop = get_time_now()) - start >= tinfo->execution_time) {
+		while (1) {	
+			/*stop = get_time_now();	
+			if ( (stop) - start >= tinfo->execution_time) {
+				total += counter;
+				i++;				
 				break;			
-			}
+			}*/
 			counter++;
-			//if (counter == 22000) {
-			// break;
-			//}
+			if (counter == 2158576*5) {
+			 break;
+			}
 		}
+		stop = get_time_now();
 		printf("start id = %d, execution = %lu, start = %lu, stop = %lu, counter = %lu \n", tinfo->id, (stop-start), start, stop, counter);
+		
+		start = get_time_now();
 		usleep(tinfo->period);
+		stop = get_time_now();
+		printf("\texecution = %lu \n", (stop-start));
+		//printf("%lu\n", total / i);
+
 	}
 
 	return NULL;
@@ -86,7 +98,7 @@ int main(void) {
 
 	thread_info[0].id = 0;
 	thread_info[0].execution_time = 500000;
-	thread_info[0].period = 1000000;
+	thread_info[0].period = 2000000;
 
 	//thread_info[1].id = 1;
 	//thread_info[1].execution_time = 500000;

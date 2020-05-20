@@ -1,0 +1,3 @@
+FROM debian:jessie
+COPY rt_sample /rt_sample2
+ENTRYPOINT ["/rt_sample2", "95"]

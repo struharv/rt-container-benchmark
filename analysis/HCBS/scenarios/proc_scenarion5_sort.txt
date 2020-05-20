@@ -1,0 +1,10 @@
+rt_sample 31998736268 49
+rt_sampleNR 7677282742 592
+systemd-journal 204560297 86
+wicd 16432530 91
+dockerd 9056121 147
+kworker/0:2 8524053 188
+dbus-daemon 7646191 105
+lxpanel 5923486 64
+rs:main 5501103 70
+wicd-monitor 5431711 71
