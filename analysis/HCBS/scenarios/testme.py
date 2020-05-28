@@ -52,7 +52,7 @@ class DockerTester:
 	def runrtcontainer(self, name, period, runtime):
 		command =  "docker run -it --ulimit rtprio=99 --cap-add=sys_nice --cpu-rt-runtime=%d struharv:dummy ./startup %s 85 " % (runtime, name)	
 		self.run(command)
-		time.sleep(1)
+		time.sleep(20)
 		cont_dir = self.last_container_dir()
 		self.write_period(cont_dir, period)
 		return cont_dir
@@ -60,12 +60,12 @@ class DockerTester:
 	def runcontainer(self, name):
 		command =  "docker run -it struharv:dummy ./startup %s 85 " % (name)	
 		self.run(command)
-		time.sleep(1)
-		return self.last_container_dir()
+		#time.sleep(5)
+		#return self.last_container_dir()
 
 	def killall(self):
 		self.runwait("docker kill $(sudo docker ps -q)")	
-
+ 
 	def last_container_dir(self):
 		list_of_files = glob.glob('/sys/fs/cgroup/cpu,cpuacct/docker/*/') 
 		latest_file = max(list_of_files, key=os.path.getctime)
@@ -77,16 +77,16 @@ class DockerTester:
 		self.write_period(prefix, dPeriod)
 		self.write_runtime(prefix, dRuntime)
 		
-		for rtc in rtContainers:
-			self.runrtcontainer(rtc[0], rtc[1], rtc[2])
-			print rtc 
-
 
 		for c in containers:
 			self.runcontainer(c)
 			print c 
-			time.sleep(5)	
+			time.sleep(10)	
 		
+		for rtc in rtContainers:
+			self.runrtcontainer(rtc[0], rtc[1], rtc[2])
+			print rtc 
+
 		self.stap(filename, 40)
 		self.killall()
 	
@@ -101,13 +101,13 @@ class DockerTester:
 
 	def printx(self, visualizedata, containers):
 		for item in visualizedata["data"]:
-			print item["name"], 100*item["stats"][0]/float(visualizedata["total"])
+			print item["name"], 100*item["stats"][0]/float(visualizedata["total"]), " preemptions", item["stats"][1]
 		print "overhead", 100*(1-visualizedata["overhead"]/float(visualizedata["total"]))
 			 
 	
 def scenario1(filename, run=False):
 	overheads = [];
-	for i in range(0, 20, 2):
+	for i in range(0, 30, 5):
 		realname = filename % i		
 		tst = DockerTester()		
 		
@@ -128,7 +128,7 @@ def scenario1(filename, run=False):
 
 def scenario1_faster(filename, run=False):
 	overheads = [];
-	for i in range(0, 20, 2):
+	for i in range(0, 30, 5):
 		realname = filename % i		
 		tst = DockerTester()		
 		
@@ -144,11 +144,11 @@ def scenario1_faster(filename, run=False):
 		tst.printx(data, tst.allcontainers(rtcontainers, containers));
 		overheads += [data["overhead"]/float(data["total"])]
 		
-	return {"overheads": overheads, "data": data}
+	return overheads
 
 def scenario1_vfaster(filename, run=False):
 	overheads = [];
-	for i in range(0, 20, 2):
+	for i in range(0, 30, 5):
 		realname = filename % i		
 		tst = DockerTester()		
 		
@@ -164,73 +164,88 @@ def scenario1_vfaster(filename, run=False):
 		tst.printx(data, tst.allcontainers(rtcontainers, containers));
 		overheads += [data["overhead"]/float(data["total"])]
 		
-	return {"overheads": overheads, "data": data}		
+	return overheads		
 
 
-def scenario2(filename):
+def scenario2(filename, run=False):
+	overheads = [];
 	for i in range(0, 9):
 		realname = filename % i		
-		tst = DockerTester()
-		rtcontainers = []		
+		tst = DockerTester()		
+		
+		rtcontainers = []
 		for j in range(i):
 			rtcontainers += [("rt_sample%d" % j, 100000, 10000)]
-		
+	
 		containers = [("nr")]	
-
-		tst.scenario(1000000, 900000, rtcontainers, containers, realname)
+		if run:	
+			print "RUNNING"
+			tst.scenario(1000000, 900000, rtcontainers, containers, realname)
+		
 		data = visualizeme.analyse(realname, tst.allcontainers(rtcontainers, containers))
 		tst.printx(data, tst.allcontainers(rtcontainers, containers));
+		overheads += [data["overhead"]/float(data["total"])]
+		
+	return overheads	
 
 
-def scenario3(filename):
+def scenario2_faster(filename, run=False):
+	overheads = [];
 	for i in range(0, 9):
 		realname = filename % i		
-		tst = DockerTester()
-		rtcontainers = []		
+		tst = DockerTester()		
+		
+		rtcontainers = []
 		for j in range(i):
 			rtcontainers += [("rt_sample%d" % j, 10000, 1000)]
-		
+	
 		containers = [("nr")]	
-
-		tst.scenario(1000000, 900000, rtcontainers, containers, realname)
+		if run:	
+			print "RUNNING"
+			tst.scenario(1000000, 900000, rtcontainers, containers, realname)
+		
 		data = visualizeme.analyse(realname, tst.allcontainers(rtcontainers, containers))
 		tst.printx(data, tst.allcontainers(rtcontainers, containers));
+		overheads += [data["overhead"]/float(data["total"])]
+		
+	return overheads	
 
 
-
-def scenario4(filename):
-	for i in range(0, 10):
+def scenario3(filename, run=False):
+	overheads = [];
+	for i in range(0, 30, 5):
 		realname = filename % i		
-		tst = DockerTester()
-		rtcontainers = []		
-		for j in range(i):
-			rtcontainers += [("rt_sample%d" % j, 1000, 100)]
+		tst = DockerTester()		
 		
+		rtcontainers = []
+		for j in range(i):
+			rtcontainers += [("rt_sample%d" % j, 100000, 1000)]
+	
 		containers = [("nr")]	
-
-		tst.scenario(1000000, 900000, rtcontainers, containers, realname)
+		if run:	
+			print "RUNNING"
+			tst.scenario(1000000, 900000, rtcontainers, containers, realname)
+		
 		data = visualizeme.analyse(realname, tst.allcontainers(rtcontainers, containers))
 		tst.printx(data, tst.allcontainers(rtcontainers, containers));
-
-
-
-def scenario5(filename):
-	for i in range(0, 20):
-		realname = filename % i		
-		tst = DockerTester()
-		rtcontainers = []		
-		for j in range(i):
-			rtcontainers += [("rt_sample%d" % j, 100000, 5000)]
+		overheads += [data["overhead"]/float(data["total"])]
 		
-		containers = [("nr")]	
-
-		tst.scenario(1000000, 900000, rtcontainers, containers, realname)
-		data = visualizeme.analyse(realname, tst.allcontainers(rtcontainers, containers))
-		tst.printx(data, tst.allcontainers(rtcontainers, containers));
+	return overheads	
 
 
-#scenario5("tst%d_5.txt")
 
+
+#scenario1("results/scenario1/tst%d.txt_"+str(1))
+#scenario1_faster("results/scenario1/tst%d.txt_faster_"+str(2))
+scenario1_vfaster("results/scenario1/tst%d.txt_vfaster_"+str(3))
+
+#scenario2("results/scenario2/tst%d.txt_"+str(2))
+#scenario2_faster("results/tst%d.txt_"+str(2), False)
+
+
+
+
+#scenario3("results/tst%d.txt_"+str(1), True)
 
 #for i in range(50):
 #	scenario1("tst%d.txt_"+str(i))
@@ -239,13 +254,6 @@ def scenario5(filename):
 #	scenario4("tst%d_4.txt_"+str(i))
 #	scenario5("tst%d_5.txt_"+str(i))
 
-
-
-#scenario1_vfaster("tst_vfaster%d.txt_0", True)
-#scenario1_faster("tst_faster%d.txt_1")
-
-
-scenario1_vfaster("tst_vfaster%d.txt_0")
 
 
 '''

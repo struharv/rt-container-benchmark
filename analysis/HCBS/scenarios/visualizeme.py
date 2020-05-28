@@ -121,7 +121,7 @@ def analyse(filename, process):
 	for proc in process:
 		rt_time = res.analyse_timingf("result", proc)
 		overhead +=  rt_time[0]	
-		output += [{"name": proc, "stats": rt_time}]
+		output += [{"name": proc, "stats": rt_time, "preemptions": rt_time[1]}]
 
 	return {"total": total, "data": output, "overhead": overhead}
 
