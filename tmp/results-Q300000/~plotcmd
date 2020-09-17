@@ -1,0 +1,9 @@
+set title "Latency plot"
+set terminal png
+set xlabel "Latency (us)"
+set logscale y
+set xrange [0:600]
+set yrange [0.8:*]
+set ylabel "Number of latency samples"
+set output "plot.png"
+plot "test0/histogram" using 1:2 with line title "Q=30us, P=100us", "test1/histogram" using 1:2 with line title "Q=300us, P=1000us", "test2/histogram" using 1:2 with line title "Q=3000us, P=10000us", "test3/histogram" using 1:2 with line title "Q=30 000us, P=100 000us"  

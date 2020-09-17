@@ -1,0 +1,1 @@
+sudo docker run -it --ulimit rtprio=99 --cap-add=sys_nice --cpu-rt-runtime=2000 --cpu-rt-period=100000  struharv:cyclic /bin/cyclictest -l5000000 -Sp90 -i100 -h600 -q
