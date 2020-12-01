@@ -85,7 +85,9 @@
      }
 
      while (!done) {
-         x++;
+	int i = 0;
+	i++;         
+	x++;
      }
      return NULL;
  }
