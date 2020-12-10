@@ -60,7 +60,7 @@
  void *run_deadline(void *data)
  {
      struct sched_attr attr;
-     int x = 0, ret;
+     int ret;
      unsigned int flags = 0;
 
      printf("deadline thread start %ld\n",
@@ -85,7 +85,11 @@
      }
 
      while (!done) {
-         x++;
+         for(int i = 0; i < 100000; i++) {
+      
+         // 
+         }
+         sched_yield();
      }
      return NULL;
  }
