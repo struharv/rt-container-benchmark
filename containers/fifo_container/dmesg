@@ -1,0 +1,2263 @@
+[  834.959551] HEY!
+[  834.959553] struharv: struhar_task_timer
+[  834.959578] struharv: update_dl_entity
+[  834.959883] struharv: update_curr_rt pid: 1679 
+[  834.959885] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  834.960285] struhar: sys_custom_syscall_change: ------ 
+[  834.960287] start_struhar_timer
+[  834.960290] struharv: deadline.c.start_struhar_timer now= 834958442480 act=835958126943 period=1000000000
+[  834.960292] deadline: hrtimer_start
+[  834.960886] struhar: sys_custom_syscall_change: ------ 
+[  834.960887] start_struhar_timer
+[  834.960890] struharv: deadline.c.start_struhar_timer now= 834959042452 act=835958726915 period=1000000000
+[  834.960894] struharv: update_curr_rt pid: 1679 
+[  834.960896] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  834.960901] struharv: update_curr_rt pid: 1679 
+[  834.960903] struharv: update_curr_rt pid: 1679 
+[  835.960006] HEY!
+[  835.960008] struharv: struhar_task_timer
+[  835.960023] struharv: update_dl_entity
+[  835.961017] struhar: sys_custom_syscall_change: ------ 
+[  835.961022] start_struhar_timer
+[  835.961028] struharv: deadline.c.start_struhar_timer now= 835959178200 act=836958199853 period=1000000000
+[  835.961031] deadline: hrtimer_start
+[  835.961885] struhar: sys_custom_syscall_change: ------ 
+[  835.961888] start_struhar_timer
+[  835.961895] struharv: deadline.c.start_struhar_timer now= 835960044449 act=836958868024 period=1000000000
+[  835.961905] struharv: update_curr_rt pid: 1679 
+[  835.961908] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  835.961919] struharv: update_curr_rt pid: 1679 
+[  835.961921] struharv: update_curr_rt pid: 1679 
+[  836.559923] struharv: deadline.c.init_dl_task_timer 
+[  836.559925] struharv: deadline.c.init_struhar_timer 
+[  836.559975] struharv: deadline.c.init_dl_task_timer 
+[  836.559976] struharv: deadline.c.init_struhar_timer 
+[  836.560645] struharv: deadline.c.init_dl_task_timer 
+[  836.560648] struharv: deadline.c.init_struhar_timer 
+[  836.562726] struharv: alloc_rt_sched_group
+[  836.562729] struharv: init_dl_bandwidth  rt_runtime = 0, rt_period = 1000000000
+[  836.562731] struharv: alloc_rt_sched_group: cpu(0)
+[  836.562732] struharv: deadline.c.init_dl_task_timer 
+[  836.562732] struharv: deadline.c.init_struhar_timer 
+[  836.562733] struharv: alloc_rt_sched_group: cpu(1)
+[  836.562734] struharv: deadline.c.init_dl_task_timer 
+[  836.562735] struharv: deadline.c.init_struhar_timer 
+[  836.562736] struharv: alloc_rt_sched_group: cpu(2)
+[  836.562737] struharv: deadline.c.init_dl_task_timer 
+[  836.562737] struharv: deadline.c.init_struhar_timer 
+[  836.562738] struharv: alloc_rt_sched_group: cpu(3)
+[  836.562739] struharv: deadline.c.init_dl_task_timer 
+[  836.562739] struharv: deadline.c.init_struhar_timer 
+[  836.562740] struharv: alloc_rt_sched_group: cpu(4)
+[  836.562741] struharv: deadline.c.init_dl_task_timer 
+[  836.562741] struharv: deadline.c.init_struhar_timer 
+[  836.562743] struharv: alloc_rt_sched_group: cpu(5)
+[  836.562744] struharv: deadline.c.init_dl_task_timer 
+[  836.562745] struharv: deadline.c.init_struhar_timer 
+[  836.562746] struharv: alloc_rt_sched_group: cpu(6)
+[  836.562746] struharv: deadline.c.init_dl_task_timer 
+[  836.562747] struharv: deadline.c.init_struhar_timer 
+[  836.562748] struharv: alloc_rt_sched_group: cpu(7)
+[  836.562749] struharv: deadline.c.init_dl_task_timer 
+[  836.562749] struharv: deadline.c.init_struhar_timer 
+[  836.562751] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  836.562753] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  836.562753] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  836.562754] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  836.562755] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  836.562756] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  836.562757] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  836.562758] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  836.568425] struharv: deadline.c.init_dl_task_timer 
+[  836.568427] struharv: deadline.c.init_struhar_timer 
+[  836.960048] HEY!
+[  836.960050] struharv: struhar_task_timer
+[  836.960059] struharv: update_dl_entity
+[  836.960747] struhar: sys_custom_syscall_change: ------ 
+[  836.960749] start_struhar_timer
+[  836.960752] struharv: deadline.c.start_struhar_timer now= 836958904835 act=837958904835 period=1000000000
+[  836.960753] deadline: hrtimer_start
+[  836.961374] struhar: sys_custom_syscall_change: ------ 
+[  836.961375] start_struhar_timer
+[  836.961378] struharv: deadline.c.start_struhar_timer now= 836959530853 act=837959530853 period=1000000000
+[  836.961384] struharv: update_curr_rt pid: 1679 
+[  836.961387] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  836.961393] struharv: update_curr_rt pid: 1679 
+[  836.961406] struharv: update_curr_rt pid: 1679 
+[  836.961407] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  837.615134] struharv: deadline.c.init_dl_task_timer 
+[  837.615137] struharv: deadline.c.init_struhar_timer 
+[  837.627597] struharv: deadline.c.init_dl_task_timer 
+[  837.627600] struharv: deadline.c.init_struhar_timer 
+[  837.646011] struharv: deadline.c.init_dl_task_timer 
+[  837.646013] struharv: deadline.c.init_struhar_timer 
+[  837.646059] struharv: deadline.c.init_dl_task_timer 
+[  837.646059] struharv: deadline.c.init_struhar_timer 
+[  837.646194] struharv: deadline.c.init_dl_task_timer 
+[  837.646194] struharv: deadline.c.init_struhar_timer 
+[  837.646214] struharv: deadline.c.init_dl_task_timer 
+[  837.646215] struharv: deadline.c.init_struhar_timer 
+[  837.646275] struharv: deadline.c.init_dl_task_timer 
+[  837.646276] struharv: deadline.c.init_struhar_timer 
+[  837.656753] struharv: deadline.c.init_dl_task_timer 
+[  837.656755] struharv: deadline.c.init_struhar_timer 
+[  837.656900] struharv: deadline.c.init_dl_task_timer 
+[  837.656902] struharv: deadline.c.init_struhar_timer 
+[  837.657183] struharv: deadline.c.init_dl_task_timer 
+[  837.657184] struharv: deadline.c.init_struhar_timer 
+[  837.678015] struharv: deadline.c.init_dl_task_timer 
+[  837.678016] struharv: deadline.c.init_struhar_timer 
+[  837.687360] struharv: deadline.c.init_dl_task_timer 
+[  837.687363] struharv: deadline.c.init_struhar_timer 
+[  837.702415] struharv: deadline.c.init_dl_task_timer 
+[  837.702417] struharv: deadline.c.init_struhar_timer 
+[  837.702476] struharv: deadline.c.init_dl_task_timer 
+[  837.702476] struharv: deadline.c.init_struhar_timer 
+[  837.702818] struharv: deadline.c.init_dl_task_timer 
+[  837.702819] struharv: deadline.c.init_struhar_timer 
+[  837.702866] struharv: deadline.c.init_dl_task_timer 
+[  837.702867] struharv: deadline.c.init_struhar_timer 
+[  837.702965] struharv: deadline.c.init_dl_task_timer 
+[  837.702966] struharv: deadline.c.init_struhar_timer 
+[  837.713532] struharv: deadline.c.init_dl_task_timer 
+[  837.713534] struharv: deadline.c.init_struhar_timer 
+[  837.713748] struharv: deadline.c.init_dl_task_timer 
+[  837.713750] struharv: deadline.c.init_struhar_timer 
+[  837.714512] struharv: deadline.c.init_dl_task_timer 
+[  837.714514] struharv: deadline.c.init_struhar_timer 
+[  837.726831] struharv: deadline.c.init_dl_task_timer 
+[  837.726832] struharv: deadline.c.init_struhar_timer 
+[  837.795712] struharv: deadline.c.init_dl_task_timer 
+[  837.795714] struharv: deadline.c.init_struhar_timer 
+[  837.803553] struharv: deadline.c.init_dl_task_timer 
+[  837.803556] struharv: deadline.c.init_struhar_timer 
+[  837.803647] struharv: deadline.c.init_dl_task_timer 
+[  837.803648] struharv: deadline.c.init_struhar_timer 
+[  837.803772] struharv: deadline.c.init_dl_task_timer 
+[  837.803774] struharv: deadline.c.init_struhar_timer 
+[  837.805365] struharv: deadline.c.init_dl_task_timer 
+[  837.805368] struharv: deadline.c.init_struhar_timer 
+[  837.805386] struharv: deadline.c.init_dl_task_timer 
+[  837.805388] struharv: deadline.c.init_struhar_timer 
+[  837.831608] struharv: update_dl_entity
+[  837.831638] struharv: update_curr_rt pid: 1679 
+[  837.831641] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  837.831658] struharv: update_curr_rt pid: 1679 
+[  837.831662] struharv: update_dl_entity
+[  837.831702] struharv: update_curr_rt pid: 1679 
+[  837.831704] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  837.831715] struharv: update_curr_rt pid: 1679 
+[  837.831716] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  837.831720] struharv: update_curr_rt pid: 1679 
+[  837.831721] struharv: update_curr_rt pid: 1679 
+[  837.872314] struharv: deadline.c.init_dl_task_timer 
+[  837.872316] struharv: deadline.c.init_struhar_timer 
+[  837.878484] struharv: deadline.c.init_dl_task_timer 
+[  837.878487] struharv: deadline.c.init_struhar_timer 
+[  837.878574] struharv: deadline.c.init_dl_task_timer 
+[  837.878575] struharv: deadline.c.init_struhar_timer 
+[  837.878634] struharv: deadline.c.init_dl_task_timer 
+[  837.878635] struharv: deadline.c.init_struhar_timer 
+[  837.878862] struharv: deadline.c.init_dl_task_timer 
+[  837.878863] struharv: deadline.c.init_struhar_timer 
+[  837.878929] struharv: deadline.c.init_dl_task_timer 
+[  837.878929] struharv: deadline.c.init_struhar_timer 
+[  837.886086] struharv: deadline.c.init_dl_task_timer 
+[  837.886087] struharv: deadline.c.init_struhar_timer 
+[  837.934702] docker0: port 1(vetha78de73) entered disabled state
+[  837.934968] vethdf04178: renamed from eth0
+[  837.944040] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  837.944043] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  837.944045] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  837.944046] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  837.944048] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  837.944049] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  837.944051] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  837.944053] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  837.960780] HEY!
+[  837.960782] struharv: struhar_task_timer
+[  837.960785] sending error!!!!
+[  837.985076] struharv: deadline.c.init_dl_task_timer 
+[  837.985081] struharv: deadline.c.init_struhar_timer 
+[  837.988891] struharv: deadline.c.init_dl_task_timer 
+[  837.988894] struharv: deadline.c.init_struhar_timer 
+[  837.992745] struharv: deadline.c.init_dl_task_timer 
+[  837.992747] struharv: deadline.c.init_struhar_timer 
+[  837.993629] struharv: deadline.c.init_dl_task_timer 
+[  837.993631] struharv: deadline.c.init_struhar_timer 
+[  837.998365] struharv: deadline.c.init_dl_task_timer 
+[  837.998367] struharv: deadline.c.init_struhar_timer 
+[  838.026272] docker0: port 1(vetha78de73) entered disabled state
+[  838.026696] device vetha78de73 left promiscuous mode
+[  838.026704] docker0: port 1(vetha78de73) entered disabled state
+[  838.027051] struharv: deadline.c.init_dl_task_timer 
+[  838.027052] struharv: deadline.c.init_struhar_timer 
+[  838.027908] struharv: deadline.c.init_dl_task_timer 
+[  838.027910] struharv: deadline.c.init_struhar_timer 
+[  838.029811] struharv: deadline.c.init_dl_task_timer 
+[  838.029812] struharv: deadline.c.init_struhar_timer 
+[  838.031778] struharv: deadline.c.init_dl_task_timer 
+[  838.031779] struharv: deadline.c.init_struhar_timer 
+[  840.335343] struharv: deadline.c.init_dl_task_timer 
+[  840.335346] struharv: deadline.c.init_struhar_timer 
+[  840.346854] struharv: deadline.c.init_dl_task_timer 
+[  840.346856] struharv: deadline.c.init_struhar_timer 
+[  840.349309] struharv: deadline.c.init_dl_task_timer 
+[  840.349312] struharv: deadline.c.init_struhar_timer 
+[  840.365862] struharv: deadline.c.init_dl_task_timer 
+[  840.365864] struharv: deadline.c.init_struhar_timer 
+[  840.365932] struharv: deadline.c.init_dl_task_timer 
+[  840.365932] struharv: deadline.c.init_struhar_timer 
+[  840.366008] struharv: deadline.c.init_dl_task_timer 
+[  840.366009] struharv: deadline.c.init_struhar_timer 
+[  840.366278] struharv: deadline.c.init_dl_task_timer 
+[  840.366279] struharv: deadline.c.init_struhar_timer 
+[  840.366450] struharv: deadline.c.init_dl_task_timer 
+[  840.366451] struharv: deadline.c.init_struhar_timer 
+[  840.373738] struharv: deadline.c.init_dl_task_timer 
+[  840.373739] struharv: deadline.c.init_struhar_timer 
+[  840.373753] struharv: deadline.c.init_dl_task_timer 
+[  840.373754] struharv: deadline.c.init_struhar_timer 
+[  840.374640] struharv: deadline.c.init_dl_task_timer 
+[  840.374642] struharv: deadline.c.init_struhar_timer 
+[  841.104023] struharv: deadline.c.init_dl_task_timer 
+[  841.104026] struharv: deadline.c.init_struhar_timer 
+[  841.114398] docker0: port 1(vethb7c28c7) entered blocking state
+[  841.114401] docker0: port 1(vethb7c28c7) entered disabled state
+[  841.114502] device vethb7c28c7 entered promiscuous mode
+[  841.114658] struharv: deadline.c.init_dl_task_timer 
+[  841.114660] struharv: deadline.c.init_struhar_timer 
+[  841.115137] struharv: deadline.c.init_dl_task_timer 
+[  841.115139] struharv: deadline.c.init_struhar_timer 
+[  841.116806] struharv: deadline.c.init_dl_task_timer 
+[  841.116807] struharv: deadline.c.init_struhar_timer 
+[  841.116936] struharv: deadline.c.init_dl_task_timer 
+[  841.116936] struharv: deadline.c.init_struhar_timer 
+[  841.122245] struharv: deadline.c.init_dl_task_timer 
+[  841.122246] struharv: deadline.c.init_struhar_timer 
+[  841.122886] struharv: deadline.c.init_dl_task_timer 
+[  841.122887] struharv: deadline.c.init_struhar_timer 
+[  841.123059] struharv: deadline.c.init_dl_task_timer 
+[  841.123060] struharv: deadline.c.init_struhar_timer 
+[  841.126123] struharv: deadline.c.init_dl_task_timer 
+[  841.126124] struharv: deadline.c.init_struhar_timer 
+[  841.449986] struharv: deadline.c.init_dl_task_timer 
+[  841.449989] struharv: deadline.c.init_struhar_timer 
+[  841.451753] struharv: deadline.c.init_dl_task_timer 
+[  841.451756] struharv: deadline.c.init_struhar_timer 
+[  841.451821] struharv: deadline.c.init_dl_task_timer 
+[  841.451822] struharv: deadline.c.init_struhar_timer 
+[  841.452505] struharv: deadline.c.init_dl_task_timer 
+[  841.452506] struharv: deadline.c.init_struhar_timer 
+[  841.453635] struharv: deadline.c.init_dl_task_timer 
+[  841.453636] struharv: deadline.c.init_struhar_timer 
+[  841.453673] struharv: deadline.c.init_dl_task_timer 
+[  841.453674] struharv: deadline.c.init_struhar_timer 
+[  841.453693] struharv: deadline.c.init_dl_task_timer 
+[  841.453694] struharv: deadline.c.init_struhar_timer 
+[  841.453925] struharv: deadline.c.init_dl_task_timer 
+[  841.453925] struharv: deadline.c.init_struhar_timer 
+[  841.454363] struharv: deadline.c.init_dl_task_timer 
+[  841.454364] struharv: deadline.c.init_struhar_timer 
+[  841.454542] struharv: deadline.c.init_dl_task_timer 
+[  841.454543] struharv: deadline.c.init_struhar_timer 
+[  841.455518] struharv: deadline.c.init_dl_task_timer 
+[  841.455520] struharv: deadline.c.init_struhar_timer 
+[  841.455564] struharv: deadline.c.init_dl_task_timer 
+[  841.455564] struharv: deadline.c.init_struhar_timer 
+[  841.455587] struharv: deadline.c.init_dl_task_timer 
+[  841.455588] struharv: deadline.c.init_struhar_timer 
+[  841.455593] struharv: deadline.c.init_dl_task_timer 
+[  841.455594] struharv: deadline.c.init_struhar_timer 
+[  841.456949] struharv: deadline.c.init_dl_task_timer 
+[  841.456950] struharv: deadline.c.init_struhar_timer 
+[  841.457006] struharv: deadline.c.init_dl_task_timer 
+[  841.457006] struharv: deadline.c.init_struhar_timer 
+[  841.457073] struharv: deadline.c.init_dl_task_timer 
+[  841.457075] struharv: deadline.c.init_struhar_timer 
+[  841.457091] struharv: deadline.c.init_dl_task_timer 
+[  841.457092] struharv: deadline.c.init_struhar_timer 
+[  841.457361] struharv: deadline.c.init_dl_task_timer 
+[  841.457362] struharv: deadline.c.init_struhar_timer 
+[  841.458061] struharv: deadline.c.init_dl_task_timer 
+[  841.458062] struharv: deadline.c.init_struhar_timer 
+[  841.462618] struharv: deadline.c.init_dl_task_timer 
+[  841.462620] struharv: deadline.c.init_struhar_timer 
+[  841.462731] struharv: deadline.c.init_dl_task_timer 
+[  841.462732] struharv: deadline.c.init_struhar_timer 
+[  841.462988] struharv: deadline.c.init_dl_task_timer 
+[  841.462989] struharv: deadline.c.init_struhar_timer 
+[  841.463079] struharv: deadline.c.init_dl_task_timer 
+[  841.463080] struharv: deadline.c.init_struhar_timer 
+[  841.463122] struharv: deadline.c.init_dl_task_timer 
+[  841.463122] struharv: deadline.c.init_struhar_timer 
+[  841.487244] struharv: deadline.c.init_dl_task_timer 
+[  841.487246] struharv: deadline.c.init_struhar_timer 
+[  841.487952] struharv: deadline.c.init_dl_task_timer 
+[  841.487953] struharv: deadline.c.init_struhar_timer 
+[  841.488381] struharv: deadline.c.init_dl_task_timer 
+[  841.488382] struharv: deadline.c.init_struhar_timer 
+[  841.489414] struharv: alloc_rt_sched_group
+[  841.489417] struharv: init_dl_bandwidth  rt_runtime = 0, rt_period = 1000000000
+[  841.489419] struharv: alloc_rt_sched_group: cpu(0)
+[  841.489420] struharv: deadline.c.init_dl_task_timer 
+[  841.489420] struharv: deadline.c.init_struhar_timer 
+[  841.489422] struharv: alloc_rt_sched_group: cpu(1)
+[  841.489423] struharv: deadline.c.init_dl_task_timer 
+[  841.489423] struharv: deadline.c.init_struhar_timer 
+[  841.489424] struharv: alloc_rt_sched_group: cpu(2)
+[  841.489424] struharv: deadline.c.init_dl_task_timer 
+[  841.489425] struharv: deadline.c.init_struhar_timer 
+[  841.489425] struharv: alloc_rt_sched_group: cpu(3)
+[  841.489426] struharv: deadline.c.init_dl_task_timer 
+[  841.489427] struharv: deadline.c.init_struhar_timer 
+[  841.489428] struharv: alloc_rt_sched_group: cpu(4)
+[  841.489429] struharv: deadline.c.init_dl_task_timer 
+[  841.489429] struharv: deadline.c.init_struhar_timer 
+[  841.489430] struharv: alloc_rt_sched_group: cpu(5)
+[  841.489431] struharv: deadline.c.init_dl_task_timer 
+[  841.489431] struharv: deadline.c.init_struhar_timer 
+[  841.489432] struharv: alloc_rt_sched_group: cpu(6)
+[  841.489432] struharv: deadline.c.init_dl_task_timer 
+[  841.489433] struharv: deadline.c.init_struhar_timer 
+[  841.489433] struharv: alloc_rt_sched_group: cpu(7)
+[  841.489434] struharv: deadline.c.init_dl_task_timer 
+[  841.489434] struharv: deadline.c.init_struhar_timer 
+[  841.489485] struharv: sched_group_set_rt_period, rt_period_us = 1000000
+[  841.489487] struharv shed.h.global_rt_period 1000000000 
+[  841.489492] struharv shed.h.global_rt_period 1000000000 
+[  841.489493] struharv shed.h.global_rt_period 1000000000 
+[  841.489560] struharv shed.h.global_rt_period 1000000000 
+[  841.489561] struharv shed.h.global_rt_period 1000000000 
+[  841.489561] struharv shed.h.global_rt_period 1000000000 
+[  841.489562] struharv shed.h.global_rt_period 1000000000 
+[  841.489562] struharv shed.h.global_rt_period 1000000000 
+[  841.489563] struharv shed.h.global_rt_period 1000000000 
+[  841.489563] struharv shed.h.global_rt_period 1000000000 
+[  841.489564] struharv shed.h.global_rt_period 1000000000 
+[  841.489564] struharv shed.h.global_rt_period 1000000000 
+[  841.489565] struharv shed.h.global_rt_period 1000000000 
+[  841.489565] struharv shed.h.global_rt_period 1000000000 
+[  841.489566] struharv shed.h.global_rt_period 1000000000 
+[  841.489567] struharv shed.h.global_rt_period 1000000000 
+[  841.489567] struharv shed.h.global_rt_period 1000000000 
+[  841.489568] struharv shed.h.global_rt_period 1000000000 
+[  841.489568] struharv shed.h.global_rt_period 1000000000 
+[  841.489569] struharv shed.h.global_rt_period 1000000000 
+[  841.489569] struharv shed.h.global_rt_period 1000000000 
+[  841.489569] struharv shed.h.global_rt_period 1000000000 
+[  841.489570] struharv shed.h.global_rt_period 1000000000 
+[  841.489570] struharv shed.h.global_rt_period 1000000000 
+[  841.489571] struharv shed.h.global_rt_period 1000000000 
+[  841.489571] struharv shed.h.global_rt_period 1000000000 
+[  841.489572] struharv shed.h.global_rt_period 1000000000 
+[  841.489572] struharv shed.h.global_rt_period 1000000000 
+[  841.489573] struharv shed.h.global_rt_period 1000000000 
+[  841.489573] struharv shed.h.global_rt_period 1000000000 
+[  841.489574] struharv shed.h.global_rt_period 1000000000 
+[  841.489574] struharv shed.h.global_rt_period 1000000000 
+[  841.489575] struharv shed.h.global_rt_period 1000000000 
+[  841.489575] struharv shed.h.global_rt_period 1000000000 
+[  841.489576] struharv shed.h.global_rt_period 1000000000 
+[  841.489577] struharv shed.h.global_rt_period 1000000000 
+[  841.489577] struharv shed.h.global_rt_period 1000000000 
+[  841.489578] struharv shed.h.global_rt_period 1000000000 
+[  841.489578] struharv shed.h.global_rt_period 1000000000 
+[  841.489579] struharv shed.h.global_rt_period 1000000000 
+[  841.489579] struharv shed.h.global_rt_period 1000000000 
+[  841.489580] struharv shed.h.global_rt_period 1000000000 
+[  841.489580] struharv shed.h.global_rt_period 1000000000 
+[  841.489581] struharv shed.h.global_rt_period 1000000000 
+[  841.489581] struharv shed.h.global_rt_period 1000000000 
+[  841.489582] struharv shed.h.global_rt_period 1000000000 
+[  841.489582] struharv shed.h.global_rt_period 1000000000 
+[  841.489583] struharv shed.h.global_rt_period 1000000000 
+[  841.489608] struharv shed.h.global_rt_period 1000000000 
+[  841.489626] struharv shed.h.global_rt_period 1000000000 
+[  841.489648] struharv shed.h.global_rt_period 1000000000 
+[  841.489666] struharv shed.h.global_rt_period 1000000000 
+[  841.489683] struharv shed.h.global_rt_period 1000000000 
+[  841.489703] struharv shed.h.global_rt_period 1000000000 
+[  841.489724] struharv shed.h.global_rt_period 1000000000 
+[  841.489743] struharv shed.h.global_rt_period 1000000000 
+[  841.489761] struharv shed.h.global_rt_period 1000000000 
+[  841.489777] struharv shed.h.global_rt_period 1000000000 
+[  841.489794] struharv shed.h.global_rt_period 1000000000 
+[  841.489810] struharv shed.h.global_rt_period 1000000000 
+[  841.489827] struharv shed.h.global_rt_period 1000000000 
+[  841.489844] struharv shed.h.global_rt_period 1000000000 
+[  841.489861] struharv shed.h.global_rt_period 1000000000 
+[  841.489878] struharv shed.h.global_rt_period 1000000000 
+[  841.489895] struharv shed.h.global_rt_period 1000000000 
+[  841.489912] struharv shed.h.global_rt_period 1000000000 
+[  841.489929] struharv shed.h.global_rt_period 1000000000 
+[  841.489946] struharv shed.h.global_rt_period 1000000000 
+[  841.489962] struharv shed.h.global_rt_period 1000000000 
+[  841.489980] struharv shed.h.global_rt_period 1000000000 
+[  841.489997] struharv shed.h.global_rt_period 1000000000 
+[  841.490012] struharv shed.h.global_rt_period 1000000000 
+[  841.490029] struharv shed.h.global_rt_period 1000000000 
+[  841.490044] struharv shed.h.global_rt_period 1000000000 
+[  841.490060] struharv shed.h.global_rt_period 1000000000 
+[  841.490076] struharv shed.h.global_rt_period 1000000000 
+[  841.490093] struharv shed.h.global_rt_period 1000000000 
+[  841.490109] struharv shed.h.global_rt_period 1000000000 
+[  841.490127] struharv shed.h.global_rt_period 1000000000 
+[  841.490144] struharv shed.h.global_rt_period 1000000000 
+[  841.490160] struharv shed.h.global_rt_period 1000000000 
+[  841.490161] struharv shed.h.global_rt_period 1000000000 
+[  841.490162] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  841.490163] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  841.490164] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  841.490165] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  841.490165] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  841.490167] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  841.490167] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  841.490169] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  841.490243] struharv: sched_group_set_rt_runtime, rt_runtime_us = 9000
+[  841.490270] struharv shed.h.global_rt_period 1000000000 
+[  841.490274] struharv shed.h.global_rt_period 1000000000 
+[  841.490275] struharv shed.h.global_rt_period 1000000000 
+[  841.490276] struharv shed.h.global_rt_period 1000000000 
+[  841.490276] struharv shed.h.global_rt_period 1000000000 
+[  841.490277] struharv shed.h.global_rt_period 1000000000 
+[  841.490278] struharv shed.h.global_rt_period 1000000000 
+[  841.490278] struharv shed.h.global_rt_period 1000000000 
+[  841.490279] struharv shed.h.global_rt_period 1000000000 
+[  841.490279] struharv shed.h.global_rt_period 1000000000 
+[  841.490280] struharv shed.h.global_rt_period 1000000000 
+[  841.490280] struharv shed.h.global_rt_period 1000000000 
+[  841.490281] struharv shed.h.global_rt_period 1000000000 
+[  841.490282] struharv shed.h.global_rt_period 1000000000 
+[  841.490282] struharv shed.h.global_rt_period 1000000000 
+[  841.490283] struharv shed.h.global_rt_period 1000000000 
+[  841.490283] struharv shed.h.global_rt_period 1000000000 
+[  841.490284] struharv shed.h.global_rt_period 1000000000 
+[  841.490284] struharv shed.h.global_rt_period 1000000000 
+[  841.490285] struharv shed.h.global_rt_period 1000000000 
+[  841.490285] struharv shed.h.global_rt_period 1000000000 
+[  841.490286] struharv shed.h.global_rt_period 1000000000 
+[  841.490286] struharv shed.h.global_rt_period 1000000000 
+[  841.490287] struharv shed.h.global_rt_period 1000000000 
+[  841.490287] struharv shed.h.global_rt_period 1000000000 
+[  841.490288] struharv shed.h.global_rt_period 1000000000 
+[  841.490288] struharv shed.h.global_rt_period 1000000000 
+[  841.490289] struharv shed.h.global_rt_period 1000000000 
+[  841.490290] struharv shed.h.global_rt_period 1000000000 
+[  841.490290] struharv shed.h.global_rt_period 1000000000 
+[  841.490291] struharv shed.h.global_rt_period 1000000000 
+[  841.490291] struharv shed.h.global_rt_period 1000000000 
+[  841.490292] struharv shed.h.global_rt_period 1000000000 
+[  841.490292] struharv shed.h.global_rt_period 1000000000 
+[  841.490293] struharv shed.h.global_rt_period 1000000000 
+[  841.490293] struharv shed.h.global_rt_period 1000000000 
+[  841.490294] struharv shed.h.global_rt_period 1000000000 
+[  841.490294] struharv shed.h.global_rt_period 1000000000 
+[  841.490294] struharv shed.h.global_rt_period 1000000000 
+[  841.490295] struharv shed.h.global_rt_period 1000000000 
+[  841.490295] struharv shed.h.global_rt_period 1000000000 
+[  841.490296] struharv shed.h.global_rt_period 1000000000 
+[  841.490296] struharv shed.h.global_rt_period 1000000000 
+[  841.490297] struharv shed.h.global_rt_period 1000000000 
+[  841.490297] struharv shed.h.global_rt_period 1000000000 
+[  841.490298] struharv shed.h.global_rt_period 1000000000 
+[  841.490298] struharv shed.h.global_rt_period 1000000000 
+[  841.490299] struharv shed.h.global_rt_period 1000000000 
+[  841.490317] struharv shed.h.global_rt_period 1000000000 
+[  841.490333] struharv shed.h.global_rt_period 1000000000 
+[  841.490351] struharv shed.h.global_rt_period 1000000000 
+[  841.490368] struharv shed.h.global_rt_period 1000000000 
+[  841.490384] struharv shed.h.global_rt_period 1000000000 
+[  841.490399] struharv shed.h.global_rt_period 1000000000 
+[  841.490416] struharv shed.h.global_rt_period 1000000000 
+[  841.490433] struharv shed.h.global_rt_period 1000000000 
+[  841.490449] struharv shed.h.global_rt_period 1000000000 
+[  841.490467] struharv shed.h.global_rt_period 1000000000 
+[  841.490482] struharv shed.h.global_rt_period 1000000000 
+[  841.490500] struharv shed.h.global_rt_period 1000000000 
+[  841.490516] struharv shed.h.global_rt_period 1000000000 
+[  841.490532] struharv shed.h.global_rt_period 1000000000 
+[  841.490549] struharv shed.h.global_rt_period 1000000000 
+[  841.490566] struharv shed.h.global_rt_period 1000000000 
+[  841.490582] struharv shed.h.global_rt_period 1000000000 
+[  841.490599] struharv shed.h.global_rt_period 1000000000 
+[  841.490616] struharv shed.h.global_rt_period 1000000000 
+[  841.490631] struharv shed.h.global_rt_period 1000000000 
+[  841.490647] struharv shed.h.global_rt_period 1000000000 
+[  841.490664] struharv shed.h.global_rt_period 1000000000 
+[  841.490682] struharv shed.h.global_rt_period 1000000000 
+[  841.490700] struharv shed.h.global_rt_period 1000000000 
+[  841.490715] struharv shed.h.global_rt_period 1000000000 
+[  841.490733] struharv shed.h.global_rt_period 1000000000 
+[  841.490750] struharv shed.h.global_rt_period 1000000000 
+[  841.490766] struharv shed.h.global_rt_period 1000000000 
+[  841.490783] struharv shed.h.global_rt_period 1000000000 
+[  841.490800] struharv shed.h.global_rt_period 1000000000 
+[  841.490818] struharv shed.h.global_rt_period 1000000000 
+[  841.490835] struharv shed.h.global_rt_period 1000000000 
+[  841.490852] struharv shed.h.global_rt_period 1000000000 
+[  841.490853] struharv shed.h.global_rt_period 1000000000 
+[  841.490854] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.490855] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.490856] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.490856] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.490857] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.490858] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.490859] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.490860] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.498738] struharv: deadline.c.init_dl_task_timer 
+[  841.498740] struharv: deadline.c.init_struhar_timer 
+[  841.499494] struharv: deadline.c.init_dl_task_timer 
+[  841.499495] struharv: deadline.c.init_struhar_timer 
+[  841.499730] struharv: alloc_rt_sched_group
+[  841.499732] struharv: init_dl_bandwidth  rt_runtime = 0, rt_period = 1000000000
+[  841.499733] struharv: alloc_rt_sched_group: cpu(0)
+[  841.499734] struharv: deadline.c.init_dl_task_timer 
+[  841.499735] struharv: deadline.c.init_struhar_timer 
+[  841.499736] struharv: alloc_rt_sched_group: cpu(1)
+[  841.499737] struharv: deadline.c.init_dl_task_timer 
+[  841.499737] struharv: deadline.c.init_struhar_timer 
+[  841.499739] struharv: alloc_rt_sched_group: cpu(2)
+[  841.499740] struharv: deadline.c.init_dl_task_timer 
+[  841.499740] struharv: deadline.c.init_struhar_timer 
+[  841.499741] struharv: alloc_rt_sched_group: cpu(3)
+[  841.499742] struharv: deadline.c.init_dl_task_timer 
+[  841.499743] struharv: deadline.c.init_struhar_timer 
+[  841.499744] struharv: alloc_rt_sched_group: cpu(4)
+[  841.499745] struharv: deadline.c.init_dl_task_timer 
+[  841.499745] struharv: deadline.c.init_struhar_timer 
+[  841.499746] struharv: alloc_rt_sched_group: cpu(5)
+[  841.499747] struharv: deadline.c.init_dl_task_timer 
+[  841.499747] struharv: deadline.c.init_struhar_timer 
+[  841.499748] struharv: alloc_rt_sched_group: cpu(6)
+[  841.499749] struharv: deadline.c.init_dl_task_timer 
+[  841.499749] struharv: deadline.c.init_struhar_timer 
+[  841.499750] struharv: alloc_rt_sched_group: cpu(7)
+[  841.499751] struharv: deadline.c.init_dl_task_timer 
+[  841.499752] struharv: deadline.c.init_struhar_timer 
+[  841.499753] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  841.499754] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  841.499755] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  841.499757] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  841.499758] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  841.499759] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  841.499760] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  841.499761] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  841.501043] struharv: deadline.c.init_dl_task_timer 
+[  841.501045] struharv: deadline.c.init_struhar_timer 
+[  841.501118] struharv: deadline.c.init_dl_task_timer 
+[  841.501119] struharv: deadline.c.init_struhar_timer 
+[  841.501195] struharv: deadline.c.init_dl_task_timer 
+[  841.501195] struharv: deadline.c.init_struhar_timer 
+[  841.501251] struharv: deadline.c.init_dl_task_timer 
+[  841.501252] struharv: deadline.c.init_struhar_timer 
+[  841.501291] struharv: deadline.c.init_dl_task_timer 
+[  841.501291] struharv: deadline.c.init_struhar_timer 
+[  841.501348] struharv: deadline.c.init_dl_task_timer 
+[  841.501349] struharv: deadline.c.init_struhar_timer 
+[  841.512664] struharv: sched_group_set_rt_period, rt_period_us = 1000000
+[  841.512716] struharv shed.h.global_rt_period 1000000000 
+[  841.512722] struharv shed.h.global_rt_period 1000000000 
+[  841.512722] struharv shed.h.global_rt_period 1000000000 
+[  841.512723] struharv shed.h.global_rt_period 1000000000 
+[  841.512724] struharv shed.h.global_rt_period 1000000000 
+[  841.512724] struharv shed.h.global_rt_period 1000000000 
+[  841.512724] struharv shed.h.global_rt_period 1000000000 
+[  841.512725] struharv shed.h.global_rt_period 1000000000 
+[  841.512726] struharv shed.h.global_rt_period 1000000000 
+[  841.512726] struharv shed.h.global_rt_period 1000000000 
+[  841.512726] struharv shed.h.global_rt_period 1000000000 
+[  841.512727] struharv shed.h.global_rt_period 1000000000 
+[  841.512727] struharv shed.h.global_rt_period 1000000000 
+[  841.512728] struharv shed.h.global_rt_period 1000000000 
+[  841.512728] struharv shed.h.global_rt_period 1000000000 
+[  841.512728] struharv shed.h.global_rt_period 1000000000 
+[  841.512729] struharv shed.h.global_rt_period 1000000000 
+[  841.512729] struharv shed.h.global_rt_period 1000000000 
+[  841.512730] struharv shed.h.global_rt_period 1000000000 
+[  841.512730] struharv shed.h.global_rt_period 1000000000 
+[  841.512730] struharv shed.h.global_rt_period 1000000000 
+[  841.512731] struharv shed.h.global_rt_period 1000000000 
+[  841.512731] struharv shed.h.global_rt_period 1000000000 
+[  841.512732] struharv shed.h.global_rt_period 1000000000 
+[  841.512733] struharv shed.h.global_rt_period 1000000000 
+[  841.512733] struharv shed.h.global_rt_period 1000000000 
+[  841.512734] struharv shed.h.global_rt_period 1000000000 
+[  841.512735] struharv shed.h.global_rt_period 1000000000 
+[  841.512735] struharv shed.h.global_rt_period 1000000000 
+[  841.512736] struharv shed.h.global_rt_period 1000000000 
+[  841.512736] struharv shed.h.global_rt_period 1000000000 
+[  841.512737] struharv shed.h.global_rt_period 1000000000 
+[  841.512737] struharv shed.h.global_rt_period 1000000000 
+[  841.512738] struharv shed.h.global_rt_period 1000000000 
+[  841.512739] struharv shed.h.global_rt_period 1000000000 
+[  841.512739] struharv shed.h.global_rt_period 1000000000 
+[  841.512740] struharv shed.h.global_rt_period 1000000000 
+[  841.512740] struharv shed.h.global_rt_period 1000000000 
+[  841.512741] struharv shed.h.global_rt_period 1000000000 
+[  841.512741] struharv shed.h.global_rt_period 1000000000 
+[  841.512741] struharv shed.h.global_rt_period 1000000000 
+[  841.512742] struharv shed.h.global_rt_period 1000000000 
+[  841.512742] struharv shed.h.global_rt_period 1000000000 
+[  841.512743] struharv shed.h.global_rt_period 1000000000 
+[  841.512743] struharv shed.h.global_rt_period 1000000000 
+[  841.512743] struharv shed.h.global_rt_period 1000000000 
+[  841.512744] struharv shed.h.global_rt_period 1000000000 
+[  841.512744] struharv shed.h.global_rt_period 1000000000 
+[  841.512745] struharv shed.h.global_rt_period 1000000000 
+[  841.512766] struharv shed.h.global_rt_period 1000000000 
+[  841.512781] struharv shed.h.global_rt_period 1000000000 
+[  841.512798] struharv shed.h.global_rt_period 1000000000 
+[  841.512814] struharv shed.h.global_rt_period 1000000000 
+[  841.512829] struharv shed.h.global_rt_period 1000000000 
+[  841.512843] struharv shed.h.global_rt_period 1000000000 
+[  841.512857] struharv shed.h.global_rt_period 1000000000 
+[  841.512872] struharv shed.h.global_rt_period 1000000000 
+[  841.512888] struharv shed.h.global_rt_period 1000000000 
+[  841.512903] struharv shed.h.global_rt_period 1000000000 
+[  841.512917] struharv shed.h.global_rt_period 1000000000 
+[  841.512931] struharv shed.h.global_rt_period 1000000000 
+[  841.512945] struharv shed.h.global_rt_period 1000000000 
+[  841.512960] struharv shed.h.global_rt_period 1000000000 
+[  841.512977] struharv shed.h.global_rt_period 1000000000 
+[  841.512993] struharv shed.h.global_rt_period 1000000000 
+[  841.513008] struharv shed.h.global_rt_period 1000000000 
+[  841.513022] struharv shed.h.global_rt_period 1000000000 
+[  841.513036] struharv shed.h.global_rt_period 1000000000 
+[  841.513052] struharv shed.h.global_rt_period 1000000000 
+[  841.513066] struharv shed.h.global_rt_period 1000000000 
+[  841.513086] struharv shed.h.global_rt_period 1000000000 
+[  841.513099] struharv shed.h.global_rt_period 1000000000 
+[  841.513114] struharv shed.h.global_rt_period 1000000000 
+[  841.513130] struharv shed.h.global_rt_period 1000000000 
+[  841.513143] struharv shed.h.global_rt_period 1000000000 
+[  841.513157] struharv shed.h.global_rt_period 1000000000 
+[  841.513171] struharv shed.h.global_rt_period 1000000000 
+[  841.513184] struharv shed.h.global_rt_period 1000000000 
+[  841.513199] struharv shed.h.global_rt_period 1000000000 
+[  841.513213] struharv shed.h.global_rt_period 1000000000 
+[  841.513227] struharv shed.h.global_rt_period 1000000000 
+[  841.513240] struharv shed.h.global_rt_period 1000000000 
+[  841.513241] struharv shed.h.global_rt_period 1000000000 
+[  841.513242] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.513243] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.513243] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.513244] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.513245] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.513245] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.513246] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.513247] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.513279] struharv: sched_group_set_rt_runtime, rt_runtime_us = 9000
+[  841.513297] struharv shed.h.global_rt_period 1000000000 
+[  841.513298] struharv shed.h.global_rt_period 1000000000 
+[  841.513299] struharv shed.h.global_rt_period 1000000000 
+[  841.513299] struharv shed.h.global_rt_period 1000000000 
+[  841.513300] struharv shed.h.global_rt_period 1000000000 
+[  841.513300] struharv shed.h.global_rt_period 1000000000 
+[  841.513301] struharv shed.h.global_rt_period 1000000000 
+[  841.513301] struharv shed.h.global_rt_period 1000000000 
+[  841.513302] struharv shed.h.global_rt_period 1000000000 
+[  841.513302] struharv shed.h.global_rt_period 1000000000 
+[  841.513302] struharv shed.h.global_rt_period 1000000000 
+[  841.513303] struharv shed.h.global_rt_period 1000000000 
+[  841.513303] struharv shed.h.global_rt_period 1000000000 
+[  841.513304] struharv shed.h.global_rt_period 1000000000 
+[  841.513304] struharv shed.h.global_rt_period 1000000000 
+[  841.513304] struharv shed.h.global_rt_period 1000000000 
+[  841.513305] struharv shed.h.global_rt_period 1000000000 
+[  841.513305] struharv shed.h.global_rt_period 1000000000 
+[  841.513306] struharv shed.h.global_rt_period 1000000000 
+[  841.513306] struharv shed.h.global_rt_period 1000000000 
+[  841.513306] struharv shed.h.global_rt_period 1000000000 
+[  841.513307] struharv shed.h.global_rt_period 1000000000 
+[  841.513307] struharv shed.h.global_rt_period 1000000000 
+[  841.513308] struharv shed.h.global_rt_period 1000000000 
+[  841.513308] struharv shed.h.global_rt_period 1000000000 
+[  841.513308] struharv shed.h.global_rt_period 1000000000 
+[  841.513309] struharv shed.h.global_rt_period 1000000000 
+[  841.513309] struharv shed.h.global_rt_period 1000000000 
+[  841.513310] struharv shed.h.global_rt_period 1000000000 
+[  841.513310] struharv shed.h.global_rt_period 1000000000 
+[  841.513310] struharv shed.h.global_rt_period 1000000000 
+[  841.513311] struharv shed.h.global_rt_period 1000000000 
+[  841.513311] struharv shed.h.global_rt_period 1000000000 
+[  841.513312] struharv shed.h.global_rt_period 1000000000 
+[  841.513312] struharv shed.h.global_rt_period 1000000000 
+[  841.513312] struharv shed.h.global_rt_period 1000000000 
+[  841.513313] struharv shed.h.global_rt_period 1000000000 
+[  841.513313] struharv shed.h.global_rt_period 1000000000 
+[  841.513314] struharv shed.h.global_rt_period 1000000000 
+[  841.513314] struharv shed.h.global_rt_period 1000000000 
+[  841.513315] struharv shed.h.global_rt_period 1000000000 
+[  841.513315] struharv shed.h.global_rt_period 1000000000 
+[  841.513315] struharv shed.h.global_rt_period 1000000000 
+[  841.513316] struharv shed.h.global_rt_period 1000000000 
+[  841.513316] struharv shed.h.global_rt_period 1000000000 
+[  841.513317] struharv shed.h.global_rt_period 1000000000 
+[  841.513317] struharv shed.h.global_rt_period 1000000000 
+[  841.513317] struharv shed.h.global_rt_period 1000000000 
+[  841.513318] struharv shed.h.global_rt_period 1000000000 
+[  841.513332] struharv shed.h.global_rt_period 1000000000 
+[  841.513347] struharv shed.h.global_rt_period 1000000000 
+[  841.513362] struharv shed.h.global_rt_period 1000000000 
+[  841.513375] struharv shed.h.global_rt_period 1000000000 
+[  841.513389] struharv shed.h.global_rt_period 1000000000 
+[  841.513402] struharv shed.h.global_rt_period 1000000000 
+[  841.513416] struharv shed.h.global_rt_period 1000000000 
+[  841.513431] struharv shed.h.global_rt_period 1000000000 
+[  841.513445] struharv shed.h.global_rt_period 1000000000 
+[  841.513458] struharv shed.h.global_rt_period 1000000000 
+[  841.513472] struharv shed.h.global_rt_period 1000000000 
+[  841.513485] struharv shed.h.global_rt_period 1000000000 
+[  841.513500] struharv shed.h.global_rt_period 1000000000 
+[  841.513514] struharv shed.h.global_rt_period 1000000000 
+[  841.513527] struharv shed.h.global_rt_period 1000000000 
+[  841.513540] struharv shed.h.global_rt_period 1000000000 
+[  841.513554] struharv shed.h.global_rt_period 1000000000 
+[  841.513569] struharv shed.h.global_rt_period 1000000000 
+[  841.513584] struharv shed.h.global_rt_period 1000000000 
+[  841.513597] struharv shed.h.global_rt_period 1000000000 
+[  841.513612] struharv shed.h.global_rt_period 1000000000 
+[  841.513624] struharv shed.h.global_rt_period 1000000000 
+[  841.513638] struharv shed.h.global_rt_period 1000000000 
+[  841.513654] struharv shed.h.global_rt_period 1000000000 
+[  841.513668] struharv shed.h.global_rt_period 1000000000 
+[  841.513681] struharv shed.h.global_rt_period 1000000000 
+[  841.513695] struharv shed.h.global_rt_period 1000000000 
+[  841.513708] struharv shed.h.global_rt_period 1000000000 
+[  841.513722] struharv shed.h.global_rt_period 1000000000 
+[  841.513736] struharv shed.h.global_rt_period 1000000000 
+[  841.513748] struharv shed.h.global_rt_period 1000000000 
+[  841.513761] struharv shed.h.global_rt_period 1000000000 
+[  841.513773] struharv shed.h.global_rt_period 1000000000 
+[  841.513774] struharv shed.h.global_rt_period 1000000000 
+[  841.513774] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.513775] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.513776] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.513777] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.513777] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.513778] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.513779] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.513779] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  841.513951] struharv: deadline.c.init_dl_task_timer 
+[  841.513952] struharv: deadline.c.init_struhar_timer 
+[  841.535051] struharv: deadline.c.init_dl_task_timer 
+[  841.535053] struharv: deadline.c.init_struhar_timer 
+[  841.535118] struharv: deadline.c.init_dl_task_timer 
+[  841.535118] struharv: deadline.c.init_struhar_timer 
+[  841.535408] struharv: deadline.c.init_dl_task_timer 
+[  841.535409] struharv: deadline.c.init_struhar_timer 
+[  841.535482] struharv: deadline.c.init_dl_task_timer 
+[  841.535482] struharv: deadline.c.init_struhar_timer 
+[  841.535558] struharv: deadline.c.init_dl_task_timer 
+[  841.535559] struharv: deadline.c.init_struhar_timer 
+[  841.537100] struharv: deadline.c.init_dl_task_timer 
+[  841.537101] struharv: deadline.c.init_struhar_timer 
+[  841.545266] struharv: deadline.c.init_dl_task_timer 
+[  841.545268] struharv: deadline.c.init_struhar_timer 
+[  841.545824] struharv: deadline.c.init_dl_task_timer 
+[  841.545825] struharv: deadline.c.init_struhar_timer 
+[  841.568566] struharv: deadline.c.init_dl_task_timer 
+[  841.568568] struharv: deadline.c.init_struhar_timer 
+[  841.586372] struharv: deadline.c.init_dl_task_timer 
+[  841.586374] struharv: deadline.c.init_struhar_timer 
+[  841.586431] struharv: deadline.c.init_dl_task_timer 
+[  841.586432] struharv: deadline.c.init_struhar_timer 
+[  841.586518] struharv: deadline.c.init_dl_task_timer 
+[  841.586518] struharv: deadline.c.init_struhar_timer 
+[  841.586777] struharv: deadline.c.init_dl_task_timer 
+[  841.586778] struharv: deadline.c.init_struhar_timer 
+[  841.586789] struharv: deadline.c.init_dl_task_timer 
+[  841.586790] struharv: deadline.c.init_struhar_timer 
+[  841.587905] struharv: deadline.c.init_dl_task_timer 
+[  841.587908] struharv: deadline.c.init_struhar_timer 
+[  841.594068] struharv: deadline.c.init_dl_task_timer 
+[  841.594070] struharv: deadline.c.init_struhar_timer 
+[  841.604820] struharv: deadline.c.init_dl_task_timer 
+[  841.604821] struharv: deadline.c.init_struhar_timer 
+[  841.645297] eth0: renamed from vethe3a9ddc
+[  841.645664] struharv: deadline.c.init_dl_task_timer 
+[  841.645665] struharv: deadline.c.init_struhar_timer 
+[  841.665043] IPv6: ADDRCONF(NETDEV_CHANGE): vethb7c28c7: link becomes ready
+[  841.665157] docker0: port 1(vethb7c28c7) entered blocking state
+[  841.665163] docker0: port 1(vethb7c28c7) entered forwarding state
+[  841.683473] struharv: deadline.c.init_dl_task_timer 
+[  841.683475] struharv: deadline.c.init_struhar_timer 
+[  841.683532] struharv: deadline.c.init_dl_task_timer 
+[  841.683533] struharv: deadline.c.init_struhar_timer 
+[  841.683628] struharv: deadline.c.init_dl_task_timer 
+[  841.683629] struharv: deadline.c.init_struhar_timer 
+[  841.686217] struharv: deadline.c.init_dl_task_timer 
+[  841.686218] struharv: deadline.c.init_struhar_timer 
+[  841.690649] struharv: deadline.c.init_dl_task_timer 
+[  841.690651] struharv: deadline.c.init_struhar_timer 
+[  841.690735] struharv: deadline.c.init_dl_task_timer 
+[  841.690736] struharv: deadline.c.init_struhar_timer 
+[  841.690810] struharv: deadline.c.init_dl_task_timer 
+[  841.690811] struharv: deadline.c.init_struhar_timer 
+[  841.690822] struharv: deadline.c.init_dl_task_timer 
+[  841.690823] struharv: deadline.c.init_struhar_timer 
+[  841.690888] struharv: deadline.c.init_dl_task_timer 
+[  841.690889] struharv: deadline.c.init_struhar_timer 
+[  841.697894] struharv: deadline.c.init_dl_task_timer 
+[  841.697895] struharv: deadline.c.init_struhar_timer 
+[  841.697920] struharv: update_dl_entity
+[  841.697924] struharv: update_curr_rt pid: 1813 
+[  841.697924] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  841.698275] struhar: sys_custom_syscall_change: ------ 
+[  841.698276] start_struhar_timer
+[  841.698278] struharv: deadline.c.start_struhar_timer now= 841696432028 act=842696209693 period=1000000000
+[  841.698279] deadline: hrtimer_start
+[  841.698283] struharv: update_curr_rt pid: 1813 
+[  841.698283] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  841.698286] struharv: update_curr_rt pid: 1813 
+[  841.698286] struharv: update_curr_rt pid: 1813 
+[  842.698061] HEY!
+[  842.698063] struharv: struhar_task_timer
+[  842.698072] struharv: update_dl_entity
+[  842.698761] struhar: sys_custom_syscall_change: ------ 
+[  842.698763] start_struhar_timer
+[  842.698768] struharv: deadline.c.start_struhar_timer now= 842696919526 act=843696463255 period=1000000000
+[  842.698769] deadline: hrtimer_start
+[  842.699341] struhar: sys_custom_syscall_change: ------ 
+[  842.699343] start_struhar_timer
+[  842.699345] struharv: deadline.c.start_struhar_timer now= 842697498669 act=843697042398 period=1000000000
+[  842.699350] struharv: update_curr_rt pid: 1813 
+[  842.699352] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  842.699357] struharv: update_curr_rt pid: 1813 
+[  842.699364] struharv: update_curr_rt pid: 1813 
+[  842.699365] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  843.695396] struharv: deadline.c.init_dl_task_timer 
+[  843.695398] struharv: deadline.c.init_struhar_timer 
+[  843.698315] HEY!
+[  843.698316] struharv: struhar_task_timer
+[  843.698325] struharv: update_dl_entity
+[  843.699028] struhar: sys_custom_syscall_change: ------ 
+[  843.699030] start_struhar_timer
+[  843.699036] struharv: deadline.c.start_struhar_timer now= 843697186845 act=844696495038 period=1000000000
+[  843.699037] deadline: hrtimer_start
+[  843.699670] struhar: sys_custom_syscall_change: ------ 
+[  843.699672] start_struhar_timer
+[  843.699674] struharv: deadline.c.start_struhar_timer now= 843697827777 act=844697021250 period=1000000000
+[  843.699678] struharv: update_curr_rt pid: 1813 
+[  843.699681] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  843.699685] struharv: update_curr_rt pid: 1813 
+[  843.699687] struharv: update_curr_rt pid: 1813 
+[  843.707902] struharv: deadline.c.init_dl_task_timer 
+[  843.707904] struharv: deadline.c.init_struhar_timer 
+[  843.725342] struharv: deadline.c.init_dl_task_timer 
+[  843.725344] struharv: deadline.c.init_struhar_timer 
+[  843.725400] struharv: deadline.c.init_dl_task_timer 
+[  843.725401] struharv: deadline.c.init_struhar_timer 
+[  843.725482] struharv: deadline.c.init_dl_task_timer 
+[  843.725483] struharv: deadline.c.init_struhar_timer 
+[  843.725495] struharv: deadline.c.init_dl_task_timer 
+[  843.725496] struharv: deadline.c.init_struhar_timer 
+[  843.725602] struharv: deadline.c.init_dl_task_timer 
+[  843.725603] struharv: deadline.c.init_struhar_timer 
+[  843.735493] struharv: deadline.c.init_dl_task_timer 
+[  843.735495] struharv: deadline.c.init_dl_task_timer 
+[  843.735496] struharv: deadline.c.init_struhar_timer 
+[  843.735496] struharv: deadline.c.init_struhar_timer 
+[  843.736567] struharv: deadline.c.init_dl_task_timer 
+[  843.736568] struharv: deadline.c.init_struhar_timer 
+[  843.751330] struharv: deadline.c.init_dl_task_timer 
+[  843.751332] struharv: deadline.c.init_struhar_timer 
+[  843.760916] struharv: deadline.c.init_dl_task_timer 
+[  843.760918] struharv: deadline.c.init_struhar_timer 
+[  843.768626] struharv: deadline.c.init_dl_task_timer 
+[  843.768627] struharv: deadline.c.init_struhar_timer 
+[  843.787366] struharv: deadline.c.init_dl_task_timer 
+[  843.787368] struharv: deadline.c.init_struhar_timer 
+[  843.787426] struharv: deadline.c.init_dl_task_timer 
+[  843.787426] struharv: deadline.c.init_struhar_timer 
+[  843.787691] struharv: deadline.c.init_dl_task_timer 
+[  843.787692] struharv: deadline.c.init_struhar_timer 
+[  843.787704] struharv: deadline.c.init_dl_task_timer 
+[  843.787705] struharv: deadline.c.init_struhar_timer 
+[  843.787761] struharv: deadline.c.init_dl_task_timer 
+[  843.787762] struharv: deadline.c.init_struhar_timer 
+[  843.801190] struharv: deadline.c.init_dl_task_timer 
+[  843.801192] struharv: deadline.c.init_struhar_timer 
+[  843.801237] struharv: deadline.c.init_dl_task_timer 
+[  843.801239] struharv: deadline.c.init_struhar_timer 
+[  843.802542] struharv: deadline.c.init_dl_task_timer 
+[  843.802545] struharv: deadline.c.init_struhar_timer 
+[  843.880481] struharv: deadline.c.init_dl_task_timer 
+[  843.880485] struharv: deadline.c.init_struhar_timer 
+[  843.888504] struharv: deadline.c.init_dl_task_timer 
+[  843.888507] struharv: deadline.c.init_struhar_timer 
+[  843.888595] struharv: deadline.c.init_dl_task_timer 
+[  843.888597] struharv: deadline.c.init_struhar_timer 
+[  843.888981] struharv: deadline.c.init_dl_task_timer 
+[  843.888983] struharv: deadline.c.init_struhar_timer 
+[  843.889123] struharv: deadline.c.init_dl_task_timer 
+[  843.889124] struharv: deadline.c.init_struhar_timer 
+[  843.889171] struharv: deadline.c.init_dl_task_timer 
+[  843.889171] struharv: deadline.c.init_struhar_timer 
+[  843.914661] struharv: update_dl_entity
+[  843.914690] struharv: update_curr_rt pid: 1813 
+[  843.914693] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  843.914699] struharv: update_curr_rt pid: 1813 
+[  843.914702] struharv: update_dl_entity
+[  843.914711] struharv: update_curr_rt pid: 1813 
+[  843.914712] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  843.914743] struharv: update_curr_rt pid: 1813 
+[  843.914744] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  843.914747] struharv: update_curr_rt pid: 1813 
+[  843.914748] struharv: update_curr_rt pid: 1813 
+[  843.940244] struharv: deadline.c.init_dl_task_timer 
+[  843.940246] struharv: deadline.c.init_struhar_timer 
+[  843.947910] struharv: deadline.c.init_dl_task_timer 
+[  843.947913] struharv: deadline.c.init_struhar_timer 
+[  843.948016] struharv: deadline.c.init_dl_task_timer 
+[  843.948016] struharv: deadline.c.init_struhar_timer 
+[  843.948059] struharv: deadline.c.init_dl_task_timer 
+[  843.948059] struharv: deadline.c.init_struhar_timer 
+[  843.948174] struharv: deadline.c.init_dl_task_timer 
+[  843.948175] struharv: deadline.c.init_struhar_timer 
+[  843.949767] struharv: deadline.c.init_dl_task_timer 
+[  843.949768] struharv: deadline.c.init_struhar_timer 
+[  843.954304] struharv: deadline.c.init_dl_task_timer 
+[  843.954306] struharv: deadline.c.init_struhar_timer 
+[  843.983647] docker0: port 1(vethb7c28c7) entered disabled state
+[  843.983773] vethe3a9ddc: renamed from eth0
+[  843.991993] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  843.991996] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  843.991998] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  843.992000] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  843.992001] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  843.992004] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  843.992005] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  843.992007] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  844.018725] struharv: deadline.c.init_dl_task_timer 
+[  844.018728] struharv: deadline.c.init_struhar_timer 
+[  844.023452] struharv: deadline.c.init_dl_task_timer 
+[  844.023454] struharv: deadline.c.init_struhar_timer 
+[  844.023666] struharv: deadline.c.init_dl_task_timer 
+[  844.023669] struharv: deadline.c.init_struhar_timer 
+[  844.026608] struharv: deadline.c.init_dl_task_timer 
+[  844.026609] struharv: deadline.c.init_struhar_timer 
+[  844.050125] docker0: port 1(vethb7c28c7) entered disabled state
+[  844.050377] device vethb7c28c7 left promiscuous mode
+[  844.050383] docker0: port 1(vethb7c28c7) entered disabled state
+[  844.051430] struharv: deadline.c.init_dl_task_timer 
+[  844.051431] struharv: deadline.c.init_struhar_timer 
+[  844.053637] struharv: deadline.c.init_dl_task_timer 
+[  844.053639] struharv: deadline.c.init_struhar_timer 
+[  844.054396] struharv: deadline.c.init_dl_task_timer 
+[  844.054398] struharv: deadline.c.init_struhar_timer 
+[  844.698344] HEY!
+[  844.698345] struharv: struhar_task_timer
+[  844.698348] sending error!!!!
+[  844.713859] struharv: deadline.c.init_dl_task_timer 
+[  844.713861] struharv: deadline.c.init_struhar_timer 
+[  854.655289] struharv: deadline.c.init_dl_task_timer 
+[  854.655292] struharv: deadline.c.init_struhar_timer 
+[  854.658413] struharv: deadline.c.init_dl_task_timer 
+[  854.658415] struharv: deadline.c.init_struhar_timer 
+[  854.660571] struharv: deadline.c.init_dl_task_timer 
+[  854.660573] struharv: deadline.c.init_struhar_timer 
+[  907.830831] struharv: deadline.c.init_dl_task_timer 
+[  907.830834] struharv: deadline.c.init_struhar_timer 
+[  907.833958] struharv: deadline.c.init_dl_task_timer 
+[  907.833960] struharv: deadline.c.init_struhar_timer 
+[  907.836127] struharv: deadline.c.init_dl_task_timer 
+[  907.836129] struharv: deadline.c.init_struhar_timer 
+[  907.882470] struharv: deadline.c.init_dl_task_timer 
+[  907.882472] struharv: deadline.c.init_struhar_timer 
+[  907.891022] struharv: deadline.c.init_dl_task_timer 
+[  907.891025] struharv: deadline.c.init_struhar_timer 
+[  907.892573] struharv: deadline.c.init_dl_task_timer 
+[  907.892575] struharv: deadline.c.init_struhar_timer 
+[  907.914691] struharv: deadline.c.init_dl_task_timer 
+[  907.914693] struharv: deadline.c.init_struhar_timer 
+[  907.921313] struharv: alloc_rt_sched_group
+[  907.921315] struharv: init_dl_bandwidth  rt_runtime = 0, rt_period = 1000000000
+[  907.921317] struharv: alloc_rt_sched_group: cpu(0)
+[  907.921318] struharv: deadline.c.init_dl_task_timer 
+[  907.921318] struharv: deadline.c.init_struhar_timer 
+[  907.921320] struharv: alloc_rt_sched_group: cpu(1)
+[  907.921321] struharv: deadline.c.init_dl_task_timer 
+[  907.921321] struharv: deadline.c.init_struhar_timer 
+[  907.921322] struharv: alloc_rt_sched_group: cpu(2)
+[  907.921323] struharv: deadline.c.init_dl_task_timer 
+[  907.921324] struharv: deadline.c.init_struhar_timer 
+[  907.921325] struharv: alloc_rt_sched_group: cpu(3)
+[  907.921326] struharv: deadline.c.init_dl_task_timer 
+[  907.921326] struharv: deadline.c.init_struhar_timer 
+[  907.921327] struharv: alloc_rt_sched_group: cpu(4)
+[  907.921328] struharv: deadline.c.init_dl_task_timer 
+[  907.921328] struharv: deadline.c.init_struhar_timer 
+[  907.921329] struharv: alloc_rt_sched_group: cpu(5)
+[  907.921330] struharv: deadline.c.init_dl_task_timer 
+[  907.921331] struharv: deadline.c.init_struhar_timer 
+[  907.921331] struharv: alloc_rt_sched_group: cpu(6)
+[  907.921332] struharv: deadline.c.init_dl_task_timer 
+[  907.921332] struharv: deadline.c.init_struhar_timer 
+[  907.921333] struharv: alloc_rt_sched_group: cpu(7)
+[  907.921334] struharv: deadline.c.init_dl_task_timer 
+[  907.921335] struharv: deadline.c.init_struhar_timer 
+[  907.921907] struharv: deadline.c.init_dl_task_timer 
+[  907.921908] struharv: deadline.c.init_struhar_timer 
+[  907.923254] struharv: deadline.c.init_dl_task_timer 
+[  907.923256] struharv: deadline.c.init_struhar_timer 
+[  907.923381] struharv: alloc_rt_sched_group
+[  907.923383] struharv: init_dl_bandwidth  rt_runtime = 0, rt_period = 1000000000
+[  907.923384] struharv: alloc_rt_sched_group: cpu(0)
+[  907.923386] struharv: deadline.c.init_dl_task_timer 
+[  907.923386] struharv: deadline.c.init_struhar_timer 
+[  907.923387] struharv: alloc_rt_sched_group: cpu(1)
+[  907.923388] struharv: deadline.c.init_dl_task_timer 
+[  907.923389] struharv: deadline.c.init_struhar_timer 
+[  907.923390] struharv: alloc_rt_sched_group: cpu(2)
+[  907.923391] struharv: deadline.c.init_dl_task_timer 
+[  907.923392] struharv: deadline.c.init_struhar_timer 
+[  907.923393] struharv: alloc_rt_sched_group: cpu(3)
+[  907.923393] struharv: deadline.c.init_dl_task_timer 
+[  907.923394] struharv: deadline.c.init_struhar_timer 
+[  907.923395] struharv: alloc_rt_sched_group: cpu(4)
+[  907.923397] struharv: deadline.c.init_dl_task_timer 
+[  907.923397] struharv: deadline.c.init_struhar_timer 
+[  907.923398] struharv: alloc_rt_sched_group: cpu(5)
+[  907.923399] struharv: deadline.c.init_dl_task_timer 
+[  907.923400] struharv: deadline.c.init_struhar_timer 
+[  907.923401] struharv: alloc_rt_sched_group: cpu(6)
+[  907.923402] struharv: deadline.c.init_dl_task_timer 
+[  907.923402] struharv: deadline.c.init_struhar_timer 
+[  907.923403] struharv: alloc_rt_sched_group: cpu(7)
+[  907.923404] struharv: deadline.c.init_dl_task_timer 
+[  907.923405] struharv: deadline.c.init_struhar_timer 
+[  907.923406] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  907.923408] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  907.923409] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  907.923410] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  907.923411] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  907.923412] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  907.923413] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  907.923414] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  907.925079] struharv: deadline.c.init_dl_task_timer 
+[  907.925081] struharv: deadline.c.init_struhar_timer 
+[  907.946567] struharv: deadline.c.init_dl_task_timer 
+[  907.946569] struharv: deadline.c.init_struhar_timer 
+[  907.946627] struharv: deadline.c.init_dl_task_timer 
+[  907.946627] struharv: deadline.c.init_struhar_timer 
+[  907.946802] struharv: deadline.c.init_dl_task_timer 
+[  907.946803] struharv: deadline.c.init_struhar_timer 
+[  907.946818] struharv: deadline.c.init_dl_task_timer 
+[  907.946819] struharv: deadline.c.init_struhar_timer 
+[  907.946877] struharv: deadline.c.init_dl_task_timer 
+[  907.946878] struharv: deadline.c.init_struhar_timer 
+[  907.959849] struharv: deadline.c.init_dl_task_timer 
+[  907.959853] struharv: deadline.c.init_struhar_timer 
+[  907.960147] struharv: deadline.c.init_dl_task_timer 
+[  907.960148] struharv: deadline.c.init_struhar_timer 
+[  907.960564] struharv: deadline.c.init_dl_task_timer 
+[  907.960565] struharv: deadline.c.init_struhar_timer 
+[  907.975165] struharv: deadline.c.init_dl_task_timer 
+[  907.975166] struharv: deadline.c.init_struhar_timer 
+[  907.977321] struharv: deadline.c.init_dl_task_timer 
+[  907.977322] struharv: deadline.c.init_struhar_timer 
+[  907.996278] struharv: deadline.c.init_dl_task_timer 
+[  907.996280] struharv: deadline.c.init_struhar_timer 
+[  907.996325] struharv: deadline.c.init_dl_task_timer 
+[  907.996325] struharv: deadline.c.init_struhar_timer 
+[  907.996464] struharv: deadline.c.init_dl_task_timer 
+[  907.996464] struharv: deadline.c.init_struhar_timer 
+[  907.996485] struharv: deadline.c.init_dl_task_timer 
+[  907.996487] struharv: deadline.c.init_struhar_timer 
+[  907.996637] struharv: deadline.c.init_dl_task_timer 
+[  907.996638] struharv: deadline.c.init_struhar_timer 
+[  907.997820] struharv: deadline.c.init_dl_task_timer 
+[  907.997821] struharv: deadline.c.init_struhar_timer 
+[  908.004023] struharv: deadline.c.init_dl_task_timer 
+[  908.004025] struharv: deadline.c.init_struhar_timer 
+[  908.011789] struharv: deadline.c.init_dl_task_timer 
+[  908.011792] struharv: deadline.c.init_struhar_timer 
+[  908.039995] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  908.039998] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  908.039999] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  908.040000] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  908.040001] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  908.040002] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  908.040004] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  908.040005] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  908.044981] struharv: deadline.c.init_dl_task_timer 
+[  908.044982] struharv: deadline.c.init_struhar_timer 
+[  908.070782] struharv: deadline.c.init_dl_task_timer 
+[  908.070783] struharv: deadline.c.init_struhar_timer 
+[  908.070839] struharv: deadline.c.init_dl_task_timer 
+[  908.070839] struharv: deadline.c.init_struhar_timer 
+[  908.070984] struharv: deadline.c.init_dl_task_timer 
+[  908.070985] struharv: deadline.c.init_struhar_timer 
+[  908.071304] struharv: deadline.c.init_dl_task_timer 
+[  908.071306] struharv: deadline.c.init_struhar_timer 
+[  908.071414] struharv: deadline.c.init_dl_task_timer 
+[  908.071414] struharv: deadline.c.init_struhar_timer 
+[  908.072707] struharv: deadline.c.init_dl_task_timer 
+[  908.072708] struharv: deadline.c.init_struhar_timer 
+[  908.079607] struharv: deadline.c.init_dl_task_timer 
+[  908.079609] struharv: deadline.c.init_struhar_timer 
+[  908.089000] struharv: deadline.c.init_dl_task_timer 
+[  908.089001] struharv: deadline.c.init_struhar_timer 
+[  908.107824] struharv: deadline.c.init_dl_task_timer 
+[  908.107826] struharv: deadline.c.init_struhar_timer 
+[  908.129198] struharv: deadline.c.init_dl_task_timer 
+[  908.129200] struharv: deadline.c.init_struhar_timer 
+[  908.129263] struharv: deadline.c.init_dl_task_timer 
+[  908.129264] struharv: deadline.c.init_struhar_timer 
+[  908.129376] struharv: deadline.c.init_dl_task_timer 
+[  908.129377] struharv: deadline.c.init_struhar_timer 
+[  908.129439] struharv: deadline.c.init_dl_task_timer 
+[  908.129441] struharv: deadline.c.init_struhar_timer 
+[  908.129604] struharv: deadline.c.init_dl_task_timer 
+[  908.129605] struharv: deadline.c.init_struhar_timer 
+[  908.131552] struharv: deadline.c.init_dl_task_timer 
+[  908.131553] struharv: deadline.c.init_struhar_timer 
+[  908.149825] struharv: deadline.c.init_dl_task_timer 
+[  908.149827] struharv: deadline.c.init_struhar_timer 
+[  908.149865] struharv: deadline.c.init_dl_task_timer 
+[  908.149866] struharv: deadline.c.init_struhar_timer 
+[  909.811286] struharv: deadline.c.init_dl_task_timer 
+[  909.811289] struharv: deadline.c.init_struhar_timer 
+[  909.838135] struharv: deadline.c.init_dl_task_timer 
+[  909.838137] struharv: deadline.c.init_struhar_timer 
+[  909.838198] struharv: deadline.c.init_dl_task_timer 
+[  909.838199] struharv: deadline.c.init_struhar_timer 
+[  909.838436] struharv: deadline.c.init_dl_task_timer 
+[  909.838436] struharv: deadline.c.init_struhar_timer 
+[  909.838563] struharv: deadline.c.init_dl_task_timer 
+[  909.838564] struharv: deadline.c.init_struhar_timer 
+[  909.838589] struharv: deadline.c.init_dl_task_timer 
+[  909.838590] struharv: deadline.c.init_struhar_timer 
+[  909.840090] struharv: deadline.c.init_dl_task_timer 
+[  909.840092] struharv: deadline.c.init_struhar_timer 
+[  909.847858] struharv: deadline.c.init_dl_task_timer 
+[  909.847861] struharv: deadline.c.init_struhar_timer 
+[  909.859695] struharv: deadline.c.init_dl_task_timer 
+[  909.859696] struharv: deadline.c.init_struhar_timer 
+[  910.573372] struharv: deadline.c.init_dl_task_timer 
+[  910.573375] struharv: deadline.c.init_struhar_timer 
+[  910.586244] struharv: deadline.c.init_dl_task_timer 
+[  910.586246] struharv: deadline.c.init_struhar_timer 
+[  910.588545] struharv: deadline.c.init_dl_task_timer 
+[  910.588547] struharv: deadline.c.init_struhar_timer 
+[  910.605472] struharv: deadline.c.init_dl_task_timer 
+[  910.605473] struharv: deadline.c.init_struhar_timer 
+[  910.605524] struharv: deadline.c.init_dl_task_timer 
+[  910.605525] struharv: deadline.c.init_struhar_timer 
+[  910.605849] struharv: deadline.c.init_dl_task_timer 
+[  910.605849] struharv: deadline.c.init_dl_task_timer 
+[  910.605850] struharv: deadline.c.init_struhar_timer 
+[  910.605850] struharv: deadline.c.init_struhar_timer 
+[  910.605950] struharv: deadline.c.init_dl_task_timer 
+[  910.605952] struharv: deadline.c.init_struhar_timer 
+[  910.616503] struharv: deadline.c.init_dl_task_timer 
+[  910.616504] struharv: deadline.c.init_struhar_timer 
+[  910.616552] struharv: deadline.c.init_dl_task_timer 
+[  910.616553] struharv: deadline.c.init_struhar_timer 
+[  910.616732] struharv: deadline.c.init_dl_task_timer 
+[  910.616733] struharv: deadline.c.init_struhar_timer 
+[  911.433530] struharv: deadline.c.init_dl_task_timer 
+[  911.433533] struharv: deadline.c.init_struhar_timer 
+[  911.435350] struharv: deadline.c.init_dl_task_timer 
+[  911.435352] struharv: deadline.c.init_struhar_timer 
+[  911.438266] struharv: deadline.c.init_dl_task_timer 
+[  911.438268] struharv: deadline.c.init_struhar_timer 
+[  911.440708] struharv: deadline.c.init_dl_task_timer 
+[  911.440710] struharv: deadline.c.init_struhar_timer 
+[  911.440985] docker0: port 1(vethaeb5364) entered blocking state
+[  911.440988] docker0: port 1(vethaeb5364) entered disabled state
+[  911.441053] device vethaeb5364 entered promiscuous mode
+[  911.441143] docker0: port 1(vethaeb5364) entered blocking state
+[  911.441145] docker0: port 1(vethaeb5364) entered forwarding state
+[  911.441423] struharv: deadline.c.init_dl_task_timer 
+[  911.441424] struharv: deadline.c.init_struhar_timer 
+[  911.441511] docker0: port 1(vethaeb5364) entered disabled state
+[  911.441579] struharv: deadline.c.init_dl_task_timer 
+[  911.441580] struharv: deadline.c.init_struhar_timer 
+[  911.445511] struharv: deadline.c.init_dl_task_timer 
+[  911.445512] struharv: deadline.c.init_struhar_timer 
+[  911.447123] struharv: deadline.c.init_dl_task_timer 
+[  911.447125] struharv: deadline.c.init_struhar_timer 
+[  911.447271] struharv: deadline.c.init_dl_task_timer 
+[  911.447272] struharv: deadline.c.init_struhar_timer 
+[  911.447591] struharv: deadline.c.init_dl_task_timer 
+[  911.447592] struharv: deadline.c.init_struhar_timer 
+[  911.449952] struharv: deadline.c.init_dl_task_timer 
+[  911.449953] struharv: deadline.c.init_struhar_timer 
+[  911.450080] struharv: deadline.c.init_dl_task_timer 
+[  911.450081] struharv: deadline.c.init_struhar_timer 
+[  911.456023] struharv: deadline.c.init_dl_task_timer 
+[  911.456026] struharv: deadline.c.init_struhar_timer 
+[  911.456245] struharv: deadline.c.init_dl_task_timer 
+[  911.456246] struharv: deadline.c.init_struhar_timer 
+[  911.463855] struharv: deadline.c.init_dl_task_timer 
+[  911.463856] struharv: deadline.c.init_struhar_timer 
+[  911.731194] struharv: deadline.c.init_dl_task_timer 
+[  911.731196] struharv: deadline.c.init_struhar_timer 
+[  911.733275] struharv: deadline.c.init_dl_task_timer 
+[  911.733277] struharv: deadline.c.init_struhar_timer 
+[  911.733358] struharv: deadline.c.init_dl_task_timer 
+[  911.733359] struharv: deadline.c.init_struhar_timer 
+[  911.733451] struharv: deadline.c.init_dl_task_timer 
+[  911.733452] struharv: deadline.c.init_struhar_timer 
+[  911.736237] struharv: deadline.c.init_dl_task_timer 
+[  911.736239] struharv: deadline.c.init_struhar_timer 
+[  911.736316] struharv: deadline.c.init_dl_task_timer 
+[  911.736317] struharv: deadline.c.init_struhar_timer 
+[  911.736356] struharv: deadline.c.init_dl_task_timer 
+[  911.736357] struharv: deadline.c.init_struhar_timer 
+[  911.736836] struharv: deadline.c.init_dl_task_timer 
+[  911.736838] struharv: deadline.c.init_struhar_timer 
+[  911.737751] struharv: deadline.c.init_dl_task_timer 
+[  911.737753] struharv: deadline.c.init_struhar_timer 
+[  911.737960] struharv: deadline.c.init_dl_task_timer 
+[  911.737961] struharv: deadline.c.init_struhar_timer 
+[  911.739315] struharv: deadline.c.init_dl_task_timer 
+[  911.739318] struharv: deadline.c.init_struhar_timer 
+[  911.739422] struharv: deadline.c.init_dl_task_timer 
+[  911.739423] struharv: deadline.c.init_struhar_timer 
+[  911.739504] struharv: deadline.c.init_dl_task_timer 
+[  911.739505] struharv: deadline.c.init_struhar_timer 
+[  911.739699] struharv: deadline.c.init_dl_task_timer 
+[  911.739700] struharv: deadline.c.init_struhar_timer 
+[  911.741757] struharv: deadline.c.init_dl_task_timer 
+[  911.741759] struharv: deadline.c.init_struhar_timer 
+[  911.741818] struharv: deadline.c.init_dl_task_timer 
+[  911.741819] struharv: deadline.c.init_struhar_timer 
+[  911.741859] struharv: deadline.c.init_dl_task_timer 
+[  911.741860] struharv: deadline.c.init_struhar_timer 
+[  911.742100] struharv: deadline.c.init_dl_task_timer 
+[  911.742101] struharv: deadline.c.init_struhar_timer 
+[  911.742339] struharv: deadline.c.init_dl_task_timer 
+[  911.742340] struharv: deadline.c.init_struhar_timer 
+[  911.742997] struharv: deadline.c.init_dl_task_timer 
+[  911.742998] struharv: deadline.c.init_struhar_timer 
+[  911.743435] struharv: deadline.c.init_dl_task_timer 
+[  911.743436] struharv: deadline.c.init_struhar_timer 
+[  911.747612] struharv: deadline.c.init_dl_task_timer 
+[  911.747613] struharv: deadline.c.init_struhar_timer 
+[  911.747687] struharv: deadline.c.init_dl_task_timer 
+[  911.747688] struharv: deadline.c.init_struhar_timer 
+[  911.747734] struharv: deadline.c.init_dl_task_timer 
+[  911.747734] struharv: deadline.c.init_struhar_timer 
+[  911.747842] struharv: deadline.c.init_dl_task_timer 
+[  911.747843] struharv: deadline.c.init_struhar_timer 
+[  911.770164] struharv: deadline.c.init_dl_task_timer 
+[  911.770166] struharv: deadline.c.init_struhar_timer 
+[  911.776357] struharv: deadline.c.init_dl_task_timer 
+[  911.776358] struharv: deadline.c.init_struhar_timer 
+[  911.777790] struharv: deadline.c.init_dl_task_timer 
+[  911.777793] struharv: deadline.c.init_struhar_timer 
+[  911.778370] struharv: deadline.c.init_dl_task_timer 
+[  911.778371] struharv: deadline.c.init_struhar_timer 
+[  911.780159] struharv: alloc_rt_sched_group
+[  911.780161] struharv: init_dl_bandwidth  rt_runtime = 0, rt_period = 1000000000
+[  911.780162] struharv: alloc_rt_sched_group: cpu(0)
+[  911.780162] struharv: deadline.c.init_dl_task_timer 
+[  911.780163] struharv: deadline.c.init_struhar_timer 
+[  911.780164] struharv: alloc_rt_sched_group: cpu(1)
+[  911.780164] struharv: deadline.c.init_dl_task_timer 
+[  911.780165] struharv: deadline.c.init_struhar_timer 
+[  911.780165] struharv: alloc_rt_sched_group: cpu(2)
+[  911.780166] struharv: deadline.c.init_dl_task_timer 
+[  911.780166] struharv: deadline.c.init_struhar_timer 
+[  911.780167] struharv: alloc_rt_sched_group: cpu(3)
+[  911.780168] struharv: deadline.c.init_dl_task_timer 
+[  911.780168] struharv: deadline.c.init_struhar_timer 
+[  911.780169] struharv: alloc_rt_sched_group: cpu(4)
+[  911.780169] struharv: deadline.c.init_dl_task_timer 
+[  911.780170] struharv: deadline.c.init_struhar_timer 
+[  911.780170] struharv: alloc_rt_sched_group: cpu(5)
+[  911.780171] struharv: deadline.c.init_dl_task_timer 
+[  911.780171] struharv: deadline.c.init_struhar_timer 
+[  911.780172] struharv: alloc_rt_sched_group: cpu(6)
+[  911.780172] struharv: deadline.c.init_dl_task_timer 
+[  911.780173] struharv: deadline.c.init_struhar_timer 
+[  911.780173] struharv: alloc_rt_sched_group: cpu(7)
+[  911.780174] struharv: deadline.c.init_dl_task_timer 
+[  911.780174] struharv: deadline.c.init_struhar_timer 
+[  911.780224] struharv: sched_group_set_rt_period, rt_period_us = 1000000
+[  911.780225] struharv shed.h.global_rt_period 1000000000 
+[  911.780231] struharv shed.h.global_rt_period 1000000000 
+[  911.780232] struharv shed.h.global_rt_period 1000000000 
+[  911.780292] struharv shed.h.global_rt_period 1000000000 
+[  911.780294] struharv shed.h.global_rt_period 1000000000 
+[  911.780294] struharv shed.h.global_rt_period 1000000000 
+[  911.780295] struharv shed.h.global_rt_period 1000000000 
+[  911.780295] struharv shed.h.global_rt_period 1000000000 
+[  911.780296] struharv shed.h.global_rt_period 1000000000 
+[  911.780296] struharv shed.h.global_rt_period 1000000000 
+[  911.780297] struharv shed.h.global_rt_period 1000000000 
+[  911.780297] struharv shed.h.global_rt_period 1000000000 
+[  911.780298] struharv shed.h.global_rt_period 1000000000 
+[  911.780298] struharv shed.h.global_rt_period 1000000000 
+[  911.780298] struharv shed.h.global_rt_period 1000000000 
+[  911.780299] struharv shed.h.global_rt_period 1000000000 
+[  911.780299] struharv shed.h.global_rt_period 1000000000 
+[  911.780300] struharv shed.h.global_rt_period 1000000000 
+[  911.780300] struharv shed.h.global_rt_period 1000000000 
+[  911.780300] struharv shed.h.global_rt_period 1000000000 
+[  911.780301] struharv shed.h.global_rt_period 1000000000 
+[  911.780301] struharv shed.h.global_rt_period 1000000000 
+[  911.780302] struharv shed.h.global_rt_period 1000000000 
+[  911.780302] struharv shed.h.global_rt_period 1000000000 
+[  911.780302] struharv shed.h.global_rt_period 1000000000 
+[  911.780303] struharv shed.h.global_rt_period 1000000000 
+[  911.780303] struharv shed.h.global_rt_period 1000000000 
+[  911.780304] struharv shed.h.global_rt_period 1000000000 
+[  911.780304] struharv shed.h.global_rt_period 1000000000 
+[  911.780304] struharv shed.h.global_rt_period 1000000000 
+[  911.780305] struharv shed.h.global_rt_period 1000000000 
+[  911.780305] struharv shed.h.global_rt_period 1000000000 
+[  911.780306] struharv shed.h.global_rt_period 1000000000 
+[  911.780306] struharv shed.h.global_rt_period 1000000000 
+[  911.780306] struharv shed.h.global_rt_period 1000000000 
+[  911.780307] struharv shed.h.global_rt_period 1000000000 
+[  911.780307] struharv shed.h.global_rt_period 1000000000 
+[  911.780308] struharv shed.h.global_rt_period 1000000000 
+[  911.780308] struharv shed.h.global_rt_period 1000000000 
+[  911.780308] struharv shed.h.global_rt_period 1000000000 
+[  911.780309] struharv shed.h.global_rt_period 1000000000 
+[  911.780309] struharv shed.h.global_rt_period 1000000000 
+[  911.780310] struharv shed.h.global_rt_period 1000000000 
+[  911.780310] struharv shed.h.global_rt_period 1000000000 
+[  911.780310] struharv shed.h.global_rt_period 1000000000 
+[  911.780311] struharv shed.h.global_rt_period 1000000000 
+[  911.780311] struharv shed.h.global_rt_period 1000000000 
+[  911.780312] struharv shed.h.global_rt_period 1000000000 
+[  911.780336] struharv shed.h.global_rt_period 1000000000 
+[  911.780354] struharv shed.h.global_rt_period 1000000000 
+[  911.780377] struharv shed.h.global_rt_period 1000000000 
+[  911.780394] struharv shed.h.global_rt_period 1000000000 
+[  911.780411] struharv shed.h.global_rt_period 1000000000 
+[  911.780428] struharv shed.h.global_rt_period 1000000000 
+[  911.780446] struharv shed.h.global_rt_period 1000000000 
+[  911.780464] struharv shed.h.global_rt_period 1000000000 
+[  911.780480] struharv shed.h.global_rt_period 1000000000 
+[  911.780496] struharv shed.h.global_rt_period 1000000000 
+[  911.780513] struharv shed.h.global_rt_period 1000000000 
+[  911.780531] struharv shed.h.global_rt_period 1000000000 
+[  911.780548] struharv shed.h.global_rt_period 1000000000 
+[  911.780565] struharv shed.h.global_rt_period 1000000000 
+[  911.780581] struharv shed.h.global_rt_period 1000000000 
+[  911.780598] struharv shed.h.global_rt_period 1000000000 
+[  911.780614] struharv shed.h.global_rt_period 1000000000 
+[  911.780630] struharv shed.h.global_rt_period 1000000000 
+[  911.780646] struharv shed.h.global_rt_period 1000000000 
+[  911.780663] struharv shed.h.global_rt_period 1000000000 
+[  911.780679] struharv shed.h.global_rt_period 1000000000 
+[  911.780695] struharv shed.h.global_rt_period 1000000000 
+[  911.780713] struharv shed.h.global_rt_period 1000000000 
+[  911.780729] struharv shed.h.global_rt_period 1000000000 
+[  911.780745] struharv shed.h.global_rt_period 1000000000 
+[  911.780760] struharv shed.h.global_rt_period 1000000000 
+[  911.780777] struharv shed.h.global_rt_period 1000000000 
+[  911.780793] struharv shed.h.global_rt_period 1000000000 
+[  911.780810] struharv shed.h.global_rt_period 1000000000 
+[  911.780827] struharv shed.h.global_rt_period 1000000000 
+[  911.780842] struharv shed.h.global_rt_period 1000000000 
+[  911.780858] struharv shed.h.global_rt_period 1000000000 
+[  911.780874] struharv shed.h.global_rt_period 1000000000 
+[  911.780874] struharv shed.h.global_rt_period 1000000000 
+[  911.780875] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  911.780876] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  911.780877] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  911.780878] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  911.780879] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  911.780879] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  911.780880] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  911.780881] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  911.780935] struharv: sched_group_set_rt_runtime, rt_runtime_us = 9000
+[  911.780961] struharv shed.h.global_rt_period 1000000000 
+[  911.780966] struharv shed.h.global_rt_period 1000000000 
+[  911.780966] struharv shed.h.global_rt_period 1000000000 
+[  911.780967] struharv shed.h.global_rt_period 1000000000 
+[  911.780967] struharv shed.h.global_rt_period 1000000000 
+[  911.780968] struharv shed.h.global_rt_period 1000000000 
+[  911.780968] struharv shed.h.global_rt_period 1000000000 
+[  911.780969] struharv shed.h.global_rt_period 1000000000 
+[  911.780969] struharv shed.h.global_rt_period 1000000000 
+[  911.780970] struharv shed.h.global_rt_period 1000000000 
+[  911.780970] struharv shed.h.global_rt_period 1000000000 
+[  911.780971] struharv shed.h.global_rt_period 1000000000 
+[  911.780971] struharv shed.h.global_rt_period 1000000000 
+[  911.780972] struharv shed.h.global_rt_period 1000000000 
+[  911.780972] struharv shed.h.global_rt_period 1000000000 
+[  911.780972] struharv shed.h.global_rt_period 1000000000 
+[  911.780973] struharv shed.h.global_rt_period 1000000000 
+[  911.780973] struharv shed.h.global_rt_period 1000000000 
+[  911.780974] struharv shed.h.global_rt_period 1000000000 
+[  911.780974] struharv shed.h.global_rt_period 1000000000 
+[  911.780974] struharv shed.h.global_rt_period 1000000000 
+[  911.780976] struharv shed.h.global_rt_period 1000000000 
+[  911.780976] struharv shed.h.global_rt_period 1000000000 
+[  911.780977] struharv shed.h.global_rt_period 1000000000 
+[  911.780977] struharv shed.h.global_rt_period 1000000000 
+[  911.780978] struharv shed.h.global_rt_period 1000000000 
+[  911.780978] struharv shed.h.global_rt_period 1000000000 
+[  911.780979] struharv shed.h.global_rt_period 1000000000 
+[  911.780979] struharv shed.h.global_rt_period 1000000000 
+[  911.780980] struharv shed.h.global_rt_period 1000000000 
+[  911.780980] struharv shed.h.global_rt_period 1000000000 
+[  911.780980] struharv shed.h.global_rt_period 1000000000 
+[  911.780981] struharv shed.h.global_rt_period 1000000000 
+[  911.780981] struharv shed.h.global_rt_period 1000000000 
+[  911.780982] struharv shed.h.global_rt_period 1000000000 
+[  911.780982] struharv shed.h.global_rt_period 1000000000 
+[  911.780982] struharv shed.h.global_rt_period 1000000000 
+[  911.780983] struharv shed.h.global_rt_period 1000000000 
+[  911.780983] struharv shed.h.global_rt_period 1000000000 
+[  911.780984] struharv shed.h.global_rt_period 1000000000 
+[  911.780984] struharv shed.h.global_rt_period 1000000000 
+[  911.780984] struharv shed.h.global_rt_period 1000000000 
+[  911.780985] struharv shed.h.global_rt_period 1000000000 
+[  911.780985] struharv shed.h.global_rt_period 1000000000 
+[  911.780986] struharv shed.h.global_rt_period 1000000000 
+[  911.780986] struharv shed.h.global_rt_period 1000000000 
+[  911.780986] struharv shed.h.global_rt_period 1000000000 
+[  911.780987] struharv shed.h.global_rt_period 1000000000 
+[  911.781005] struharv shed.h.global_rt_period 1000000000 
+[  911.781019] struharv shed.h.global_rt_period 1000000000 
+[  911.781036] struharv shed.h.global_rt_period 1000000000 
+[  911.781052] struharv shed.h.global_rt_period 1000000000 
+[  911.781068] struharv shed.h.global_rt_period 1000000000 
+[  911.781082] struharv shed.h.global_rt_period 1000000000 
+[  911.781098] struharv shed.h.global_rt_period 1000000000 
+[  911.781111] struharv shed.h.global_rt_period 1000000000 
+[  911.781126] struharv shed.h.global_rt_period 1000000000 
+[  911.781142] struharv shed.h.global_rt_period 1000000000 
+[  911.781158] struharv shed.h.global_rt_period 1000000000 
+[  911.781174] struharv shed.h.global_rt_period 1000000000 
+[  911.781188] struharv shed.h.global_rt_period 1000000000 
+[  911.781203] struharv shed.h.global_rt_period 1000000000 
+[  911.781217] struharv shed.h.global_rt_period 1000000000 
+[  911.781230] struharv shed.h.global_rt_period 1000000000 
+[  911.781244] struharv shed.h.global_rt_period 1000000000 
+[  911.781255] struharv shed.h.global_rt_period 1000000000 
+[  911.781268] struharv shed.h.global_rt_period 1000000000 
+[  911.781284] struharv shed.h.global_rt_period 1000000000 
+[  911.781301] struharv shed.h.global_rt_period 1000000000 
+[  911.781318] struharv shed.h.global_rt_period 1000000000 
+[  911.781334] struharv shed.h.global_rt_period 1000000000 
+[  911.781349] struharv shed.h.global_rt_period 1000000000 
+[  911.781361] struharv shed.h.global_rt_period 1000000000 
+[  911.781375] struharv shed.h.global_rt_period 1000000000 
+[  911.781388] struharv shed.h.global_rt_period 1000000000 
+[  911.781399] struharv shed.h.global_rt_period 1000000000 
+[  911.781412] struharv shed.h.global_rt_period 1000000000 
+[  911.781426] struharv shed.h.global_rt_period 1000000000 
+[  911.781439] struharv shed.h.global_rt_period 1000000000 
+[  911.781451] struharv shed.h.global_rt_period 1000000000 
+[  911.781463] struharv shed.h.global_rt_period 1000000000 
+[  911.781463] struharv shed.h.global_rt_period 1000000000 
+[  911.781464] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.781465] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.781466] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.781466] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.781467] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.781468] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.781468] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.781469] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.788538] struharv: deadline.c.init_dl_task_timer 
+[  911.788540] struharv: deadline.c.init_struhar_timer 
+[  911.789216] struharv: deadline.c.init_dl_task_timer 
+[  911.789217] struharv: deadline.c.init_struhar_timer 
+[  911.789743] struharv: alloc_rt_sched_group
+[  911.789745] struharv: init_dl_bandwidth  rt_runtime = 0, rt_period = 1000000000
+[  911.789747] struharv: alloc_rt_sched_group: cpu(0)
+[  911.789748] struharv: deadline.c.init_dl_task_timer 
+[  911.789748] struharv: deadline.c.init_struhar_timer 
+[  911.789749] struharv: alloc_rt_sched_group: cpu(1)
+[  911.789750] struharv: deadline.c.init_dl_task_timer 
+[  911.789751] struharv: deadline.c.init_struhar_timer 
+[  911.789752] struharv: alloc_rt_sched_group: cpu(2)
+[  911.789753] struharv: deadline.c.init_dl_task_timer 
+[  911.789754] struharv: deadline.c.init_struhar_timer 
+[  911.789755] struharv: alloc_rt_sched_group: cpu(3)
+[  911.789756] struharv: deadline.c.init_dl_task_timer 
+[  911.789756] struharv: deadline.c.init_struhar_timer 
+[  911.789757] struharv: alloc_rt_sched_group: cpu(4)
+[  911.789758] struharv: deadline.c.init_dl_task_timer 
+[  911.789758] struharv: deadline.c.init_struhar_timer 
+[  911.789759] struharv: alloc_rt_sched_group: cpu(5)
+[  911.789760] struharv: deadline.c.init_dl_task_timer 
+[  911.789761] struharv: deadline.c.init_struhar_timer 
+[  911.789762] struharv: alloc_rt_sched_group: cpu(6)
+[  911.789763] struharv: deadline.c.init_dl_task_timer 
+[  911.789764] struharv: deadline.c.init_struhar_timer 
+[  911.789765] struharv: alloc_rt_sched_group: cpu(7)
+[  911.789766] struharv: deadline.c.init_dl_task_timer 
+[  911.789766] struharv: deadline.c.init_struhar_timer 
+[  911.789767] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  911.789769] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  911.789770] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  911.789771] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  911.789772] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  911.789774] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  911.789775] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  911.789776] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  911.790861] struharv: deadline.c.init_dl_task_timer 
+[  911.790863] struharv: deadline.c.init_struhar_timer 
+[  911.790964] struharv: deadline.c.init_dl_task_timer 
+[  911.790964] struharv: deadline.c.init_struhar_timer 
+[  911.791022] struharv: deadline.c.init_dl_task_timer 
+[  911.791023] struharv: deadline.c.init_struhar_timer 
+[  911.791042] struharv: deadline.c.init_dl_task_timer 
+[  911.791043] struharv: deadline.c.init_struhar_timer 
+[  911.791408] struharv: deadline.c.init_dl_task_timer 
+[  911.791409] struharv: deadline.c.init_struhar_timer 
+[  911.793052] struharv: deadline.c.init_dl_task_timer 
+[  911.793053] struharv: deadline.c.init_struhar_timer 
+[  911.793358] struharv: deadline.c.init_dl_task_timer 
+[  911.793359] struharv: deadline.c.init_struhar_timer 
+[  911.802375] struharv: sched_group_set_rt_period, rt_period_us = 1000000
+[  911.802432] struharv shed.h.global_rt_period 1000000000 
+[  911.802437] struharv shed.h.global_rt_period 1000000000 
+[  911.802438] struharv shed.h.global_rt_period 1000000000 
+[  911.802439] struharv shed.h.global_rt_period 1000000000 
+[  911.802439] struharv shed.h.global_rt_period 1000000000 
+[  911.802440] struharv shed.h.global_rt_period 1000000000 
+[  911.802441] struharv shed.h.global_rt_period 1000000000 
+[  911.802442] struharv shed.h.global_rt_period 1000000000 
+[  911.802442] struharv shed.h.global_rt_period 1000000000 
+[  911.802443] struharv shed.h.global_rt_period 1000000000 
+[  911.802444] struharv shed.h.global_rt_period 1000000000 
+[  911.802445] struharv shed.h.global_rt_period 1000000000 
+[  911.802445] struharv shed.h.global_rt_period 1000000000 
+[  911.802446] struharv shed.h.global_rt_period 1000000000 
+[  911.802446] struharv shed.h.global_rt_period 1000000000 
+[  911.802447] struharv shed.h.global_rt_period 1000000000 
+[  911.802448] struharv shed.h.global_rt_period 1000000000 
+[  911.802448] struharv shed.h.global_rt_period 1000000000 
+[  911.802449] struharv shed.h.global_rt_period 1000000000 
+[  911.802450] struharv shed.h.global_rt_period 1000000000 
+[  911.802450] struharv shed.h.global_rt_period 1000000000 
+[  911.802451] struharv shed.h.global_rt_period 1000000000 
+[  911.802452] struharv shed.h.global_rt_period 1000000000 
+[  911.802452] struharv shed.h.global_rt_period 1000000000 
+[  911.802453] struharv shed.h.global_rt_period 1000000000 
+[  911.802453] struharv shed.h.global_rt_period 1000000000 
+[  911.802454] struharv shed.h.global_rt_period 1000000000 
+[  911.802455] struharv shed.h.global_rt_period 1000000000 
+[  911.802455] struharv shed.h.global_rt_period 1000000000 
+[  911.802456] struharv shed.h.global_rt_period 1000000000 
+[  911.802456] struharv shed.h.global_rt_period 1000000000 
+[  911.802457] struharv shed.h.global_rt_period 1000000000 
+[  911.802458] struharv shed.h.global_rt_period 1000000000 
+[  911.802458] struharv shed.h.global_rt_period 1000000000 
+[  911.802459] struharv shed.h.global_rt_period 1000000000 
+[  911.802459] struharv shed.h.global_rt_period 1000000000 
+[  911.802460] struharv shed.h.global_rt_period 1000000000 
+[  911.802461] struharv shed.h.global_rt_period 1000000000 
+[  911.802461] struharv shed.h.global_rt_period 1000000000 
+[  911.802462] struharv shed.h.global_rt_period 1000000000 
+[  911.802462] struharv shed.h.global_rt_period 1000000000 
+[  911.802463] struharv shed.h.global_rt_period 1000000000 
+[  911.802464] struharv shed.h.global_rt_period 1000000000 
+[  911.802464] struharv shed.h.global_rt_period 1000000000 
+[  911.802465] struharv shed.h.global_rt_period 1000000000 
+[  911.802465] struharv shed.h.global_rt_period 1000000000 
+[  911.802466] struharv shed.h.global_rt_period 1000000000 
+[  911.802467] struharv shed.h.global_rt_period 1000000000 
+[  911.802467] struharv shed.h.global_rt_period 1000000000 
+[  911.802511] struharv shed.h.global_rt_period 1000000000 
+[  911.802548] struharv shed.h.global_rt_period 1000000000 
+[  911.802587] struharv shed.h.global_rt_period 1000000000 
+[  911.802622] struharv shed.h.global_rt_period 1000000000 
+[  911.802654] struharv shed.h.global_rt_period 1000000000 
+[  911.802685] struharv shed.h.global_rt_period 1000000000 
+[  911.802722] struharv shed.h.global_rt_period 1000000000 
+[  911.802751] struharv shed.h.global_rt_period 1000000000 
+[  911.802777] struharv shed.h.global_rt_period 1000000000 
+[  911.802804] struharv shed.h.global_rt_period 1000000000 
+[  911.802830] struharv shed.h.global_rt_period 1000000000 
+[  911.802855] struharv shed.h.global_rt_period 1000000000 
+[  911.802880] struharv shed.h.global_rt_period 1000000000 
+[  911.802903] struharv shed.h.global_rt_period 1000000000 
+[  911.802927] struharv shed.h.global_rt_period 1000000000 
+[  911.802949] struharv shed.h.global_rt_period 1000000000 
+[  911.802971] struharv shed.h.global_rt_period 1000000000 
+[  911.802992] struharv shed.h.global_rt_period 1000000000 
+[  911.803013] struharv shed.h.global_rt_period 1000000000 
+[  911.803034] struharv shed.h.global_rt_period 1000000000 
+[  911.803055] struharv shed.h.global_rt_period 1000000000 
+[  911.803074] struharv shed.h.global_rt_period 1000000000 
+[  911.803093] struharv shed.h.global_rt_period 1000000000 
+[  911.803112] struharv shed.h.global_rt_period 1000000000 
+[  911.803130] struharv shed.h.global_rt_period 1000000000 
+[  911.803148] struharv shed.h.global_rt_period 1000000000 
+[  911.803165] struharv shed.h.global_rt_period 1000000000 
+[  911.803183] struharv shed.h.global_rt_period 1000000000 
+[  911.803201] struharv shed.h.global_rt_period 1000000000 
+[  911.803218] struharv shed.h.global_rt_period 1000000000 
+[  911.803235] struharv shed.h.global_rt_period 1000000000 
+[  911.803252] struharv shed.h.global_rt_period 1000000000 
+[  911.803270] struharv shed.h.global_rt_period 1000000000 
+[  911.803271] struharv shed.h.global_rt_period 1000000000 
+[  911.803273] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.803275] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.803277] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.803278] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.803279] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.803281] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.803282] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.803283] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.803336] struharv: sched_group_set_rt_runtime, rt_runtime_us = 9000
+[  911.803368] struharv shed.h.global_rt_period 1000000000 
+[  911.803383] struharv shed.h.global_rt_period 1000000000 
+[  911.803384] struharv shed.h.global_rt_period 1000000000 
+[  911.803384] struharv shed.h.global_rt_period 1000000000 
+[  911.803385] struharv shed.h.global_rt_period 1000000000 
+[  911.803386] struharv shed.h.global_rt_period 1000000000 
+[  911.803386] struharv shed.h.global_rt_period 1000000000 
+[  911.803387] struharv shed.h.global_rt_period 1000000000 
+[  911.803388] struharv shed.h.global_rt_period 1000000000 
+[  911.803388] struharv shed.h.global_rt_period 1000000000 
+[  911.803389] struharv shed.h.global_rt_period 1000000000 
+[  911.803390] struharv shed.h.global_rt_period 1000000000 
+[  911.803390] struharv shed.h.global_rt_period 1000000000 
+[  911.803391] struharv shed.h.global_rt_period 1000000000 
+[  911.803391] struharv shed.h.global_rt_period 1000000000 
+[  911.803392] struharv shed.h.global_rt_period 1000000000 
+[  911.803393] struharv shed.h.global_rt_period 1000000000 
+[  911.803393] struharv shed.h.global_rt_period 1000000000 
+[  911.803394] struharv shed.h.global_rt_period 1000000000 
+[  911.803394] struharv shed.h.global_rt_period 1000000000 
+[  911.803395] struharv shed.h.global_rt_period 1000000000 
+[  911.803396] struharv shed.h.global_rt_period 1000000000 
+[  911.803396] struharv shed.h.global_rt_period 1000000000 
+[  911.803397] struharv shed.h.global_rt_period 1000000000 
+[  911.803397] struharv shed.h.global_rt_period 1000000000 
+[  911.803398] struharv shed.h.global_rt_period 1000000000 
+[  911.803399] struharv shed.h.global_rt_period 1000000000 
+[  911.803399] struharv shed.h.global_rt_period 1000000000 
+[  911.803400] struharv shed.h.global_rt_period 1000000000 
+[  911.803400] struharv shed.h.global_rt_period 1000000000 
+[  911.803401] struharv shed.h.global_rt_period 1000000000 
+[  911.803402] struharv shed.h.global_rt_period 1000000000 
+[  911.803402] struharv shed.h.global_rt_period 1000000000 
+[  911.803403] struharv shed.h.global_rt_period 1000000000 
+[  911.803403] struharv shed.h.global_rt_period 1000000000 
+[  911.803404] struharv shed.h.global_rt_period 1000000000 
+[  911.803405] struharv shed.h.global_rt_period 1000000000 
+[  911.803405] struharv shed.h.global_rt_period 1000000000 
+[  911.803406] struharv shed.h.global_rt_period 1000000000 
+[  911.803406] struharv shed.h.global_rt_period 1000000000 
+[  911.803407] struharv shed.h.global_rt_period 1000000000 
+[  911.803408] struharv shed.h.global_rt_period 1000000000 
+[  911.803408] struharv shed.h.global_rt_period 1000000000 
+[  911.803409] struharv shed.h.global_rt_period 1000000000 
+[  911.803409] struharv shed.h.global_rt_period 1000000000 
+[  911.803410] struharv shed.h.global_rt_period 1000000000 
+[  911.803411] struharv shed.h.global_rt_period 1000000000 
+[  911.803411] struharv shed.h.global_rt_period 1000000000 
+[  911.803412] struharv shed.h.global_rt_period 1000000000 
+[  911.803429] struharv shed.h.global_rt_period 1000000000 
+[  911.803445] struharv shed.h.global_rt_period 1000000000 
+[  911.803468] struharv shed.h.global_rt_period 1000000000 
+[  911.803484] struharv shed.h.global_rt_period 1000000000 
+[  911.803501] struharv shed.h.global_rt_period 1000000000 
+[  911.803517] struharv shed.h.global_rt_period 1000000000 
+[  911.803533] struharv shed.h.global_rt_period 1000000000 
+[  911.803548] struharv shed.h.global_rt_period 1000000000 
+[  911.803564] struharv shed.h.global_rt_period 1000000000 
+[  911.803579] struharv shed.h.global_rt_period 1000000000 
+[  911.803594] struharv shed.h.global_rt_period 1000000000 
+[  911.803610] struharv shed.h.global_rt_period 1000000000 
+[  911.803625] struharv shed.h.global_rt_period 1000000000 
+[  911.803640] struharv shed.h.global_rt_period 1000000000 
+[  911.803656] struharv shed.h.global_rt_period 1000000000 
+[  911.803671] struharv shed.h.global_rt_period 1000000000 
+[  911.803686] struharv shed.h.global_rt_period 1000000000 
+[  911.803701] struharv shed.h.global_rt_period 1000000000 
+[  911.803716] struharv shed.h.global_rt_period 1000000000 
+[  911.803731] struharv shed.h.global_rt_period 1000000000 
+[  911.803747] struharv shed.h.global_rt_period 1000000000 
+[  911.803762] struharv shed.h.global_rt_period 1000000000 
+[  911.803777] struharv shed.h.global_rt_period 1000000000 
+[  911.803792] struharv shed.h.global_rt_period 1000000000 
+[  911.803807] struharv shed.h.global_rt_period 1000000000 
+[  911.803822] struharv shed.h.global_rt_period 1000000000 
+[  911.803837] struharv shed.h.global_rt_period 1000000000 
+[  911.803852] struharv shed.h.global_rt_period 1000000000 
+[  911.803867] struharv shed.h.global_rt_period 1000000000 
+[  911.803919] struharv shed.h.global_rt_period 1000000000 
+[  911.803939] struharv shed.h.global_rt_period 1000000000 
+[  911.803966] struharv shed.h.global_rt_period 1000000000 
+[  911.803979] struharv shed.h.global_rt_period 1000000000 
+[  911.803980] struharv shed.h.global_rt_period 1000000000 
+[  911.803982] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.803984] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.803987] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.803988] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.803990] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.803992] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.803994] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.803996] struharv: dl_init_tg  rt_runtime = 9000000, rt_period = 1000000000
+[  911.804264] struharv: deadline.c.init_dl_task_timer 
+[  911.804265] struharv: deadline.c.init_struhar_timer 
+[  911.828762] struharv: deadline.c.init_dl_task_timer 
+[  911.828764] struharv: deadline.c.init_struhar_timer 
+[  911.828815] struharv: deadline.c.init_dl_task_timer 
+[  911.828816] struharv: deadline.c.init_struhar_timer 
+[  911.829089] struharv: deadline.c.init_dl_task_timer 
+[  911.829089] struharv: deadline.c.init_struhar_timer 
+[  911.829105] struharv: deadline.c.init_dl_task_timer 
+[  911.829106] struharv: deadline.c.init_struhar_timer 
+[  911.829159] struharv: deadline.c.init_dl_task_timer 
+[  911.829159] struharv: deadline.c.init_struhar_timer 
+[  911.830366] struharv: deadline.c.init_dl_task_timer 
+[  911.830367] struharv: deadline.c.init_struhar_timer 
+[  911.844478] struharv: deadline.c.init_dl_task_timer 
+[  911.844494] struharv: deadline.c.init_struhar_timer 
+[  911.844636] struharv: deadline.c.init_dl_task_timer 
+[  911.844637] struharv: deadline.c.init_struhar_timer 
+[  911.860782] struharv: deadline.c.init_dl_task_timer 
+[  911.860783] struharv: deadline.c.init_struhar_timer 
+[  911.878304] struharv: deadline.c.init_dl_task_timer 
+[  911.878306] struharv: deadline.c.init_struhar_timer 
+[  911.878370] struharv: deadline.c.init_dl_task_timer 
+[  911.878371] struharv: deadline.c.init_struhar_timer 
+[  911.878582] struharv: deadline.c.init_dl_task_timer 
+[  911.878583] struharv: deadline.c.init_struhar_timer 
+[  911.878843] struharv: deadline.c.init_dl_task_timer 
+[  911.878845] struharv: deadline.c.init_struhar_timer 
+[  911.878966] struharv: deadline.c.init_dl_task_timer 
+[  911.878968] struharv: deadline.c.init_struhar_timer 
+[  911.880786] struharv: deadline.c.init_dl_task_timer 
+[  911.880787] struharv: deadline.c.init_struhar_timer 
+[  911.890139] struharv: deadline.c.init_dl_task_timer 
+[  911.890142] struharv: deadline.c.init_struhar_timer 
+[  911.936477] eth0: renamed from veth471bfba
+[  911.936992] struharv: deadline.c.init_dl_task_timer 
+[  911.936994] struharv: deadline.c.init_struhar_timer 
+[  911.960478] IPv6: ADDRCONF(NETDEV_CHANGE): vethaeb5364: link becomes ready
+[  911.960531] docker0: port 1(vethaeb5364) entered blocking state
+[  911.960534] docker0: port 1(vethaeb5364) entered forwarding state
+[  911.994289] struharv: deadline.c.init_dl_task_timer 
+[  911.994290] struharv: deadline.c.init_struhar_timer 
+[  911.994406] struharv: deadline.c.init_dl_task_timer 
+[  911.994408] struharv: deadline.c.init_struhar_timer 
+[  911.998846] struharv: deadline.c.init_dl_task_timer 
+[  911.998847] struharv: deadline.c.init_struhar_timer 
+[  912.006176] struharv: deadline.c.init_dl_task_timer 
+[  912.006179] struharv: deadline.c.init_struhar_timer 
+[  912.006258] struharv: deadline.c.init_dl_task_timer 
+[  912.006259] struharv: deadline.c.init_struhar_timer 
+[  912.006388] struharv: deadline.c.init_dl_task_timer 
+[  912.006388] struharv: deadline.c.init_struhar_timer 
+[  912.006458] struharv: deadline.c.init_dl_task_timer 
+[  912.006460] struharv: deadline.c.init_struhar_timer 
+[  912.006503] struharv: deadline.c.init_dl_task_timer 
+[  912.006504] struharv: deadline.c.init_struhar_timer 
+[  912.012554] struharv: deadline.c.init_dl_task_timer 
+[  912.012555] struharv: deadline.c.init_struhar_timer 
+[  912.013819] struharv: deadline.c.init_dl_task_timer 
+[  912.013820] struharv: deadline.c.init_struhar_timer 
+[  912.013847] struharv: update_dl_entity
+[  912.013851] struharv: update_curr_rt pid: 2005 
+[  912.013851] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  912.014166] struhar: sys_custom_syscall_change: ------ 
+[  912.014167] start_struhar_timer
+[  912.014169] struharv: deadline.c.start_struhar_timer now= 912012327558 act=913012219587 period=1000000000
+[  912.014169] deadline: hrtimer_start
+[  912.014173] struharv: update_curr_rt pid: 2005 
+[  912.014174] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  912.014177] struharv: update_curr_rt pid: 2005 
+[  912.014178] struharv: update_curr_rt pid: 2005 
+[  913.014067] HEY!
+[  913.014068] struharv: struhar_task_timer
+[  913.014079] struharv: update_dl_entity
+[  913.014779] struhar: sys_custom_syscall_change: ------ 
+[  913.014781] start_struhar_timer
+[  913.014785] struharv: deadline.c.start_struhar_timer now= 913012941779 act=914012688795 period=1000000000
+[  913.014786] deadline: hrtimer_start
+[  913.014792] struharv: update_curr_rt pid: 2005 
+[  913.014794] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  913.014798] struharv: update_curr_rt pid: 2005 
+[  913.014800] struharv: update_curr_rt pid: 2005 
+[  914.014562] HEY!
+[  914.014564] struharv: struhar_task_timer
+[  914.014579] struharv: update_dl_entity
+[  914.015572] struhar: sys_custom_syscall_change: ------ 
+[  914.015576] start_struhar_timer
+[  914.015582] struharv: deadline.c.start_struhar_timer now= 914013736633 act=915012985505 period=1000000000
+[  914.015583] deadline: hrtimer_start
+[  914.015594] struharv: update_curr_rt pid: 2005 
+[  914.015598] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  914.015607] struharv: update_curr_rt pid: 2005 
+[  914.015611] struharv: update_curr_rt pid: 2005 
+[  915.014858] HEY!
+[  915.014860] struharv: struhar_task_timer
+[  915.014874] struharv: update_dl_entity
+[  915.015889] struharv: update_curr_rt pid: 2005 
+[  915.015893] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  915.015977] struhar: sys_custom_syscall_change: ------ 
+[  915.015980] start_struhar_timer
+[  915.015985] struharv: deadline.c.start_struhar_timer now= 915014140696 act=916013087025 period=1000000000
+[  915.015987] deadline: hrtimer_start
+[  915.016003] struharv: update_curr_rt pid: 2005 
+[  915.016004] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  915.016016] struharv: update_curr_rt pid: 2005 
+[  915.016021] struharv: update_curr_rt pid: 2005 
+[  916.014959] HEY!
+[  916.014961] struharv: struhar_task_timer
+[  916.014975] struharv: update_dl_entity
+[  916.015865] struhar: sys_custom_syscall_change: ------ 
+[  916.015868] start_struhar_timer
+[  916.015874] struharv: deadline.c.start_struhar_timer now= 916014029227 act=917013821934 period=1000000000
+[  916.015896] struharv: update_curr_rt pid: 2005 
+[  916.015899] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  916.015918] deadline: hrtimer_start
+[  916.015938] struharv: update_curr_rt pid: 2005 
+[  916.015941] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  916.015951] struharv: update_curr_rt pid: 2005 
+[  916.015955] struharv: update_curr_rt pid: 2005 
+[  917.015693] HEY!
+[  917.015695] struharv: struhar_task_timer
+[  917.015710] struharv: update_dl_entity
+[  917.015885] struharv: update_curr_rt pid: 2005 
+[  917.015889] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  917.016652] struhar: sys_custom_syscall_change: ------ 
+[  917.016654] start_struhar_timer
+[  917.016659] struharv: deadline.c.start_struhar_timer now= 917014815814 act=918014618353 period=1000000000
+[  917.016660] deadline: hrtimer_start
+[  917.016671] struharv: update_curr_rt pid: 2005 
+[  917.016675] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  917.016686] struharv: update_curr_rt pid: 2005 
+[  917.016689] struharv: update_curr_rt pid: 2005 
+[  918.016490] HEY!
+[  918.016492] struharv: struhar_task_timer
+[  918.016506] struharv: update_dl_entity
+[  918.017505] struhar: sys_custom_syscall_change: ------ 
+[  918.017512] start_struhar_timer
+[  918.017516] struharv: deadline.c.start_struhar_timer now= 918015672698 act=919014901023 period=1000000000
+[  918.017518] deadline: hrtimer_start
+[  918.017531] struharv: update_curr_rt pid: 2005 
+[  918.017537] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  918.017546] struharv: update_curr_rt pid: 2005 
+[  918.017548] struharv: update_curr_rt pid: 2005 
+[  919.016773] HEY!
+[  919.016775] struharv: struhar_task_timer
+[  919.016789] struharv: update_dl_entity
+[  919.017655] struhar: sys_custom_syscall_change: ------ 
+[  919.017659] start_struhar_timer
+[  919.017667] struharv: deadline.c.start_struhar_timer now= 919015820340 act=920015347368 period=1000000000
+[  919.017669] deadline: hrtimer_start
+[  919.017682] struharv: update_curr_rt pid: 2005 
+[  919.017685] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  919.017692] struharv: update_curr_rt pid: 2005 
+[  919.017694] struharv: update_curr_rt pid: 2005 
+[  920.017219] HEY!
+[  920.017221] struharv: struhar_task_timer
+[  920.017235] struharv: update_dl_entity
+[  920.018226] struhar: sys_custom_syscall_change: ------ 
+[  920.018229] start_struhar_timer
+[  920.018236] struharv: deadline.c.start_struhar_timer now= 920016390707 act=921015629774 period=1000000000
+[  920.018238] deadline: hrtimer_start
+[  920.018250] struharv: update_curr_rt pid: 2005 
+[  920.018255] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  920.018264] struharv: update_curr_rt pid: 2005 
+[  920.018288] struharv: update_curr_rt pid: 2005 
+[  920.018291] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  921.017503] HEY!
+[  921.017507] struharv: struhar_task_timer
+[  921.017519] struharv: update_dl_entity
+[  921.018533] struhar: sys_custom_syscall_change: ------ 
+[  921.018537] start_struhar_timer
+[  921.018542] struharv: deadline.c.start_struhar_timer now= 921016697847 act=922015809638 period=1000000000
+[  921.018544] deadline: hrtimer_start
+[  921.018554] struharv: update_curr_rt pid: 2005 
+[  921.018557] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  921.018566] struharv: update_curr_rt pid: 2005 
+[  921.018569] struharv: update_curr_rt pid: 2005 
+[  922.017682] HEY!
+[  922.017684] struharv: struhar_task_timer
+[  922.017698] struharv: update_dl_entity
+[  922.018552] struhar: sys_custom_syscall_change: ------ 
+[  922.018555] start_struhar_timer
+[  922.018560] struharv: deadline.c.start_struhar_timer now= 922016716402 act=923016335519 period=1000000000
+[  922.018561] deadline: hrtimer_start
+[  922.018569] struharv: update_curr_rt pid: 2005 
+[  922.018572] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  922.018581] struharv: update_curr_rt pid: 2005 
+[  922.018583] struharv: update_curr_rt pid: 2005 
+[  923.018207] HEY!
+[  923.018209] struharv: struhar_task_timer
+[  923.018223] struharv: update_dl_entity
+[  923.019251] struhar: sys_custom_syscall_change: ------ 
+[  923.019258] start_struhar_timer
+[  923.019268] struharv: deadline.c.start_struhar_timer now= 923017420371 act=924016637227 period=1000000000
+[  923.019271] deadline: hrtimer_start
+[  923.019285] struharv: update_curr_rt pid: 2005 
+[  923.019290] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  923.019306] struharv: update_curr_rt pid: 2005 
+[  923.019309] struharv: update_curr_rt pid: 2005 
+[  924.018509] HEY!
+[  924.018511] struharv: struhar_task_timer
+[  924.018526] struharv: update_dl_entity
+[  924.019497] struhar: sys_custom_syscall_change: ------ 
+[  924.019502] start_struhar_timer
+[  924.019512] struharv: deadline.c.start_struhar_timer now= 924017664956 act=925017225317 period=1000000000
+[  924.019513] deadline: hrtimer_start
+[  924.019527] struharv: update_curr_rt pid: 2005 
+[  924.019531] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  924.019542] struharv: update_curr_rt pid: 2005 
+[  924.019561] struharv: update_curr_rt pid: 2005 
+[  924.019564] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  925.019098] HEY!
+[  925.019102] struharv: struhar_task_timer
+[  925.019114] struharv: update_dl_entity
+[  925.019884] struharv: update_curr_rt pid: 2005 
+[  925.019888] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  925.020184] struhar: sys_custom_syscall_change: ------ 
+[  925.020188] start_struhar_timer
+[  925.020196] struharv: deadline.c.start_struhar_timer now= 925018349912 act=926017510360 period=1000000000
+[  925.020197] deadline: hrtimer_start
+[  925.020209] struharv: update_curr_rt pid: 2005 
+[  925.020211] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  925.020220] struharv: update_curr_rt pid: 2005 
+[  925.020223] struharv: update_curr_rt pid: 2005 
+[  926.019362] HEY!
+[  926.019364] struharv: struhar_task_timer
+[  926.019376] struharv: update_dl_entity
+[  926.019910] struharv: update_curr_rt pid: 2005 
+[  926.019914] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  926.020339] struhar: sys_custom_syscall_change: ------ 
+[  926.020342] start_struhar_timer
+[  926.020348] struharv: deadline.c.start_struhar_timer now= 926018503123 act=927017952760 period=1000000000
+[  926.020349] deadline: hrtimer_start
+[  926.020358] struharv: update_curr_rt pid: 2005 
+[  926.020360] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  926.020368] struharv: update_curr_rt pid: 2005 
+[  926.020370] struharv: update_curr_rt pid: 2005 
+[  927.019797] HEY!
+[  927.019799] struharv: struhar_task_timer
+[  927.019808] struharv: update_dl_entity
+[  927.019899] struharv: update_curr_rt pid: 2005 
+[  927.019904] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  927.020554] struhar: sys_custom_syscall_change: ------ 
+[  927.020556] start_struhar_timer
+[  927.020559] struharv: deadline.c.start_struhar_timer now= 927018717509 act=928018608626 period=1000000000
+[  927.020560] deadline: hrtimer_start
+[  927.020566] struharv: update_curr_rt pid: 2005 
+[  927.020568] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  927.020573] struharv: update_curr_rt pid: 2005 
+[  927.020575] struharv: update_curr_rt pid: 2005 
+[  928.020456] HEY!
+[  928.020458] struharv: struhar_task_timer
+[  928.020469] struharv: update_dl_entity
+[  928.021205] struhar: sys_custom_syscall_change: ------ 
+[  928.021208] start_struhar_timer
+[  928.021212] struharv: deadline.c.start_struhar_timer now= 928019369440 act=929018802215 period=1000000000
+[  928.021214] deadline: hrtimer_start
+[  928.021220] struharv: update_curr_rt pid: 2005 
+[  928.021223] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  928.021228] struharv: update_curr_rt pid: 2005 
+[  928.021242] struharv: update_curr_rt pid: 2005 
+[  928.021243] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  929.020674] HEY!
+[  929.020678] struharv: struhar_task_timer
+[  929.020690] struharv: update_dl_entity
+[  929.021679] struhar: sys_custom_syscall_change: ------ 
+[  929.021683] start_struhar_timer
+[  929.021690] struharv: deadline.c.start_struhar_timer now= 929019845196 act=930018969577 period=1000000000
+[  929.021692] deadline: hrtimer_start
+[  929.021702] struharv: update_curr_rt pid: 2005 
+[  929.021706] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  929.021717] struharv: update_curr_rt pid: 2005 
+[  929.021720] struharv: update_curr_rt pid: 2005 
+[  930.020841] HEY!
+[  930.020843] struharv: struhar_task_timer
+[  930.020857] struharv: update_dl_entity
+[  930.021849] struhar: sys_custom_syscall_change: ------ 
+[  930.021853] start_struhar_timer
+[  930.021861] struharv: deadline.c.start_struhar_timer now= 930020014573 act=931019265189 period=1000000000
+[  930.021863] deadline: hrtimer_start
+[  930.021876] struharv: update_curr_rt pid: 2005 
+[  930.021882] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  930.021895] struharv: update_curr_rt pid: 2005 
+[  930.021897] struharv: update_curr_rt pid: 2005 
+[  931.021135] HEY!
+[  931.021137] struharv: struhar_task_timer
+[  931.021151] struharv: update_dl_entity
+[  931.022152] struhar: sys_custom_syscall_change: ------ 
+[  931.022156] start_struhar_timer
+[  931.022160] struharv: deadline.c.start_struhar_timer now= 931020317420 act=932019484399 period=1000000000
+[  931.022162] deadline: hrtimer_start
+[  931.022172] struharv: update_curr_rt pid: 2005 
+[  931.022175] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  931.022183] struharv: update_curr_rt pid: 2005 
+[  931.022186] struharv: update_curr_rt pid: 2005 
+[  932.021356] HEY!
+[  932.021358] struharv: struhar_task_timer
+[  932.021373] struharv: update_dl_entity
+[  932.022367] struhar: sys_custom_syscall_change: ------ 
+[  932.022371] start_struhar_timer
+[  932.022377] struharv: deadline.c.start_struhar_timer now= 932020533186 act=933019714185 period=1000000000
+[  932.022378] deadline: hrtimer_start
+[  932.022388] struharv: update_curr_rt pid: 2005 
+[  932.022392] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  932.022404] struharv: update_curr_rt pid: 2005 
+[  932.022407] struharv: update_curr_rt pid: 2005 
+[  933.021585] HEY!
+[  933.021587] struharv: struhar_task_timer
+[  933.021601] struharv: update_dl_entity
+[  933.022611] struhar: sys_custom_syscall_change: ------ 
+[  933.022616] start_struhar_timer
+[  933.022624] struharv: deadline.c.start_struhar_timer now= 933020777761 act=934019783522 period=1000000000
+[  933.022626] deadline: hrtimer_start
+[  933.022640] struharv: update_curr_rt pid: 2005 
+[  933.022646] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  933.022658] struharv: update_curr_rt pid: 2005 
+[  933.022660] struharv: update_curr_rt pid: 2005 
+[  934.021654] HEY!
+[  934.021656] struharv: struhar_task_timer
+[  934.021671] struharv: update_dl_entity
+[  934.022480] struhar: sys_custom_syscall_change: ------ 
+[  934.022483] start_struhar_timer
+[  934.022488] struharv: deadline.c.start_struhar_timer now= 934020645542 act=935020475778 period=1000000000
+[  934.022489] deadline: hrtimer_start
+[  934.022499] struharv: update_curr_rt pid: 2005 
+[  934.022502] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  934.022509] struharv: update_curr_rt pid: 2005 
+[  934.022511] struharv: update_curr_rt pid: 2005 
+[  935.022348] HEY!
+[  935.022350] struharv: struhar_task_timer
+[  935.022364] struharv: update_dl_entity
+[  935.023150] struhar: sys_custom_syscall_change: ------ 
+[  935.023153] start_struhar_timer
+[  935.023157] struharv: deadline.c.start_struhar_timer now= 935021314865 act=936021180752 period=1000000000
+[  935.023159] deadline: hrtimer_start
+[  935.023168] struharv: update_curr_rt pid: 2005 
+[  935.023171] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  935.023178] struharv: update_curr_rt pid: 2005 
+[  935.023179] struharv: update_curr_rt pid: 2005 
+[  936.023052] HEY!
+[  936.023054] struharv: struhar_task_timer
+[  936.023068] struharv: update_dl_entity
+[  936.023859] struhar: sys_custom_syscall_change: ------ 
+[  936.023861] start_struhar_timer
+[  936.023865] struharv: deadline.c.start_struhar_timer now= 936022023732 act=937021857996 period=1000000000
+[  936.023866] deadline: hrtimer_start
+[  936.023889] struharv: update_curr_rt pid: 2005 
+[  936.023894] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  936.023918] struharv: update_curr_rt pid: 2005 
+[  936.023925] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  936.023936] struharv: update_curr_rt pid: 2005 
+[  936.023939] struharv: update_curr_rt pid: 2005 
+[  937.023729] HEY!
+[  937.023731] struharv: struhar_task_timer
+[  937.023746] struharv: update_dl_entity
+[  937.023884] struharv: update_curr_rt pid: 2005 
+[  937.023888] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  937.024791] struhar: sys_custom_syscall_change: ------ 
+[  937.024794] start_struhar_timer
+[  937.024800] struharv: deadline.c.start_struhar_timer now= 937022956817 act=938021923690 period=1000000000
+[  937.024802] deadline: hrtimer_start
+[  937.024812] struharv: update_curr_rt pid: 2005 
+[  937.024816] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  937.024826] struharv: update_curr_rt pid: 2005 
+[  937.024829] struharv: update_curr_rt pid: 2005 
+[  938.023791] HEY!
+[  938.023793] struharv: struhar_task_timer
+[  938.023807] struharv: update_dl_entity
+[  938.023883] struharv: update_curr_rt pid: 2005 
+[  938.023886] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  938.024852] struhar: sys_custom_syscall_change: ------ 
+[  938.024857] start_struhar_timer
+[  938.024864] struharv: deadline.c.start_struhar_timer now= 938023019333 act=939021989741 period=1000000000
+[  938.024866] deadline: hrtimer_start
+[  938.024878] struharv: update_curr_rt pid: 2005 
+[  938.024881] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  938.024890] struharv: update_curr_rt pid: 2005 
+[  938.024892] struharv: update_curr_rt pid: 2005 
+[  938.662646] struharv: deadline.c.init_dl_task_timer 
+[  938.662648] struharv: deadline.c.init_struhar_timer 
+[  939.023861] HEY!
+[  939.023863] struharv: struhar_task_timer
+[  939.023877] struharv: update_dl_entity
+[  939.024651] struhar: sys_custom_syscall_change: ------ 
+[  939.024654] start_struhar_timer
+[  939.024658] struharv: deadline.c.start_struhar_timer now= 939022816133 act=940022670730 period=1000000000
+[  939.024659] deadline: hrtimer_start
+[  939.024667] struharv: update_curr_rt pid: 2005 
+[  939.024670] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  939.024678] struharv: update_curr_rt pid: 2005 
+[  939.024679] struharv: update_curr_rt pid: 2005 
+[  940.024542] HEY!
+[  940.024544] struharv: struhar_task_timer
+[  940.024558] struharv: update_dl_entity
+[  940.025365] struhar: sys_custom_syscall_change: ------ 
+[  940.025369] start_struhar_timer
+[  940.025374] struharv: deadline.c.start_struhar_timer now= 940023530959 act=941023362995 period=1000000000
+[  940.025375] deadline: hrtimer_start
+[  940.025384] struharv: update_curr_rt pid: 2005 
+[  940.025387] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  940.025395] struharv: update_curr_rt pid: 2005 
+[  940.025396] struharv: update_curr_rt pid: 2005 
+[  941.025235] HEY!
+[  941.025237] struharv: struhar_task_timer
+[  941.025251] struharv: update_dl_entity
+[  941.026023] struhar: sys_custom_syscall_change: ------ 
+[  941.026027] start_struhar_timer
+[  941.026030] struharv: deadline.c.start_struhar_timer now= 941024189078 act=942024022013 period=1000000000
+[  941.026031] deadline: hrtimer_start
+[  941.026040] struharv: update_curr_rt pid: 2005 
+[  941.026043] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  941.026050] struharv: update_curr_rt pid: 2005 
+[  941.026051] struharv: update_curr_rt pid: 2005 
+[  941.873870] struharv: deadline.c.init_dl_task_timer 
+[  941.873872] struharv: deadline.c.init_struhar_timer 
+[  941.875192] struharv: deadline.c.init_dl_task_timer 
+[  941.875194] struharv: deadline.c.init_struhar_timer 
+[  941.877721] struharv: deadline.c.init_dl_task_timer 
+[  941.877723] struharv: deadline.c.init_struhar_timer 
+[  941.878986] struharv: deadline.c.init_dl_task_timer 
+[  941.878988] struharv: deadline.c.init_struhar_timer 
+[  942.025868] HEY!
+[  942.025870] struharv: struhar_task_timer
+[  942.025881] struharv: update_dl_entity
+[  942.026572] struhar: sys_custom_syscall_change: ------ 
+[  942.026574] start_struhar_timer
+[  942.026577] struharv: deadline.c.start_struhar_timer now= 942024736535 act=943024621832 period=1000000000
+[  942.026578] deadline: hrtimer_start
+[  942.026583] struharv: update_curr_rt pid: 2005 
+[  942.026585] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  942.026590] struharv: update_curr_rt pid: 2005 
+[  942.026591] struharv: update_curr_rt pid: 2005 
+[  942.430603] struharv: deadline.c.init_dl_task_timer 
+[  942.430606] struharv: deadline.c.init_struhar_timer 
+[  943.026489] HEY!
+[  943.026491] struharv: struhar_task_timer
+[  943.026503] struharv: update_dl_entity
+[  943.027421] struhar: sys_custom_syscall_change: ------ 
+[  943.027425] start_struhar_timer
+[  943.027432] struharv: deadline.c.start_struhar_timer now= 943025587891 act=944025587891 period=1000000000
+[  943.027434] deadline: hrtimer_start
+[  943.027447] struharv: update_curr_rt pid: 2005 
+[  943.027451] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  943.027464] struharv: update_curr_rt pid: 2005 
+[  943.027466] struharv: update_curr_rt pid: 2005 
+[  944.027459] HEY!
+[  944.027461] struharv: struhar_task_timer
+[  944.027475] struharv: update_dl_entity
+[  944.027886] struharv: update_curr_rt pid: 2005 
+[  944.027891] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  944.028447] struhar: sys_custom_syscall_change: ------ 
+[  944.028449] start_struhar_timer
+[  944.028454] struharv: deadline.c.start_struhar_timer now= 944026612407 act=945026181408 period=1000000000
+[  944.028456] deadline: hrtimer_start
+[  944.028468] struharv: update_curr_rt pid: 2005 
+[  944.028472] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  944.028483] struharv: update_curr_rt pid: 2005 
+[  944.028486] struharv: update_curr_rt pid: 2005 
+[  945.028024] HEY!
+[  945.028026] struharv: struhar_task_timer
+[  945.028037] struharv: update_dl_entity
+[  945.028891] struhar: sys_custom_syscall_change: ------ 
+[  945.028896] start_struhar_timer
+[  945.028907] struharv: deadline.c.start_struhar_timer now= 945027059480 act=946026652204 period=1000000000
+[  945.028908] deadline: hrtimer_start
+[  945.028921] struharv: update_curr_rt pid: 2005 
+[  945.028926] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  945.028937] struharv: update_curr_rt pid: 2005 
+[  945.028940] struharv: update_curr_rt pid: 2005 
+[  946.028523] HEY!
+[  946.028525] struharv: struhar_task_timer
+[  946.028539] struharv: update_dl_entity
+[  946.029421] struhar: sys_custom_syscall_change: ------ 
+[  946.029426] start_struhar_timer
+[  946.029431] struharv: deadline.c.start_struhar_timer now= 946027589024 act=947027394573 period=1000000000
+[  946.029432] deadline: hrtimer_start
+[  946.029442] struharv: update_curr_rt pid: 2005 
+[  946.029445] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  946.029456] struharv: update_curr_rt pid: 2005 
+[  946.029458] struharv: update_curr_rt pid: 2005 
+[  947.029242] HEY!
+[  947.029244] struharv: struhar_task_timer
+[  947.029255] struharv: update_dl_entity
+[  947.029973] struhar: sys_custom_syscall_change: ------ 
+[  947.029975] start_struhar_timer
+[  947.029979] struharv: deadline.c.start_struhar_timer now= 947028138118 act=948027965017 period=1000000000
+[  947.029980] deadline: hrtimer_start
+[  947.029988] struharv: update_curr_rt pid: 2005 
+[  947.030004] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  947.030009] struharv: update_curr_rt pid: 2005 
+[  947.030010] struharv: update_curr_rt pid: 2005 
+[  948.029836] HEY!
+[  948.029838] struharv: struhar_task_timer
+[  948.029852] struharv: update_dl_entity
+[  948.030860] struhar: sys_custom_syscall_change: ------ 
+[  948.030866] start_struhar_timer
+[  948.030873] struharv: deadline.c.start_struhar_timer now= 948029029144 act=949028305992 period=1000000000
+[  948.030875] deadline: hrtimer_start
+[  948.030890] struharv: update_curr_rt pid: 2005 
+[  948.030895] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  948.030907] struharv: update_curr_rt pid: 2005 
+[  948.030915] struharv: update_curr_rt pid: 2005 
+[  949.030176] HEY!
+[  949.030178] struharv: struhar_task_timer
+[  949.030192] struharv: update_dl_entity
+[  949.031237] struhar: sys_custom_syscall_change: ------ 
+[  949.031242] start_struhar_timer
+[  949.031248] struharv: deadline.c.start_struhar_timer now= 949029405437 act=950028375731 period=1000000000
+[  949.031250] deadline: hrtimer_start
+[  949.031264] struharv: update_curr_rt pid: 2005 
+[  949.031269] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  949.031282] struharv: update_curr_rt pid: 2005 
+[  949.031286] struharv: update_curr_rt pid: 2005 
+[  950.030223] HEY!
+[  950.030225] struharv: struhar_task_timer
+[  950.030237] struharv: update_dl_entity
+[  950.030963] struhar: sys_custom_syscall_change: ------ 
+[  950.030965] start_struhar_timer
+[  950.030969] struharv: deadline.c.start_struhar_timer now= 950029127765 act=951028981199 period=1000000000
+[  950.030970] deadline: hrtimer_start
+[  950.030977] struharv: update_curr_rt pid: 2005 
+[  950.030980] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  950.030986] struharv: update_curr_rt pid: 2005 
+[  950.030988] struharv: update_curr_rt pid: 2005 
+[  951.030828] HEY!
+[  951.030829] struharv: struhar_task_timer
+[  951.030840] struharv: update_dl_entity
+[  951.031567] struhar: sys_custom_syscall_change: ------ 
+[  951.031569] start_struhar_timer
+[  951.031573] struharv: deadline.c.start_struhar_timer now= 951029732212 act=952029375677 period=1000000000
+[  951.031575] deadline: hrtimer_start
+[  951.031582] struharv: update_curr_rt pid: 2005 
+[  951.031585] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  951.031591] struharv: update_curr_rt pid: 2005 
+[  951.031593] struharv: update_curr_rt pid: 2005 
+[  952.031220] HEY!
+[  952.031222] struharv: struhar_task_timer
+[  952.031234] struharv: update_dl_entity
+[  952.031875] struharv: update_curr_rt pid: 2005 
+[  952.031877] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  952.031983] struhar: sys_custom_syscall_change: ------ 
+[  952.031984] start_struhar_timer
+[  952.031987] struharv: deadline.c.start_struhar_timer now= 952030146976 act=953029492731 period=1000000000
+[  952.031988] deadline: hrtimer_start
+[  952.031995] struharv: update_curr_rt pid: 2005 
+[  952.031996] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  952.032001] struharv: update_curr_rt pid: 2005 
+[  952.032004] struharv: update_curr_rt pid: 2005 
+[  953.031364] HEY!
+[  953.031366] struharv: struhar_task_timer
+[  953.031381] struharv: update_dl_entity
+[  953.031887] struharv: update_curr_rt pid: 2005 
+[  953.031891] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  953.032485] struhar: sys_custom_syscall_change: ------ 
+[  953.032492] start_struhar_timer
+[  953.032498] struharv: deadline.c.start_struhar_timer now= 953030654687 act=954029560692 period=1000000000
+[  953.032500] deadline: hrtimer_start
+[  953.032515] struharv: update_curr_rt pid: 2005 
+[  953.032518] struharv: update_curr_rt > is_dl_group(rt_rq)
+[  953.032530] struharv: update_curr_rt pid: 2005 
+[  953.032533] struharv: update_curr_rt pid: 2005 
+[  953.910474] struharv: deadline.c.init_dl_task_timer 
+[  953.910477] struharv: deadline.c.init_struhar_timer 
+[  953.922793] struharv: deadline.c.init_dl_task_timer 
+[  953.922796] struharv: deadline.c.init_struhar_timer 

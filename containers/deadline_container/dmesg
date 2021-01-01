@@ -1,0 +1,2074 @@
+[  105.793295] struharv: update_curr_rt pid: 1466 
+[  105.794331] struharv: dl_task_timer
+[  105.794333] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  105.794337] struharv: deadline.c.dl_task_timer ELSE
+[  105.794340] struharv: deadline.c.replenish_dl_entity
+[  105.794345] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  105.794349] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  105.794352] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  105.794355] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  105.794357] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  105.860622] struharv: dl_task_timer
+[  105.860624] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  105.860630] struharv: deadline.c.dl_task_timer ELSE
+[  105.860632] struharv: deadline.c.replenish_dl_entity
+[  105.860639] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  105.937945] struharv:inactive_task_timer
+[  106.186343] struharv: dl_task_timer
+[  106.186344] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  106.186351] struharv: deadline.c.dl_task_timer ELSE
+[  106.186353] struharv: deadline.c.replenish_dl_entity
+[  106.186359] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.186362] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.186363] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.186365] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.190345] struharv: dl_task_timer
+[  106.190347] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  106.190352] struharv: deadline.c.dl_task_timer ELSE
+[  106.190354] struharv: deadline.c.replenish_dl_entity
+[  106.190360] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.190362] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.190365] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.192296] struharv: deadline.enqueue_dl_entity
+[  106.192303] struharv: update_dl_entity
+[  106.192316] struharv: deadline.c.pick_next_task_dl
+[  106.194238] struharv: update_curr_rt pid: 1466 
+[  106.194241] struharv: update_curr_rt now=106194235123 deadline=106490312588
+[  106.194244] struharv: update_curr_rt dl_runtime_exceeded
+[  106.194246] struharv: deadline.c.start_dl_timer
+[  106.194248] 	 act=106490312588
+[  106.194249] 	 now=106192339269
+[  106.194251] 	 delta=-1895854 ktime_to_ns(now)=106192339269  rq_clock(rq)=106194235123
+[  106.194253] 	 act=106488416734
+[  106.194277] struharv: deadline.c.pick_next_task_dl
+[  106.194279] struharv: update_curr_rt pid: 1466 
+[  106.194286] struharv: update_curr_rt now=106194272575 deadline=106490312588
+[  106.194293] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  106.194301] struharv: update_curr_rt pid: 1466 
+[  106.194313] struharv: deadline.enqueue_dl_entity
+[  106.194317] struharv: update_dl_entity
+[  106.194336] struharv: deadline.c.pick_next_task_dl
+[  106.198215] struharv: update_curr_rt pid: 1466 
+[  106.198220] struharv: update_curr_rt now=106198211154 deadline=106586283353
+[  106.198222] struharv: update_curr_rt dl_runtime_exceeded
+[  106.198226] struharv: deadline.c.start_dl_timer
+[  106.198227] 	 act=106586283353
+[  106.198229] 	 now=106196318984
+[  106.198231] 	 delta=-1892170 ktime_to_ns(now)=106196318984  rq_clock(rq)=106198211154
+[  106.198232] 	 act=106584391183
+[  106.198254] struharv: deadline.c.pick_next_task_dl
+[  106.198256] struharv: update_curr_rt pid: 1466 
+[  106.198258] struharv: update_curr_rt now=106198248392 deadline=106586283353
+[  106.198263] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  106.198266] struharv: update_curr_rt pid: 1466 
+[  106.198277] struharv: deadline.enqueue_dl_entity
+[  106.198279] struharv: update_dl_entity
+[  106.198289] struharv: deadline.c.pick_next_task_dl
+[  106.202210] struharv: update_curr_rt pid: 1466 
+[  106.202215] struharv: update_curr_rt now=106202207657 deadline=106294300572
+[  106.202217] struharv: update_curr_rt dl_runtime_exceeded
+[  106.202221] struharv: deadline.c.start_dl_timer
+[  106.202223] 	 act=106294300572
+[  106.202224] 	 now=106200314336
+[  106.202227] 	 delta=-1893321 ktime_to_ns(now)=106200314336  rq_clock(rq)=106202207657
+[  106.202228] 	 act=106292407251
+[  106.202243] struharv: deadline.c.pick_next_task_dl
+[  106.202245] struharv: update_curr_rt pid: 1466 
+[  106.202252] struharv: update_curr_rt now=106202238116 deadline=106294300572
+[  106.202257] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  106.202262] struharv: update_curr_rt pid: 1466 
+[  106.202274] struharv: deadline.enqueue_dl_entity
+[  106.202276] struharv: update_dl_entity
+[  106.202278] struharv: update_dl_entity STEP1
+[  106.202280] struharv: update_dl_entity rq_clock(rq): 106202273303
+[  106.202289] struharv: deadline.c.pick_next_task_dl
+[  106.202345] struharv: deadline.c.pick_next_task_dl
+[  106.202411] struharv: deadline.c.pick_next_task_dl
+[  106.204865] struhar: sys_custom_syscall_now: ------ 
+[  106.204867] 	 now=106202956959
+[  106.204868] 	 delta=453204 ktime_to_ns(now)=106202956959  rq_clock(rq)=106202503755
+[  106.204878] struhar: sys_custom_syscall_change: ------ 
+[  106.204879] 	 act=106302273303
+[  106.204880] 	 now=106202970693
+[  106.204882] 	 delta=466938 ktime_to_ns(now)=106202970693  rq_clock(rq)=106202503755
+[  106.204883] 	 act=106302740241
+[  106.204884] struharv sys_custom_syscall_change runtime deadline=106302273303
+[  106.204893] struharv: update_curr_rt pid: 1466 
+[  106.204895] struharv: update_curr_rt now=106204892119 deadline=106302273303
+[  106.204896] struharv: update_curr_rt dl_runtime_exceeded
+[  106.204898] struharv: deadline.c.start_dl_timer
+[  106.204899] 	 act=106302273303
+[  106.204900] 	 now=106202990355
+[  106.204901] 	 delta=-1901764 ktime_to_ns(now)=106202990355  rq_clock(rq)=106204892119
+[  106.204903] 	 act=106300371539
+[  106.204905] struharv: deadline.c.pick_next_task_dl
+[  106.204906] struharv: update_curr_rt pid: 1466 
+[  106.204908] struharv: update_curr_rt pid: 1466 
+[  106.205201] struharv: deadline.c.pick_next_task_dl
+[  106.294334] struharv: dl_task_timer
+[  106.294338] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  106.294342] struharv: deadline.c.dl_task_timer ELSE
+[  106.294345] struharv: deadline.c.replenish_dl_entity
+[  106.294351] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.294354] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.294356] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.294358] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.302290] struharv: dl_task_timer
+[  106.302293] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  106.302298] struharv: deadline.c.dl_task_timer ELSE
+[  106.302300] struharv: deadline.c.replenish_dl_entity
+[  106.302307] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.302310] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.304237] struharv: deadline.enqueue_dl_entity
+[  106.304243] struharv: update_dl_entity
+[  106.304256] struharv: deadline.c.pick_next_task_dl
+[  106.306241] struharv: update_curr_rt pid: 1466 
+[  106.306246] struharv: update_curr_rt now=106306238006 deadline=106502273303
+[  106.306248] struharv: update_curr_rt dl_runtime_exceeded
+[  106.306257] struharv: deadline.c.start_dl_timer
+[  106.306258] 	 act=106502273303
+[  106.306260] 	 now=106304350040
+[  106.306266] 	 delta=-1887966 ktime_to_ns(now)=106304350040  rq_clock(rq)=106306238006
+[  106.306271] 	 act=106500385337
+[  106.306294] struharv: deadline.c.pick_next_task_dl
+[  106.306297] struharv: update_curr_rt pid: 1466 
+[  106.306302] struharv: update_curr_rt now=106306292353 deadline=106502273303
+[  106.306305] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  106.306312] struharv: update_curr_rt pid: 1466 
+[  106.306334] struharv: deadline.enqueue_dl_entity
+[  106.306346] struharv: update_dl_entity
+[  106.306362] struharv: deadline.c.pick_next_task_dl
+[  106.310218] struharv: update_curr_rt pid: 1466 
+[  106.310225] struharv: update_curr_rt now=106310212400 deadline=106694300572
+[  106.310228] struharv: update_curr_rt dl_runtime_exceeded
+[  106.310232] struharv: deadline.c.start_dl_timer
+[  106.310234] 	 act=106694300572
+[  106.310235] 	 now=106308325529
+[  106.310238] 	 delta=-1886871 ktime_to_ns(now)=106308325529  rq_clock(rq)=106310212400
+[  106.310239] 	 act=106692413701
+[  106.310270] struharv: deadline.c.pick_next_task_dl
+[  106.310272] struharv: update_curr_rt pid: 1466 
+[  106.310273] struharv: update_curr_rt now=106310269396 deadline=106694300572
+[  106.310274] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  106.310276] struharv: update_curr_rt pid: 1466 
+[  106.490347] struharv: dl_task_timer
+[  106.490349] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  106.490359] struharv: deadline.enqueue_dl_entity
+[  106.490361] struharv: deadline.c.replenish_dl_entity
+[  106.490367] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.490369] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.490371] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.490398] struharv: deadline.c.pick_next_task_dl
+[  106.494212] struharv: update_curr_rt pid: 1466 
+[  106.494216] struharv: update_curr_rt now=106494208919 deadline=106790312588
+[  106.494219] struharv: update_curr_rt dl_runtime_exceeded
+[  106.494222] struharv: deadline.c.start_dl_timer
+[  106.494223] 	 act=106790312588
+[  106.494225] 	 now=106492315008
+[  106.494227] 	 delta=-1893911 ktime_to_ns(now)=106492315008  rq_clock(rq)=106494208919
+[  106.494229] 	 act=106788418677
+[  106.494251] struharv: deadline.c.pick_next_task_dl
+[  106.494253] struharv: update_curr_rt pid: 1466 
+[  106.494256] struharv: update_curr_rt now=106494249969 deadline=106790312588
+[  106.494257] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  106.494259] struharv: update_curr_rt pid: 1466 
+[  106.502305] struharv: dl_task_timer
+[  106.502308] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  106.502323] struharv: deadline.enqueue_dl_entity
+[  106.502326] struharv: deadline.c.replenish_dl_entity
+[  106.502334] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.502336] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.502338] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.502346] struharv: deadline.c.pick_next_task_dl
+[  106.505127] struhar: sys_custom_syscall_now: ------ 
+[  106.505130] 	 now=106503219298
+[  106.505132] 	 delta=899063 ktime_to_ns(now)=106503219298  rq_clock(rq)=106502320235
+[  106.505144] struhar: sys_custom_syscall_change: ------ 
+[  106.505145] 	 act=106802273303
+[  106.505146] 	 now=106503236657
+[  106.505149] 	 delta=916422 ktime_to_ns(now)=106503236657  rq_clock(rq)=106502320235
+[  106.505150] 	 act=106803189725
+[  106.505151] struharv sys_custom_syscall_change runtime deadline=106802273303
+[  106.505167] struharv: update_curr_rt pid: 1466 
+[  106.505171] struharv: update_curr_rt now=106505164571 deadline=106802273303
+[  106.505173] struharv: update_curr_rt dl_runtime_exceeded
+[  106.505176] struharv: deadline.c.start_dl_timer
+[  106.505179] 	 act=106802273303
+[  106.505182] 	 now=106503270948
+[  106.505186] 	 delta=-1893623 ktime_to_ns(now)=106503270948  rq_clock(rq)=106505164571
+[  106.505190] 	 act=106800379680
+[  106.505193] struharv: deadline.c.pick_next_task_dl
+[  106.505197] struharv: update_curr_rt pid: 1466 
+[  106.505200] struharv: update_curr_rt pid: 1466 
+[  106.586335] struharv: dl_task_timer
+[  106.586337] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  106.586344] struharv: deadline.c.dl_task_timer ELSE
+[  106.586346] struharv: deadline.c.replenish_dl_entity
+[  106.586352] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.586354] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.586356] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.586358] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.586360] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.694359] struharv: dl_task_timer
+[  106.694361] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  106.694367] struharv: deadline.c.dl_task_timer ELSE
+[  106.694369] struharv: deadline.c.replenish_dl_entity
+[  106.694375] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.694377] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.694379] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.694381] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.790335] struharv: dl_task_timer
+[  106.790337] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  106.790341] struharv: deadline.c.dl_task_timer ELSE
+[  106.790343] struharv: deadline.c.replenish_dl_entity
+[  106.790349] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.790351] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.790353] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.790354] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.802297] struharv: dl_task_timer
+[  106.802299] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  106.802303] struharv: deadline.c.dl_task_timer ELSE
+[  106.802305] struharv: deadline.c.replenish_dl_entity
+[  106.802311] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.802313] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.802314] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  106.804238] struharv: deadline.enqueue_dl_entity
+[  106.804244] struharv: update_dl_entity
+[  106.804258] struharv: deadline.c.pick_next_task_dl
+[  106.806238] struharv: update_curr_rt pid: 1466 
+[  106.806247] struharv: update_curr_rt now=106806234245 deadline=107102273303
+[  106.806251] struharv: update_curr_rt dl_runtime_exceeded
+[  106.806256] struharv: deadline.c.start_dl_timer
+[  106.806260] 	 act=107102273303
+[  106.806264] 	 now=106804352943
+[  106.806269] 	 delta=-1881302 ktime_to_ns(now)=106804352943  rq_clock(rq)=106806234245
+[  106.806272] 	 act=107100392001
+[  106.806290] struharv: deadline.c.pick_next_task_dl
+[  106.806292] struharv: update_curr_rt pid: 1466 
+[  106.806294] struharv: update_curr_rt now=106806288972 deadline=107102273303
+[  106.806295] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  106.806296] struharv: update_curr_rt pid: 1466 
+[  106.806308] struharv: deadline.enqueue_dl_entity
+[  106.806311] struharv: update_dl_entity
+[  106.806316] struharv: deadline.c.pick_next_task_dl
+[  106.810212] struharv: update_curr_rt pid: 1466 
+[  106.810216] struharv: update_curr_rt now=106810207715 deadline=107086283353
+[  106.810232] struharv: update_curr_rt dl_runtime_exceeded
+[  106.810236] struharv: deadline.c.start_dl_timer
+[  106.810238] 	 act=107086283353
+[  106.810239] 	 now=106808329502
+[  106.810242] 	 delta=-1878213 ktime_to_ns(now)=106808329502  rq_clock(rq)=106810207715
+[  106.810243] 	 act=107084405140
+[  106.810249] struharv: deadline.c.pick_next_task_dl
+[  106.810251] struharv: update_curr_rt pid: 1466 
+[  106.810266] struharv: update_curr_rt now=106810248538 deadline=107086283353
+[  106.810268] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  106.810284] struharv: update_curr_rt pid: 1466 
+[  106.810286] struharv: update_curr_rt now=106810281729 deadline=107086283353
+[  106.810286] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  106.810292] struharv: deadline.enqueue_dl_entity
+[  106.810294] struharv: update_dl_entity
+[  106.810297] struharv: deadline.c.pick_next_task_dl
+[  106.814212] struharv: update_curr_rt pid: 1466 
+[  106.814216] struharv: update_curr_rt now=106814208589 deadline=107190312588
+[  106.814219] struharv: update_curr_rt dl_runtime_exceeded
+[  106.814222] struharv: deadline.c.start_dl_timer
+[  106.814224] 	 act=107190312588
+[  106.814231] 	 now=106812320724
+[  106.814238] 	 delta=-1887865 ktime_to_ns(now)=106812320724  rq_clock(rq)=106814208589
+[  106.814254] 	 act=107188424723
+[  106.814266] struharv: deadline.c.pick_next_task_dl
+[  106.814267] struharv: update_curr_rt pid: 1466 
+[  106.814268] struharv: update_curr_rt now=106814261663 deadline=107190312588
+[  106.814269] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  106.814270] struharv: update_curr_rt pid: 1466 
+[  106.814275] struharv: deadline.enqueue_dl_entity
+[  106.814277] struharv: update_dl_entity
+[  106.814280] struharv: deadline.c.pick_next_task_dl
+[  106.816102] struhar: sys_custom_syscall_now: ------ 
+[  106.816106] 	 now=106814195308
+[  106.816109] 	 delta=-190753 ktime_to_ns(now)=106814195308  rq_clock(rq)=106814386061
+[  106.816151] struhar: sys_custom_syscall_change: ------ 
+[  106.816152] 	 act=107094300572
+[  106.816153] 	 now=106814243710
+[  106.816155] 	 delta=-1902444 ktime_to_ns(now)=106814243710  rq_clock(rq)=106816146154
+[  106.816155] 	 act=107092398128
+[  106.816156] struharv sys_custom_syscall_change runtime deadline=107094300572
+[  106.816165] struharv: update_curr_rt pid: 1466 
+[  106.816167] struharv: update_curr_rt now=106816164181 deadline=107094300572
+[  106.816168] struharv: update_curr_rt dl_runtime_exceeded
+[  106.816170] struharv: deadline.c.start_dl_timer
+[  106.816171] 	 act=107094300572
+[  106.816172] 	 now=106814262583
+[  106.816173] 	 delta=-1901598 ktime_to_ns(now)=106814262583  rq_clock(rq)=106816164181
+[  106.816174] 	 act=107092398974
+[  106.816176] struharv: deadline.c.pick_next_task_dl
+[  106.816177] struharv: update_curr_rt pid: 1466 
+[  106.816178] struharv: update_curr_rt pid: 1466 
+[  107.086327] struharv: dl_task_timer
+[  107.086329] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  107.086335] struharv: deadline.c.dl_task_timer ELSE
+[  107.086337] struharv: deadline.c.replenish_dl_entity
+[  107.086342] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.086344] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.086346] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.086348] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.094318] struharv: dl_task_timer
+[  107.094319] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  107.094324] struharv: deadline.c.dl_task_timer ELSE
+[  107.094326] struharv: deadline.c.replenish_dl_entity
+[  107.094330] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.094332] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.094334] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.096271] struharv: deadline.enqueue_dl_entity
+[  107.096276] struharv: update_dl_entity
+[  107.096300] struharv: deadline.c.pick_next_task_dl
+[  107.098209] struharv: update_curr_rt pid: 1466 
+[  107.098212] struharv: update_curr_rt now=107098207125 deadline=107394300572
+[  107.098214] struharv: update_curr_rt dl_runtime_exceeded
+[  107.098216] struharv: deadline.c.start_dl_timer
+[  107.098217] 	 act=107394300572
+[  107.098218] 	 now=107096308583
+[  107.098220] 	 delta=-1898542 ktime_to_ns(now)=107096308583  rq_clock(rq)=107098207125
+[  107.098221] 	 act=107392402030
+[  107.098235] struharv: deadline.c.pick_next_task_dl
+[  107.098237] struharv: update_curr_rt pid: 1466 
+[  107.098238] struharv: update_curr_rt now=107098234767 deadline=107394300572
+[  107.098239] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  107.098241] struharv: update_curr_rt pid: 1466 
+[  107.098247] struharv: deadline.enqueue_dl_entity
+[  107.098248] struharv: update_dl_entity
+[  107.098258] struharv: deadline.c.pick_next_task_dl
+[  107.102210] struharv: update_curr_rt pid: 1466 
+[  107.102213] struharv: update_curr_rt now=107102207563 deadline=107486283353
+[  107.102215] struharv: update_curr_rt dl_runtime_exceeded
+[  107.102218] struharv: deadline.c.start_dl_timer
+[  107.102219] 	 act=107486283353
+[  107.102220] 	 now=107100310577
+[  107.102222] 	 delta=-1896986 ktime_to_ns(now)=107100310577  rq_clock(rq)=107102207563
+[  107.102223] 	 act=107484386367
+[  107.102235] struharv: deadline.c.pick_next_task_dl
+[  107.102239] struharv: update_curr_rt pid: 1466 
+[  107.102247] struharv: update_curr_rt now=107102233713 deadline=107486283353
+[  107.102253] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  107.102258] struharv: update_curr_rt pid: 1466 
+[  107.102306] struharv: dl_task_timer
+[  107.102308] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  107.102313] struharv: deadline.enqueue_dl_entity
+[  107.102315] struharv: deadline.c.replenish_dl_entity
+[  107.102319] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.102321] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.102324] struharv: deadline.c.pick_next_task_dl
+[  107.106209] struharv: update_curr_rt pid: 1466 
+[  107.106211] struharv: update_curr_rt now=107106207411 deadline=107302273303
+[  107.106212] struharv: update_curr_rt dl_runtime_exceeded
+[  107.106214] struharv: deadline.c.start_dl_timer
+[  107.106215] 	 act=107302273303
+[  107.106217] 	 now=107104306943
+[  107.106219] 	 delta=-1900468 ktime_to_ns(now)=107104306943  rq_clock(rq)=107106207411
+[  107.106221] 	 act=107300372835
+[  107.106235] struharv: deadline.c.pick_next_task_dl
+[  107.106237] struharv: update_curr_rt pid: 1466 
+[  107.106240] struharv: update_curr_rt now=107106234413 deadline=107302273303
+[  107.106241] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  107.106243] struharv: update_curr_rt pid: 1466 
+[  107.124609] struharv: deadline.c.pick_next_task_dl
+[  107.190345] struharv: dl_task_timer
+[  107.190348] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  107.190355] struharv: deadline.enqueue_dl_entity
+[  107.190357] struharv: deadline.c.replenish_dl_entity
+[  107.190361] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.190363] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.190365] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.190367] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.190394] struharv: deadline.c.pick_next_task_dl
+[  107.192690] struhar: sys_custom_syscall_now: ------ 
+[  107.192693] 	 now=107190782683
+[  107.192694] 	 delta=389549 ktime_to_ns(now)=107190782683  rq_clock(rq)=107190393134
+[  107.192705] struhar: sys_custom_syscall_change: ------ 
+[  107.192706] 	 act=107590312588
+[  107.192707] 	 now=107190797673
+[  107.192709] 	 delta=404539 ktime_to_ns(now)=107190797673  rq_clock(rq)=107190393134
+[  107.192710] 	 act=107590717127
+[  107.192711] struharv sys_custom_syscall_change runtime deadline=107590312588
+[  107.192721] struharv: update_curr_rt pid: 1466 
+[  107.192723] struharv: update_curr_rt now=107192719605 deadline=107590312588
+[  107.192725] struharv: update_curr_rt dl_runtime_exceeded
+[  107.192727] struharv: deadline.c.start_dl_timer
+[  107.192728] 	 act=107590312588
+[  107.192729] 	 now=107190819637
+[  107.192731] 	 delta=-1899968 ktime_to_ns(now)=107190819637  rq_clock(rq)=107192719605
+[  107.192732] 	 act=107588412620
+[  107.192733] struharv: deadline.c.pick_next_task_dl
+[  107.192735] struharv: update_curr_rt pid: 1466 
+[  107.192736] struharv: update_curr_rt pid: 1466 
+[  107.193145] struharv: deadline.c.pick_next_task_dl
+[  107.302296] struharv: dl_task_timer
+[  107.302299] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  107.302303] struharv: deadline.c.dl_task_timer ELSE
+[  107.302304] struharv: deadline.c.replenish_dl_entity
+[  107.302310] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.302312] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.302314] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.302316] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.394321] struharv: dl_task_timer
+[  107.394322] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  107.394326] struharv: deadline.c.dl_task_timer ELSE
+[  107.394328] struharv: deadline.c.replenish_dl_entity
+[  107.394333] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.394335] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.486304] struharv: dl_task_timer
+[  107.486306] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  107.486311] struharv: deadline.c.dl_task_timer ELSE
+[  107.486313] struharv: deadline.c.replenish_dl_entity
+[  107.486318] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.486321] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.486323] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.486325] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.508922] struharv:inactive_task_timer
+[  107.590357] struharv: dl_task_timer
+[  107.590359] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  107.590365] struharv: deadline.c.dl_task_timer ELSE
+[  107.590367] struharv: deadline.c.replenish_dl_entity
+[  107.590373] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.590376] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.590378] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.592262] struharv: deadline.enqueue_dl_entity
+[  107.592268] struharv: update_dl_entity
+[  107.592307] struharv: deadline.c.pick_next_task_dl
+[  107.594219] struharv: update_curr_rt pid: 1466 
+[  107.594225] struharv: update_curr_rt now=107594213175 deadline=107890312588
+[  107.594229] struharv: update_curr_rt dl_runtime_exceeded
+[  107.594234] struharv: deadline.c.start_dl_timer
+[  107.594236] 	 act=107890312588
+[  107.594238] 	 now=107592327869
+[  107.594241] 	 delta=-1885306 ktime_to_ns(now)=107592327869  rq_clock(rq)=107594213175
+[  107.594243] 	 act=107888427282
+[  107.594272] struharv: deadline.c.pick_next_task_dl
+[  107.594278] struharv: update_curr_rt pid: 1466 
+[  107.594282] struharv: update_curr_rt now=107594270696 deadline=107890312588
+[  107.594284] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  107.594287] struharv: update_curr_rt pid: 1466 
+[  107.594300] struharv: deadline.enqueue_dl_entity
+[  107.594304] struharv: update_dl_entity
+[  107.594309] struharv: deadline.c.pick_next_task_dl
+[  107.598219] struharv: update_curr_rt pid: 1466 
+[  107.598225] struharv: update_curr_rt now=107598212626 deadline=107886283353
+[  107.598228] struharv: update_curr_rt dl_runtime_exceeded
+[  107.598234] struharv: deadline.c.start_dl_timer
+[  107.598236] 	 act=107886283353
+[  107.598238] 	 now=107596328181
+[  107.598242] 	 delta=-1884445 ktime_to_ns(now)=107596328181  rq_clock(rq)=107598212626
+[  107.598244] 	 act=107884398908
+[  107.598268] struharv: deadline.c.pick_next_task_dl
+[  107.598271] struharv: update_curr_rt pid: 1466 
+[  107.598278] struharv: update_curr_rt now=107598262876 deadline=107886283353
+[  107.598282] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  107.598289] struharv: update_curr_rt pid: 1466 
+[  107.598304] struharv: deadline.enqueue_dl_entity
+[  107.598308] struharv: update_dl_entity
+[  107.598315] struharv: update_dl_entity STEP1
+[  107.598322] struharv: update_dl_entity rq_clock(rq): 107598303285
+[  107.598340] struharv: deadline.c.pick_next_task_dl
+[  107.602217] struharv: update_curr_rt pid: 1466 
+[  107.602225] struharv: update_curr_rt now=107602212952 deadline=107698303285
+[  107.602229] struharv: update_curr_rt dl_runtime_exceeded
+[  107.602240] struharv: deadline.c.start_dl_timer
+[  107.602247] 	 act=107698303285
+[  107.602251] 	 now=107600340207
+[  107.602256] 	 delta=-1872745 ktime_to_ns(now)=107600340207  rq_clock(rq)=107602212952
+[  107.602260] 	 act=107696430540
+[  107.602299] struharv: deadline.c.pick_next_task_dl
+[  107.602307] struharv: update_curr_rt pid: 1466 
+[  107.602313] struharv: update_curr_rt now=107602297068 deadline=107698303285
+[  107.602316] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  107.602322] struharv: update_curr_rt pid: 1466 
+[  107.602344] struharv: deadline.enqueue_dl_entity
+[  107.602349] struharv: update_dl_entity
+[  107.602357] struharv: deadline.c.pick_next_task_dl
+[  107.604024] struhar: sys_custom_syscall_now: ------ 
+[  107.604026] 	 now=107602116451
+[  107.604028] 	 delta=-319036 ktime_to_ns(now)=107602116451  rq_clock(rq)=107602435487
+[  107.604037] struhar: sys_custom_syscall_change: ------ 
+[  107.604038] 	 act=107702273303
+[  107.604039] 	 now=107602129611
+[  107.604041] 	 delta=-305876 ktime_to_ns(now)=107602129611  rq_clock(rq)=107602435487
+[  107.604042] 	 act=107701967427
+[  107.604043] struharv sys_custom_syscall_change runtime deadline=107702273303
+[  107.604056] struharv: update_curr_rt pid: 1466 
+[  107.604059] struharv: update_curr_rt now=107604055386 deadline=107702273303
+[  107.604060] struharv: update_curr_rt dl_runtime_exceeded
+[  107.604063] struharv: deadline.c.start_dl_timer
+[  107.604064] 	 act=107702273303
+[  107.604065] 	 now=107602155379
+[  107.604067] 	 delta=-1900007 ktime_to_ns(now)=107602155379  rq_clock(rq)=107604055386
+[  107.604067] 	 act=107700373296
+[  107.604069] struharv: deadline.c.pick_next_task_dl
+[  107.604071] struharv: update_curr_rt pid: 1466 
+[  107.604072] struharv: update_curr_rt pid: 1466 
+[  107.627553] struharv: deadline.c.init_dl_task_timer 0 0
+[  107.627593] struharv: deadline.c.init_dl_task_timer 0 0
+[  107.627949] struharv: deadline.c.init_dl_task_timer 0 0
+[  107.630033] struharv: init_dl_bandwidth  rt_runtime = 0, rt_period = 1000000000
+[  107.630037] struharv: deadline.c.init_dl_task_timer 0 0
+[  107.630040] struharv: deadline.c.init_dl_task_timer 0 0
+[  107.630042] struharv: deadline.c.init_dl_task_timer 0 0
+[  107.630044] struharv: deadline.c.init_dl_task_timer 0 0
+[  107.630046] struharv: deadline.c.init_dl_task_timer 0 0
+[  107.630048] struharv: deadline.c.init_dl_task_timer 0 0
+[  107.630050] struharv: deadline.c.init_dl_task_timer 0 0
+[  107.630052] struharv: deadline.c.init_dl_task_timer 0 0
+[  107.630055] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  107.630057] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  107.630059] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  107.630061] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  107.630062] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  107.630063] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  107.630064] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  107.630066] struharv: dl_init_tg  rt_runtime = 0, rt_period = 1000000000
+[  107.630128] struharv: deadline.c.pick_next_task_dl
+[  107.634421] struharv: deadline.c.init_dl_task_timer 0 0
+[  107.698347] struharv: dl_task_timer
+[  107.698350] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  107.698355] struharv: deadline.c.dl_task_timer ELSE
+[  107.698356] struharv: deadline.c.replenish_dl_entity
+[  107.698362] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.698365] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.698367] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.698368] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.702297] struharv: dl_task_timer
+[  107.702302] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  107.702314] struharv: deadline.c.dl_task_timer ELSE
+[  107.702319] struharv: deadline.c.replenish_dl_entity
+[  107.702329] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.702342] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.704220] struharv: deadline.enqueue_dl_entity
+[  107.704226] struharv: update_dl_entity
+[  107.704258] struharv: deadline.c.pick_next_task_dl
+[  107.706211] struharv: update_curr_rt pid: 1466 
+[  107.706212] struharv: update_curr_rt now=107706208992 deadline=107902273303
+[  107.706214] struharv: update_curr_rt dl_runtime_exceeded
+[  107.706216] struharv: deadline.c.start_dl_timer
+[  107.706216] 	 act=107902273303
+[  107.706217] 	 now=107704307817
+[  107.706218] 	 delta=-1901175 ktime_to_ns(now)=107704307817  rq_clock(rq)=107706208992
+[  107.706219] 	 act=107900372128
+[  107.706232] struharv: deadline.c.pick_next_task_dl
+[  107.706234] struharv: update_curr_rt pid: 1466 
+[  107.706235] struharv: update_curr_rt now=107706231981 deadline=107902273303
+[  107.706236] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  107.706240] struharv: update_curr_rt pid: 1466 
+[  107.706245] struharv: deadline.enqueue_dl_entity
+[  107.706247] struharv: update_dl_entity
+[  107.706251] struharv: deadline.c.pick_next_task_dl
+[  107.710209] struharv: update_curr_rt pid: 1466 
+[  107.710212] struharv: update_curr_rt now=107710207050 deadline=108098303285
+[  107.710214] struharv: update_curr_rt dl_runtime_exceeded
+[  107.710216] struharv: deadline.c.start_dl_timer
+[  107.710218] 	 act=108098303285
+[  107.710219] 	 now=107708309667
+[  107.710222] 	 delta=-1897383 ktime_to_ns(now)=107708309667  rq_clock(rq)=107710207050
+[  107.710223] 	 act=108096405902
+[  107.710244] struharv: deadline.c.pick_next_task_dl
+[  107.710247] struharv: update_curr_rt pid: 1466 
+[  107.710252] struharv: update_curr_rt now=107710244226 deadline=108098303285
+[  107.710255] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  107.710258] struharv: update_curr_rt pid: 1466 
+[  107.886343] struharv: dl_task_timer
+[  107.886345] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  107.886357] struharv: deadline.enqueue_dl_entity
+[  107.886359] struharv: deadline.c.replenish_dl_entity
+[  107.886366] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.886368] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.886369] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.886371] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.886373] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.886416] struharv: deadline.c.pick_next_task_dl
+[  107.890219] struharv: update_curr_rt pid: 1466 
+[  107.890227] struharv: update_curr_rt now=107890213086 deadline=108386283353
+[  107.890230] struharv: update_curr_rt dl_runtime_exceeded
+[  107.890236] struharv: deadline.c.start_dl_timer
+[  107.890238] 	 act=108386283353
+[  107.890240] 	 now=107888329780
+[  107.890242] 	 delta=-1883306 ktime_to_ns(now)=107888329780  rq_clock(rq)=107890213086
+[  107.890244] 	 act=108384400047
+[  107.890272] struharv: deadline.c.pick_next_task_dl
+[  107.890274] struharv: update_curr_rt pid: 1466 
+[  107.890277] struharv: update_curr_rt now=107890263871 deadline=108386283353
+[  107.890278] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  107.890279] struharv: update_curr_rt pid: 1466 
+[  107.890353] struharv: dl_task_timer
+[  107.890354] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  107.890361] struharv: deadline.enqueue_dl_entity
+[  107.890363] struharv: deadline.c.replenish_dl_entity
+[  107.890367] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.890370] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.890374] struharv: deadline.c.pick_next_task_dl
+[  107.892315] struhar: sys_custom_syscall_now: ------ 
+[  107.892318] 	 now=107890407623
+[  107.892322] 	 delta=33402 ktime_to_ns(now)=107890407623  rq_clock(rq)=107890374221
+[  107.892348] struhar: sys_custom_syscall_change: ------ 
+[  107.892351] 	 act=108090312588
+[  107.892354] 	 now=107890443488
+[  107.892359] 	 delta=69267 ktime_to_ns(now)=107890443488  rq_clock(rq)=107890374221
+[  107.892360] 	 act=108090381855
+[  107.892362] struharv sys_custom_syscall_change runtime deadline=108090312588
+[  107.892400] struharv: update_curr_rt pid: 1466 
+[  107.892405] struharv: update_curr_rt now=107892396077 deadline=108090312588
+[  107.892413] struharv: update_curr_rt dl_runtime_exceeded
+[  107.892419] struharv: deadline.c.start_dl_timer
+[  107.892421] 	 act=108090312588
+[  107.892423] 	 now=107890513244
+[  107.892425] 	 delta=-1882833 ktime_to_ns(now)=107890513244  rq_clock(rq)=107892396077
+[  107.892426] 	 act=108088429755
+[  107.892430] struharv: deadline.c.pick_next_task_dl
+[  107.892435] struharv: update_curr_rt pid: 1466 
+[  107.892438] struharv: update_curr_rt pid: 1466 
+[  107.902287] struharv: dl_task_timer
+[  107.902288] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  107.902293] struharv: deadline.c.dl_task_timer ELSE
+[  107.902295] struharv: deadline.c.replenish_dl_entity
+[  107.902299] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.902301] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  107.906315] struharv: deadline.c.pick_next_task_dl
+[  108.090350] struharv: dl_task_timer
+[  108.090354] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  108.090358] struharv: deadline.c.dl_task_timer ELSE
+[  108.090359] struharv: deadline.c.replenish_dl_entity
+[  108.090365] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.090367] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.091536] struharv:inactive_task_timer
+[  108.092301] struharv: deadline.enqueue_dl_entity
+[  108.092306] struharv: update_dl_entity
+[  108.092328] struharv: deadline.c.pick_next_task_dl
+[  108.094224] struharv: update_curr_rt pid: 1466 
+[  108.094228] struharv: update_curr_rt now=108094221917 deadline=108290312588
+[  108.094230] struharv: update_curr_rt dl_runtime_exceeded
+[  108.094238] struharv: deadline.c.start_dl_timer
+[  108.094244] 	 act=108290312588
+[  108.094249] 	 now=108092338614
+[  108.094253] 	 delta=-1883303 ktime_to_ns(now)=108092338614  rq_clock(rq)=108094221917
+[  108.094254] 	 act=108288429285
+[  108.094272] struharv: deadline.c.pick_next_task_dl
+[  108.094273] struharv: update_curr_rt pid: 1466 
+[  108.094275] struharv: update_curr_rt now=108094265350 deadline=108290312588
+[  108.094276] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  108.094277] struharv: update_curr_rt pid: 1466 
+[  108.094282] struharv: deadline.enqueue_dl_entity
+[  108.094284] struharv: update_dl_entity
+[  108.094289] struharv: update_dl_entity STEP1
+[  108.094290] struharv: update_dl_entity rq_clock(rq): 108094282336
+[  108.094294] struharv: deadline.c.pick_next_task_dl
+[  108.098211] struharv: update_curr_rt pid: 1466 
+[  108.098215] struharv: update_curr_rt now=108098208566 deadline=108194282336
+[  108.098217] struharv: update_curr_rt dl_runtime_exceeded
+[  108.098222] struharv: deadline.c.start_dl_timer
+[  108.098223] 	 act=108194282336
+[  108.098238] 	 now=108096315146
+[  108.098240] 	 delta=-1893420 ktime_to_ns(now)=108096315146  rq_clock(rq)=108098208566
+[  108.098241] 	 act=108192388916
+[  108.098247] struharv: deadline.c.pick_next_task_dl
+[  108.098248] struharv: update_curr_rt pid: 1466 
+[  108.098253] struharv: update_curr_rt now=108098246542 deadline=108194282336
+[  108.098257] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  108.098276] struharv: update_curr_rt pid: 1466 
+[  108.098321] struharv: dl_task_timer
+[  108.098323] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  108.098328] struharv: deadline.enqueue_dl_entity
+[  108.098330] struharv: deadline.c.replenish_dl_entity
+[  108.098334] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.098337] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.098339] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.098342] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.098346] struharv: deadline.c.pick_next_task_dl
+[  108.102218] struharv: update_curr_rt pid: 1466 
+[  108.102220] struharv: update_curr_rt now=108102215743 deadline=108498303285
+[  108.102223] struharv: update_curr_rt dl_runtime_exceeded
+[  108.102225] struharv: deadline.c.start_dl_timer
+[  108.102226] 	 act=108498303285
+[  108.102227] 	 now=108100317620
+[  108.102231] 	 delta=-1898123 ktime_to_ns(now)=108100317620  rq_clock(rq)=108102215743
+[  108.102235] 	 act=108496405162
+[  108.102249] struharv: deadline.c.pick_next_task_dl
+[  108.102251] struharv: update_curr_rt pid: 1466 
+[  108.102253] struharv: update_curr_rt now=108102248731 deadline=108498303285
+[  108.102254] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  108.102261] struharv: update_curr_rt pid: 1466 
+[  108.102263] struharv: update_curr_rt now=108102255281 deadline=108498303285
+[  108.102264] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  108.186235] struharv: deadline.c.pick_next_task_dl
+[  108.186240] struharv: deadline.c.pick_next_task_dl
+[  108.190240] struharv: deadline.c.pick_next_task_dl
+[  108.194249] struharv: deadline.c.pick_next_task_dl
+[  108.194304] struharv: dl_task_timer
+[  108.194306] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  108.194313] struharv: deadline.enqueue_dl_entity
+[  108.194315] struharv: deadline.c.replenish_dl_entity
+[  108.194321] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.194323] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.194326] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.194329] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.194334] struharv: deadline.c.pick_next_task_dl
+[  108.195927] struhar: sys_custom_syscall_now: ------ 
+[  108.195930] 	 now=108194019814
+[  108.195933] 	 delta=-313839 ktime_to_ns(now)=108194019814  rq_clock(rq)=108194333653
+[  108.195946] struhar: sys_custom_syscall_change: ------ 
+[  108.195947] 	 act=108594282336
+[  108.195949] 	 now=108194039038
+[  108.195953] 	 delta=-294615 ktime_to_ns(now)=108194039038  rq_clock(rq)=108194333653
+[  108.195955] 	 act=108593987721
+[  108.195956] struharv sys_custom_syscall_change runtime deadline=108594282336
+[  108.195978] struharv: update_curr_rt pid: 1466 
+[  108.195981] struharv: update_curr_rt now=108195976461 deadline=108594282336
+[  108.195984] struharv: update_curr_rt dl_runtime_exceeded
+[  108.195986] struharv: deadline.c.start_dl_timer
+[  108.195987] 	 act=108594282336
+[  108.195989] 	 now=108194079212
+[  108.195991] 	 delta=-1897249 ktime_to_ns(now)=108194079212  rq_clock(rq)=108195976461
+[  108.195992] 	 act=108592385087
+[  108.195995] struharv: deadline.c.pick_next_task_dl
+[  108.195997] struharv: update_curr_rt pid: 1466 
+[  108.195999] struharv: update_curr_rt pid: 1466 
+[  108.290350] struharv: dl_task_timer
+[  108.290352] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  108.290358] struharv: deadline.c.dl_task_timer ELSE
+[  108.290360] struharv: deadline.c.replenish_dl_entity
+[  108.290366] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.290368] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.386320] struharv: dl_task_timer
+[  108.386321] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  108.386327] struharv: deadline.c.dl_task_timer ELSE
+[  108.386329] struharv: deadline.c.replenish_dl_entity
+[  108.386334] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.386336] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.386338] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.386340] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.468216] struharv:inactive_task_timer
+[  108.498325] struharv: dl_task_timer
+[  108.498327] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  108.498331] struharv: deadline.c.dl_task_timer ELSE
+[  108.498333] struharv: deadline.c.replenish_dl_entity
+[  108.498338] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.498340] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.498342] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.498343] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.498346] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.594305] struharv: dl_task_timer
+[  108.594306] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  108.594310] struharv: deadline.c.dl_task_timer ELSE
+[  108.594311] struharv: deadline.c.replenish_dl_entity
+[  108.594316] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.594318] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.596241] struharv: deadline.enqueue_dl_entity
+[  108.596244] struharv: update_dl_entity
+[  108.596254] struharv: deadline.c.pick_next_task_dl
+[  108.598228] struharv: update_curr_rt pid: 1466 
+[  108.598232] struharv: update_curr_rt now=108598225540 deadline=108794282336
+[  108.598235] struharv: update_curr_rt dl_runtime_exceeded
+[  108.598237] struharv: deadline.c.start_dl_timer
+[  108.598239] 	 act=108794282336
+[  108.598240] 	 now=108596330735
+[  108.598243] 	 delta=-1894805 ktime_to_ns(now)=108596330735  rq_clock(rq)=108598225540
+[  108.598244] 	 act=108792387531
+[  108.598264] struharv: deadline.c.pick_next_task_dl
+[  108.598266] struharv: update_curr_rt pid: 1466 
+[  108.598273] struharv: update_curr_rt now=108598259754 deadline=108794282336
+[  108.598280] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  108.598289] struharv: update_curr_rt pid: 1466 
+[  108.598299] struharv: deadline.enqueue_dl_entity
+[  108.598301] struharv: update_dl_entity
+[  108.598306] struharv: deadline.c.pick_next_task_dl
+[  108.602209] struharv: update_curr_rt pid: 1466 
+[  108.602213] struharv: update_curr_rt now=108602207153 deadline=108786283353
+[  108.602214] struharv: update_curr_rt dl_runtime_exceeded
+[  108.602218] struharv: deadline.c.start_dl_timer
+[  108.602219] 	 act=108786283353
+[  108.602220] 	 now=108600310367
+[  108.602221] 	 delta=-1896786 ktime_to_ns(now)=108600310367  rq_clock(rq)=108602207153
+[  108.602222] 	 act=108784386567
+[  108.602243] struharv: deadline.c.pick_next_task_dl
+[  108.602245] struharv: update_curr_rt pid: 1466 
+[  108.602252] struharv: update_curr_rt now=108602237154 deadline=108786283353
+[  108.602259] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  108.602265] struharv: update_curr_rt pid: 1466 
+[  108.602275] struharv: deadline.enqueue_dl_entity
+[  108.602278] struharv: update_dl_entity
+[  108.602282] struharv: update_dl_entity STEP1
+[  108.602285] struharv: update_dl_entity rq_clock(rq): 108602273674
+[  108.602293] struharv: deadline.c.pick_next_task_dl
+[  108.606210] struharv: update_curr_rt pid: 1466 
+[  108.606213] struharv: update_curr_rt now=108606207001 deadline=108702273674
+[  108.606215] struharv: update_curr_rt dl_runtime_exceeded
+[  108.606218] struharv: deadline.c.start_dl_timer
+[  108.606220] 	 act=108702273674
+[  108.606222] 	 now=108604312063
+[  108.606224] 	 delta=-1894938 ktime_to_ns(now)=108604312063  rq_clock(rq)=108606207001
+[  108.606226] 	 act=108700378736
+[  108.606254] struharv: deadline.c.pick_next_task_dl
+[  108.606256] struharv: update_curr_rt pid: 1466 
+[  108.606261] struharv: update_curr_rt now=108606253352 deadline=108702273674
+[  108.606265] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  108.606269] struharv: update_curr_rt pid: 1466 
+[  108.606273] struharv: deadline.enqueue_dl_entity
+[  108.606275] struharv: update_dl_entity
+[  108.606281] struharv: deadline.c.pick_next_task_dl
+[  108.607878] struhar: sys_custom_syscall_now: ------ 
+[  108.607881] 	 now=108605970941
+[  108.607883] 	 delta=-309785 ktime_to_ns(now)=108605970941  rq_clock(rq)=108606280726
+[  108.607892] struhar: sys_custom_syscall_change: ------ 
+[  108.607893] 	 act=108998303285
+[  108.607894] 	 now=108605984174
+[  108.607895] 	 delta=-296552 ktime_to_ns(now)=108605984174  rq_clock(rq)=108606280726
+[  108.607896] 	 act=108998006733
+[  108.607897] struharv sys_custom_syscall_change runtime deadline=108998303285
+[  108.607909] struharv: update_curr_rt pid: 1466 
+[  108.607912] struharv: update_curr_rt now=108607908501 deadline=108998303285
+[  108.607913] struharv: update_curr_rt dl_runtime_exceeded
+[  108.607915] struharv: deadline.c.start_dl_timer
+[  108.607916] 	 act=108998303285
+[  108.607917] 	 now=108606007948
+[  108.607919] 	 delta=-1900553 ktime_to_ns(now)=108606007948  rq_clock(rq)=108607908501
+[  108.607920] 	 act=108996402732
+[  108.607922] struharv: deadline.c.pick_next_task_dl
+[  108.607923] struharv: update_curr_rt pid: 1466 
+[  108.607924] struharv: update_curr_rt pid: 1466 
+[  108.607984] struharv: deadline.c.pick_next_task_dl
+[  108.608061] struharv: deadline.c.pick_next_task_dl
+[  108.608127] struharv: deadline.c.pick_next_task_dl
+[  108.608272] struharv: deadline.c.pick_next_task_dl
+[  108.702301] struharv: dl_task_timer
+[  108.702304] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  108.702308] struharv: deadline.c.dl_task_timer ELSE
+[  108.702309] struharv: deadline.c.replenish_dl_entity
+[  108.702315] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.702317] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.702319] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.702321] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.786301] struharv: dl_task_timer
+[  108.786303] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  108.786306] struharv: deadline.c.dl_task_timer ELSE
+[  108.786308] struharv: deadline.c.replenish_dl_entity
+[  108.786313] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.786315] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.786317] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.786319] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.794305] struharv: dl_task_timer
+[  108.794307] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  108.794311] struharv: deadline.c.dl_task_timer ELSE
+[  108.794313] struharv: deadline.c.replenish_dl_entity
+[  108.794317] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.794319] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  108.932666] struharv:inactive_task_timer
+[  108.998324] struharv: dl_task_timer
+[  108.998326] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  108.998330] struharv: deadline.c.dl_task_timer ELSE
+[  108.998332] struharv: deadline.c.replenish_dl_entity
+[  108.998337] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.000245] struharv: deadline.enqueue_dl_entity
+[  109.000249] struharv: update_dl_entity
+[  109.000259] struharv: deadline.c.pick_next_task_dl
+[  109.002226] struharv: update_curr_rt pid: 1466 
+[  109.002229] struharv: update_curr_rt now=109002222582 deadline=109098303285
+[  109.002231] struharv: update_curr_rt dl_runtime_exceeded
+[  109.002233] struharv: deadline.c.start_dl_timer
+[  109.002235] 	 act=109098303285
+[  109.002236] 	 now=109000326833
+[  109.002239] 	 delta=-1895749 ktime_to_ns(now)=109000326833  rq_clock(rq)=109002222582
+[  109.002240] 	 act=109096407536
+[  109.002262] struharv: deadline.c.pick_next_task_dl
+[  109.002265] struharv: update_curr_rt pid: 1466 
+[  109.002271] struharv: update_curr_rt now=109002260391 deadline=109098303285
+[  109.002277] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  109.002288] struharv: update_curr_rt pid: 1466 
+[  109.002298] struharv: deadline.enqueue_dl_entity
+[  109.002301] struharv: update_dl_entity
+[  109.002306] struharv: deadline.c.pick_next_task_dl
+[  109.006211] struharv: update_curr_rt pid: 1466 
+[  109.006216] struharv: update_curr_rt now=109006208134 deadline=109186283353
+[  109.006217] struharv: update_curr_rt dl_runtime_exceeded
+[  109.006222] struharv: deadline.c.start_dl_timer
+[  109.006223] 	 act=109186283353
+[  109.006224] 	 now=109004314778
+[  109.006227] 	 delta=-1893356 ktime_to_ns(now)=109004314778  rq_clock(rq)=109006208134
+[  109.006228] 	 act=109184389997
+[  109.006254] struharv: deadline.c.pick_next_task_dl
+[  109.006256] struharv: update_curr_rt pid: 1466 
+[  109.006263] struharv: update_curr_rt now=109006249287 deadline=109186283353
+[  109.006269] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  109.006274] struharv: update_curr_rt pid: 1466 
+[  109.006280] struharv: deadline.enqueue_dl_entity
+[  109.006282] struharv: update_dl_entity
+[  109.006287] struharv: deadline.c.pick_next_task_dl
+[  109.010210] struharv: update_curr_rt pid: 1466 
+[  109.010214] struharv: update_curr_rt now=109010207835 deadline=109102273674
+[  109.010216] struharv: update_curr_rt dl_runtime_exceeded
+[  109.010219] struharv: deadline.c.start_dl_timer
+[  109.010221] 	 act=109102273674
+[  109.010222] 	 now=109008312317
+[  109.010224] 	 delta=-1895518 ktime_to_ns(now)=109008312317  rq_clock(rq)=109010207835
+[  109.010226] 	 act=109100378156
+[  109.010239] struharv: deadline.c.pick_next_task_dl
+[  109.010255] struharv: update_curr_rt pid: 1466 
+[  109.010259] struharv: update_curr_rt now=109010235430 deadline=109102273674
+[  109.010263] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  109.010266] struharv: update_curr_rt pid: 1466 
+[  109.010272] struharv: deadline.enqueue_dl_entity
+[  109.010273] struharv: update_dl_entity
+[  109.010274] struharv: update_dl_entity STEP1
+[  109.010275] struharv: update_dl_entity rq_clock(rq): 109010272300
+[  109.010279] struharv: deadline.c.pick_next_task_dl
+[  109.010296] struharv: deadline.c.pick_next_task_dl
+[  109.012499] struhar: sys_custom_syscall_now: ------ 
+[  109.012502] 	 now=109010591713
+[  109.012503] 	 delta=291249 ktime_to_ns(now)=109010591713  rq_clock(rq)=109010300464
+[  109.012521] struhar: sys_custom_syscall_change: ------ 
+[  109.012523] 	 act=109110272300
+[  109.012524] 	 now=109010614573
+[  109.012526] 	 delta=314109 ktime_to_ns(now)=109010614573  rq_clock(rq)=109010300464
+[  109.012527] 	 act=109110586409
+[  109.012528] struharv sys_custom_syscall_change runtime deadline=109110272300
+[  109.012543] struharv: update_curr_rt pid: 1466 
+[  109.012546] struharv: update_curr_rt now=109012541993 deadline=109110272300
+[  109.012547] struharv: update_curr_rt dl_runtime_exceeded
+[  109.012563] struharv: deadline.c.start_dl_timer
+[  109.012563] 	 act=109110272300
+[  109.012564] 	 now=109010654826
+[  109.012565] 	 delta=-1887167 ktime_to_ns(now)=109010654826  rq_clock(rq)=109012541993
+[  109.012566] 	 act=109108385133
+[  109.012568] struharv: deadline.c.pick_next_task_dl
+[  109.012570] struharv: update_curr_rt pid: 1466 
+[  109.012571] struharv: update_curr_rt pid: 1466 
+[  109.012683] struharv: deadline.c.pick_next_task_dl
+[  109.012894] struharv: deadline.c.pick_next_task_dl
+[  109.098330] struharv: dl_task_timer
+[  109.098334] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  109.098337] struharv: deadline.c.dl_task_timer ELSE
+[  109.098339] struharv: deadline.c.replenish_dl_entity
+[  109.098344] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.098346] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.098348] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.102293] struharv: dl_task_timer
+[  109.102295] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  109.102298] struharv: deadline.c.dl_task_timer ELSE
+[  109.102300] struharv: deadline.c.replenish_dl_entity
+[  109.102304] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.102306] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.102308] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.102310] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.110300] struharv: dl_task_timer
+[  109.110301] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  109.110305] struharv: deadline.c.dl_task_timer ELSE
+[  109.110306] struharv: deadline.c.replenish_dl_entity
+[  109.110311] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.110313] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.112226] struharv: deadline.enqueue_dl_entity
+[  109.112230] struharv: update_dl_entity
+[  109.112239] struharv: deadline.c.pick_next_task_dl
+[  109.114227] struharv: update_curr_rt pid: 1466 
+[  109.114230] struharv: update_curr_rt now=109114224162 deadline=109310272300
+[  109.114232] struharv: update_curr_rt dl_runtime_exceeded
+[  109.114238] struharv: deadline.c.start_dl_timer
+[  109.114239] 	 act=109310272300
+[  109.114245] 	 now=109112334374
+[  109.114252] 	 delta=-1889788 ktime_to_ns(now)=109112334374  rq_clock(rq)=109114224162
+[  109.114259] 	 act=109308382512
+[  109.114277] struharv: deadline.c.pick_next_task_dl
+[  109.114279] struharv: update_curr_rt pid: 1466 
+[  109.114282] struharv: update_curr_rt now=109114276460 deadline=109310272300
+[  109.114283] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  109.114286] struharv: update_curr_rt pid: 1466 
+[  109.114293] struharv: deadline.enqueue_dl_entity
+[  109.114295] struharv: update_dl_entity
+[  109.114305] struharv: deadline.c.pick_next_task_dl
+[  109.118211] struharv: update_curr_rt pid: 1466 
+[  109.118216] struharv: update_curr_rt now=109118208959 deadline=109502273674
+[  109.118217] struharv: update_curr_rt dl_runtime_exceeded
+[  109.118221] struharv: deadline.c.start_dl_timer
+[  109.118223] 	 act=109502273674
+[  109.118224] 	 now=109116314444
+[  109.118227] 	 delta=-1894515 ktime_to_ns(now)=109116314444  rq_clock(rq)=109118208959
+[  109.118228] 	 act=109500379159
+[  109.118240] struharv: deadline.c.pick_next_task_dl
+[  109.118242] struharv: update_curr_rt pid: 1466 
+[  109.118244] struharv: update_curr_rt now=109118239478 deadline=109502273674
+[  109.118247] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  109.118252] struharv: update_curr_rt pid: 1466 
+[  109.118263] struharv: deadline.enqueue_dl_entity
+[  109.118266] struharv: update_dl_entity
+[  109.118282] struharv: deadline.c.pick_next_task_dl
+[  109.122210] struharv: update_curr_rt pid: 1466 
+[  109.122214] struharv: update_curr_rt now=109122207420 deadline=109398303285
+[  109.122215] struharv: update_curr_rt dl_runtime_exceeded
+[  109.122218] struharv: deadline.c.start_dl_timer
+[  109.122219] 	 act=109398303285
+[  109.122220] 	 now=109120310637
+[  109.122222] 	 delta=-1896783 ktime_to_ns(now)=109120310637  rq_clock(rq)=109122207420
+[  109.122223] 	 act=109396406502
+[  109.122240] struharv: deadline.c.pick_next_task_dl
+[  109.122242] struharv: update_curr_rt pid: 1466 
+[  109.122245] struharv: update_curr_rt now=109122239650 deadline=109398303285
+[  109.122246] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  109.122247] struharv: update_curr_rt pid: 1466 
+[  109.186311] struharv: dl_task_timer
+[  109.186313] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  109.186319] struharv: deadline.enqueue_dl_entity
+[  109.186321] struharv: deadline.c.replenish_dl_entity
+[  109.186325] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.186341] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.186343] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.186344] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.186346] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.186365] struharv: deadline.c.pick_next_task_dl
+[  109.188665] struhar: sys_custom_syscall_now: ------ 
+[  109.188668] 	 now=109186757449
+[  109.188669] 	 delta=393170 ktime_to_ns(now)=109186757449  rq_clock(rq)=109186364279
+[  109.188678] struhar: sys_custom_syscall_change: ------ 
+[  109.188679] 	 act=109686283353
+[  109.188680] 	 now=109186770987
+[  109.188682] 	 delta=406708 ktime_to_ns(now)=109186770987  rq_clock(rq)=109186364279
+[  109.188683] 	 act=109686690061
+[  109.188683] struharv sys_custom_syscall_change runtime deadline=109686283353
+[  109.188693] struharv: update_curr_rt pid: 1466 
+[  109.188695] struharv: update_curr_rt now=109188691770 deadline=109686283353
+[  109.188696] struharv: update_curr_rt dl_runtime_exceeded
+[  109.188698] struharv: deadline.c.start_dl_timer
+[  109.188699] 	 act=109686283353
+[  109.188700] 	 now=109186790694
+[  109.188701] 	 delta=-1901076 ktime_to_ns(now)=109186790694  rq_clock(rq)=109188691770
+[  109.188702] 	 act=109684382277
+[  109.188704] struharv: deadline.c.pick_next_task_dl
+[  109.188705] struharv: update_curr_rt pid: 1466 
+[  109.188707] struharv: update_curr_rt pid: 1466 
+[  109.310304] struharv: dl_task_timer
+[  109.310306] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  109.310312] struharv: deadline.c.dl_task_timer ELSE
+[  109.310314] struharv: deadline.c.replenish_dl_entity
+[  109.310319] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.310322] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.398325] struharv: dl_task_timer
+[  109.398327] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  109.398332] struharv: deadline.c.dl_task_timer ELSE
+[  109.398334] struharv: deadline.c.replenish_dl_entity
+[  109.398338] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.398340] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.398343] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.398344] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.484185] struharv:inactive_task_timer
+[  109.502294] struharv: dl_task_timer
+[  109.502295] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  109.502299] struharv: deadline.c.dl_task_timer ELSE
+[  109.502301] struharv: deadline.c.replenish_dl_entity
+[  109.502305] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.502307] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.502309] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.502311] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.502313] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.686326] struharv: dl_task_timer
+[  109.686328] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  109.686334] struharv: deadline.c.dl_task_timer ELSE
+[  109.686336] struharv: deadline.c.replenish_dl_entity
+[  109.686342] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.686344] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.688238] struharv: deadline.enqueue_dl_entity
+[  109.688243] struharv: update_dl_entity
+[  109.688283] struharv: deadline.c.pick_next_task_dl
+[  109.690221] struharv: update_curr_rt pid: 1466 
+[  109.690228] struharv: update_curr_rt now=109690215336 deadline=109886283353
+[  109.690230] struharv: update_curr_rt dl_runtime_exceeded
+[  109.690234] struharv: deadline.c.start_dl_timer
+[  109.690237] 	 act=109886283353
+[  109.690239] 	 now=109688328789
+[  109.690242] 	 delta=-1886547 ktime_to_ns(now)=109688328789  rq_clock(rq)=109690215336
+[  109.690243] 	 act=109884396806
+[  109.690273] struharv: deadline.c.pick_next_task_dl
+[  109.690276] struharv: update_curr_rt pid: 1466 
+[  109.690279] struharv: update_curr_rt now=109690264234 deadline=109886283353
+[  109.690280] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  109.690282] struharv: update_curr_rt pid: 1466 
+[  109.690292] struharv: deadline.enqueue_dl_entity
+[  109.690295] struharv: update_dl_entity
+[  109.690302] struharv: deadline.c.pick_next_task_dl
+[  109.694212] struharv: update_curr_rt pid: 1466 
+[  109.694217] struharv: update_curr_rt now=109694208456 deadline=110002273674
+[  109.694220] struharv: update_curr_rt dl_runtime_exceeded
+[  109.694224] struharv: deadline.c.start_dl_timer
+[  109.694226] 	 act=110002273674
+[  109.694228] 	 now=109692318247
+[  109.694230] 	 delta=-1890209 ktime_to_ns(now)=109692318247  rq_clock(rq)=109694208456
+[  109.694233] 	 act=110000383465
+[  109.694250] struharv: deadline.c.pick_next_task_dl
+[  109.694254] struharv: update_curr_rt pid: 1466 
+[  109.694258] struharv: update_curr_rt now=109694248019 deadline=110002273674
+[  109.694260] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  109.694262] struharv: update_curr_rt pid: 1466 
+[  109.694277] struharv: deadline.enqueue_dl_entity
+[  109.694281] struharv: update_dl_entity
+[  109.694327] struharv: deadline.c.pick_next_task_dl
+[  109.698214] struharv: update_curr_rt pid: 1466 
+[  109.698219] struharv: update_curr_rt now=109698210579 deadline=109798303285
+[  109.698221] struharv: update_curr_rt dl_runtime_exceeded
+[  109.698227] struharv: deadline.c.start_dl_timer
+[  109.698228] 	 act=109798303285
+[  109.698230] 	 now=109696320273
+[  109.698232] 	 delta=-1890306 ktime_to_ns(now)=109696320273  rq_clock(rq)=109698210579
+[  109.698233] 	 act=109796412979
+[  109.698277] struharv: deadline.c.pick_next_task_dl
+[  109.698279] struharv: update_curr_rt pid: 1466 
+[  109.698281] struharv: update_curr_rt now=109698276839 deadline=109798303285
+[  109.698282] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  109.698283] struharv: update_curr_rt pid: 1466 
+[  109.698292] struharv: deadline.enqueue_dl_entity
+[  109.698294] struharv: update_dl_entity
+[  109.698295] struharv: update_dl_entity STEP1
+[  109.698296] struharv: update_dl_entity rq_clock(rq): 109698292171
+[  109.698303] struharv: deadline.c.pick_next_task_dl
+[  109.700998] struhar: sys_custom_syscall_now: ------ 
+[  109.701000] 	 now=109699090489
+[  109.701002] 	 delta=788653 ktime_to_ns(now)=109699090489  rq_clock(rq)=109698301836
+[  109.701040] struhar: sys_custom_syscall_change: ------ 
+[  109.701041] 	 act=109798292171
+[  109.701042] 	 now=109699132922
+[  109.701044] 	 delta=831086 ktime_to_ns(now)=109699132922  rq_clock(rq)=109698301836
+[  109.701045] 	 act=109799123257
+[  109.701046] struharv sys_custom_syscall_change runtime deadline=109798292171
+[  109.701052] struharv: deadline.c.pick_next_task_dl
+[  109.701061] struharv: update_curr_rt pid: 1466 
+[  109.701062] struharv: update_curr_rt now=109701059416 deadline=109798292171
+[  109.701063] struharv: update_curr_rt dl_runtime_exceeded
+[  109.701065] struharv: deadline.c.start_dl_timer
+[  109.701067] 	 act=109798292171
+[  109.701067] 	 now=109699158205
+[  109.701069] 	 delta=-1901211 ktime_to_ns(now)=109699158205  rq_clock(rq)=109701059416
+[  109.701070] 	 act=109796390960
+[  109.701071] struharv: deadline.c.pick_next_task_dl
+[  109.701072] struharv: update_curr_rt pid: 1466 
+[  109.701074] struharv: update_curr_rt pid: 1466 
+[  109.701108] struharv: deadline.c.pick_next_task_dl
+[  109.701117] struharv: deadline.c.pick_next_task_dl
+[  109.702266] struharv: deadline.c.pick_next_task_dl
+[  109.764750] struharv: deadline.c.pick_next_task_dl
+[  109.764843] struharv: deadline.c.pick_next_task_dl
+[  109.798310] struharv: dl_task_timer
+[  109.798314] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  109.798318] struharv: deadline.c.dl_task_timer ELSE
+[  109.798320] struharv: deadline.c.replenish_dl_entity
+[  109.798328] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.798329] struharv: dl_task_timer
+[  109.798330] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  109.798334] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.798335] struharv: deadline.c.dl_task_timer ELSE
+[  109.798337] struharv: deadline.c.replenish_dl_entity
+[  109.798338] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.798345] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.798349] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.798353] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.798355] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.800269] struharv: deadline.enqueue_dl_entity
+[  109.800276] struharv: update_dl_entity
+[  109.800288] struharv: deadline.c.pick_next_task_dl
+[  109.802234] struharv: update_curr_rt pid: 1466 
+[  109.802238] struharv: update_curr_rt now=109802230474 deadline=110098292171
+[  109.802241] struharv: update_curr_rt dl_runtime_exceeded
+[  109.802249] struharv: deadline.c.start_dl_timer
+[  109.802256] 	 act=110098292171
+[  109.802262] 	 now=109800350668
+[  109.802268] 	 delta=-1879806 ktime_to_ns(now)=109800350668  rq_clock(rq)=109802230474
+[  109.802269] 	 act=110096412365
+[  109.802282] struharv: deadline.c.pick_next_task_dl
+[  109.802284] struharv: update_curr_rt pid: 1466 
+[  109.802285] struharv: update_curr_rt now=109802281734 deadline=110098292171
+[  109.802286] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  109.802287] struharv: update_curr_rt pid: 1466 
+[  109.802294] struharv: deadline.enqueue_dl_entity
+[  109.802296] struharv: update_dl_entity
+[  109.802300] struharv: deadline.c.pick_next_task_dl
+[  109.806211] struharv: update_curr_rt pid: 1466 
+[  109.806215] struharv: update_curr_rt now=109806208520 deadline=110198303285
+[  109.806217] struharv: update_curr_rt dl_runtime_exceeded
+[  109.806220] struharv: deadline.c.start_dl_timer
+[  109.806222] 	 act=110198303285
+[  109.806223] 	 now=109804313363
+[  109.806226] 	 delta=-1895157 ktime_to_ns(now)=109804313363  rq_clock(rq)=109806208520
+[  109.806232] 	 act=110196408128
+[  109.806249] struharv: deadline.c.pick_next_task_dl
+[  109.806251] struharv: update_curr_rt pid: 1466 
+[  109.806253] struharv: update_curr_rt now=109806249152 deadline=110198303285
+[  109.806254] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  109.806255] struharv: update_curr_rt pid: 1466 
+[  109.835901] struharv: deadline.c.pick_next_task_dl
+[  109.886342] struharv: dl_task_timer
+[  109.886345] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  109.886355] struharv: deadline.enqueue_dl_entity
+[  109.886357] struharv: deadline.c.replenish_dl_entity
+[  109.886363] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.886365] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  109.886406] struharv: deadline.c.pick_next_task_dl
+[  109.887340] struharv: deadline.c.pick_next_task_dl
+[  109.890218] struharv: update_curr_rt pid: 1466 
+[  109.890226] struharv: update_curr_rt now=109890213239 deadline=110086283353
+[  109.890230] struharv: update_curr_rt dl_runtime_exceeded
+[  109.890236] struharv: deadline.c.start_dl_timer
+[  109.890238] 	 act=110086283353
+[  109.890241] 	 now=109888331264
+[  109.890246] 	 delta=-1881975 ktime_to_ns(now)=109888331264  rq_clock(rq)=109890213239
+[  109.890254] 	 act=110084401378
+[  109.890277] struharv: deadline.c.pick_next_task_dl
+[  109.890282] struharv: update_curr_rt pid: 1466 
+[  109.890290] struharv: update_curr_rt now=109890275116 deadline=110086283353
+[  109.890295] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  109.890298] struharv: update_curr_rt pid: 1466 
+[  110.002306] struharv: dl_task_timer
+[  110.002308] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  110.002319] struharv: deadline.enqueue_dl_entity
+[  110.002321] struharv: deadline.c.replenish_dl_entity
+[  110.002326] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.002328] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.002330] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.002332] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.002363] struharv: deadline.c.pick_next_task_dl
+[  110.005417] struhar: sys_custom_syscall_now: ------ 
+[  110.005420] 	 now=110003509190
+[  110.005423] 	 delta=1147211 ktime_to_ns(now)=110003509190  rq_clock(rq)=110002361979
+[  110.005440] struhar: sys_custom_syscall_change: ------ 
+[  110.005442] 	 act=110402273674
+[  110.005443] 	 now=110003533806
+[  110.005446] 	 delta=1171827 ktime_to_ns(now)=110003533806  rq_clock(rq)=110002361979
+[  110.005447] 	 act=110403445501
+[  110.005449] struharv sys_custom_syscall_change runtime deadline=110402273674
+[  110.005468] struharv: update_curr_rt pid: 1466 
+[  110.005472] struharv: update_curr_rt now=110005466095 deadline=110402273674
+[  110.005479] struharv: update_curr_rt dl_runtime_exceeded
+[  110.005481] struharv: deadline.c.start_dl_timer
+[  110.005482] 	 act=110402273674
+[  110.005483] 	 now=110003573493
+[  110.005484] 	 delta=-1892602 ktime_to_ns(now)=110003573493  rq_clock(rq)=110005466095
+[  110.005485] 	 act=110400381072
+[  110.005487] struharv: deadline.c.pick_next_task_dl
+[  110.005489] struharv: update_curr_rt pid: 1466 
+[  110.005491] struharv: update_curr_rt pid: 1466 
+[  110.005778] struharv: deadline.c.pick_next_task_dl
+[  110.005853] struharv: deadline.c.pick_next_task_dl
+[  110.086323] struharv: dl_task_timer
+[  110.086326] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  110.086330] struharv: deadline.c.dl_task_timer ELSE
+[  110.086332] struharv: deadline.c.replenish_dl_entity
+[  110.086338] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.086340] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.086342] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.086344] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.086346] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.098327] struharv: dl_task_timer
+[  110.098328] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  110.098332] struharv: deadline.c.dl_task_timer ELSE
+[  110.098334] struharv: deadline.c.replenish_dl_entity
+[  110.098338] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.098340] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.198323] struharv: dl_task_timer
+[  110.198324] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  110.198328] struharv: deadline.c.dl_task_timer ELSE
+[  110.198330] struharv: deadline.c.replenish_dl_entity
+[  110.198334] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.198336] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.198338] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.198340] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.198342] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.223052] struharv:inactive_task_timer
+[  110.402326] struharv: dl_task_timer
+[  110.402328] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  110.402334] struharv: deadline.c.dl_task_timer ELSE
+[  110.402336] struharv: deadline.c.replenish_dl_entity
+[  110.402342] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.402344] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.402346] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.404242] struharv: deadline.enqueue_dl_entity
+[  110.404249] struharv: update_dl_entity
+[  110.404287] struharv: deadline.c.pick_next_task_dl
+[  110.406218] struharv: update_curr_rt pid: 1466 
+[  110.406223] struharv: update_curr_rt now=110406214003 deadline=110702273674
+[  110.406226] struharv: update_curr_rt dl_runtime_exceeded
+[  110.406229] struharv: deadline.c.start_dl_timer
+[  110.406231] 	 act=110702273674
+[  110.406233] 	 now=110404323327
+[  110.406235] 	 delta=-1890676 ktime_to_ns(now)=110404323327  rq_clock(rq)=110406214003
+[  110.406236] 	 act=110700382998
+[  110.406260] struharv: deadline.c.pick_next_task_dl
+[  110.406262] struharv: update_curr_rt pid: 1466 
+[  110.406265] struharv: update_curr_rt now=110406258343 deadline=110702273674
+[  110.406266] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  110.406268] struharv: update_curr_rt pid: 1466 
+[  110.406277] struharv: deadline.enqueue_dl_entity
+[  110.406280] struharv: update_dl_entity
+[  110.406295] struharv: deadline.c.pick_next_task_dl
+[  110.410211] struharv: update_curr_rt pid: 1466 
+[  110.410216] struharv: update_curr_rt now=110410207904 deadline=110586283353
+[  110.410218] struharv: update_curr_rt dl_runtime_exceeded
+[  110.410224] struharv: deadline.c.start_dl_timer
+[  110.410227] 	 act=110586283353
+[  110.410229] 	 now=110408319009
+[  110.410232] 	 delta=-1888895 ktime_to_ns(now)=110408319009  rq_clock(rq)=110410207904
+[  110.410233] 	 act=110584394458
+[  110.410269] struharv: deadline.c.pick_next_task_dl
+[  110.410273] struharv: update_curr_rt pid: 1466 
+[  110.410280] struharv: update_curr_rt now=110410255344 deadline=110586283353
+[  110.410287] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  110.410294] struharv: update_curr_rt pid: 1466 
+[  110.410308] struharv: deadline.enqueue_dl_entity
+[  110.410315] struharv: update_dl_entity
+[  110.410341] struharv: deadline.c.pick_next_task_dl
+[  110.414220] struharv: update_curr_rt pid: 1466 
+[  110.414230] struharv: update_curr_rt now=110414214617 deadline=110698303285
+[  110.414234] struharv: update_curr_rt dl_runtime_exceeded
+[  110.414243] struharv: deadline.c.start_dl_timer
+[  110.414247] 	 act=110698303285
+[  110.414248] 	 now=110412338585
+[  110.414252] 	 delta=-1876032 ktime_to_ns(now)=110412338585  rq_clock(rq)=110414214617
+[  110.414254] 	 act=110696427253
+[  110.414286] struharv: deadline.c.pick_next_task_dl
+[  110.414288] struharv: update_curr_rt pid: 1466 
+[  110.414292] struharv: update_curr_rt now=110414284338 deadline=110698303285
+[  110.414293] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  110.414294] struharv: update_curr_rt pid: 1466 
+[  110.414306] struharv: deadline.enqueue_dl_entity
+[  110.414309] struharv: update_dl_entity
+[  110.414311] struharv: update_dl_entity STEP1
+[  110.414313] struharv: update_dl_entity rq_clock(rq): 110414305023
+[  110.414326] struharv: deadline.c.pick_next_task_dl
+[  110.416345] struhar: sys_custom_syscall_now: ------ 
+[  110.416348] 	 now=110414438081
+[  110.416349] 	 delta=-256129 ktime_to_ns(now)=110414438081  rq_clock(rq)=110414694210
+[  110.416357] struhar: sys_custom_syscall_change: ------ 
+[  110.416358] 	 act=110514305023
+[  110.416358] 	 now=110414449156
+[  110.416359] 	 delta=-245054 ktime_to_ns(now)=110414449156  rq_clock(rq)=110414694210
+[  110.416360] 	 act=110514059969
+[  110.416361] struharv sys_custom_syscall_change runtime deadline=110514305023
+[  110.416369] struharv: update_curr_rt pid: 1466 
+[  110.416371] struharv: update_curr_rt now=110416367936 deadline=110514305023
+[  110.416373] struharv: update_curr_rt dl_runtime_exceeded
+[  110.416375] struharv: deadline.c.start_dl_timer
+[  110.416376] 	 act=110514305023
+[  110.416377] 	 now=110414467499
+[  110.416378] 	 delta=-1900437 ktime_to_ns(now)=110414467499  rq_clock(rq)=110416367936
+[  110.416379] 	 act=110512404586
+[  110.416381] struharv: deadline.c.pick_next_task_dl
+[  110.416383] struharv: update_curr_rt pid: 1466 
+[  110.416384] struharv: update_curr_rt pid: 1466 
+[  110.514349] struharv: dl_task_timer
+[  110.514351] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  110.514367] struharv: deadline.c.dl_task_timer ELSE
+[  110.514369] struharv: deadline.c.replenish_dl_entity
+[  110.514374] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.514377] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.516249] struharv: deadline.enqueue_dl_entity
+[  110.516255] struharv: update_dl_entity
+[  110.516269] struharv: deadline.c.pick_next_task_dl
+[  110.518240] struharv: update_curr_rt pid: 1466 
+[  110.518248] struharv: update_curr_rt now=110518235758 deadline=110714305023
+[  110.518252] struharv: update_curr_rt dl_runtime_exceeded
+[  110.518259] struharv: deadline.c.start_dl_timer
+[  110.518263] 	 act=110714305023
+[  110.518266] 	 now=110516355754
+[  110.518269] 	 delta=-1880004 ktime_to_ns(now)=110516355754  rq_clock(rq)=110518235758
+[  110.518271] 	 act=110712425019
+[  110.518318] struharv: deadline.c.pick_next_task_dl
+[  110.518322] struharv: update_curr_rt pid: 1466 
+[  110.518328] struharv: update_curr_rt now=110518316147 deadline=110714305023
+[  110.518331] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  110.518371] struharv: update_curr_rt pid: 1466 
+[  110.518377] struharv: update_curr_rt now=110518358640 deadline=110714305023
+[  110.518379] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  110.518407] struharv: deadline.c.pick_next_task_dl
+[  110.586341] struharv: dl_task_timer
+[  110.586344] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  110.586354] struharv: deadline.enqueue_dl_entity
+[  110.586356] struharv: deadline.c.replenish_dl_entity
+[  110.586362] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.586364] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.586366] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.586368] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.586407] struharv: deadline.c.pick_next_task_dl
+[  110.590218] struharv: update_curr_rt pid: 1466 
+[  110.590224] struharv: update_curr_rt now=110590212092 deadline=110986283353
+[  110.590228] struharv: update_curr_rt dl_runtime_exceeded
+[  110.590232] struharv: deadline.c.start_dl_timer
+[  110.590234] 	 act=110986283353
+[  110.590236] 	 now=110588325995
+[  110.590238] 	 delta=-1886097 ktime_to_ns(now)=110588325995  rq_clock(rq)=110590212092
+[  110.590240] 	 act=110984397256
+[  110.590274] struharv: deadline.c.pick_next_task_dl
+[  110.590277] struharv: update_curr_rt pid: 1466 
+[  110.590279] struharv: update_curr_rt now=110590260342 deadline=110986283353
+[  110.590280] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  110.590282] struharv: update_curr_rt pid: 1466 
+[  110.698352] struharv: dl_task_timer
+[  110.698353] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  110.698364] struharv: deadline.enqueue_dl_entity
+[  110.698366] struharv: deadline.c.replenish_dl_entity
+[  110.698373] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.698375] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.698377] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.698378] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.698414] struharv: deadline.c.pick_next_task_dl
+[  110.702215] struharv: update_curr_rt pid: 1466 
+[  110.702220] struharv: update_curr_rt now=110702211571 deadline=111098303285
+[  110.702223] struharv: update_curr_rt dl_runtime_exceeded
+[  110.702227] struharv: deadline.c.start_dl_timer
+[  110.702229] 	 act=111098303285
+[  110.702231] 	 now=110700321549
+[  110.702234] 	 delta=-1890022 ktime_to_ns(now)=110700321549  rq_clock(rq)=110702211571
+[  110.702235] 	 act=111096413263
+[  110.702259] struharv: deadline.c.pick_next_task_dl
+[  110.702262] struharv: update_curr_rt pid: 1466 
+[  110.702265] struharv: update_curr_rt now=110702257275 deadline=111098303285
+[  110.702266] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  110.702268] struharv: update_curr_rt pid: 1466 
+[  110.702299] struharv: dl_task_timer
+[  110.702301] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  110.702308] struharv: deadline.enqueue_dl_entity
+[  110.702311] struharv: deadline.c.replenish_dl_entity
+[  110.702317] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.702320] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.702325] struharv: deadline.c.pick_next_task_dl
+[  110.705188] struhar: sys_custom_syscall_now: ------ 
+[  110.705192] 	 now=110703280565
+[  110.705195] 	 delta=955807 ktime_to_ns(now)=110703280565  rq_clock(rq)=110702324758
+[  110.705222] struhar: sys_custom_syscall_change: ------ 
+[  110.705226] 	 act=110902273674
+[  110.705229] 	 now=110703319407
+[  110.705236] 	 delta=994649 ktime_to_ns(now)=110703319407  rq_clock(rq)=110702324758
+[  110.705238] 	 act=110903268323
+[  110.705240] struharv sys_custom_syscall_change runtime deadline=110902273674
+[  110.705266] struharv: update_curr_rt pid: 1466 
+[  110.705273] struharv: update_curr_rt now=110705262252 deadline=110902273674
+[  110.705280] struharv: update_curr_rt dl_runtime_exceeded
+[  110.705284] struharv: deadline.c.start_dl_timer
+[  110.705286] 	 act=110902273674
+[  110.705287] 	 now=110703377722
+[  110.705289] 	 delta=-1884530 ktime_to_ns(now)=110703377722  rq_clock(rq)=110705262252
+[  110.705291] 	 act=110900389144
+[  110.705294] struharv: deadline.c.pick_next_task_dl
+[  110.705296] struharv: update_curr_rt pid: 1466 
+[  110.705299] struharv: update_curr_rt pid: 1466 
+[  110.705651] struharv: deadline.c.pick_next_task_dl
+[  110.714343] struharv: dl_task_timer
+[  110.714346] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  110.714349] struharv: deadline.c.dl_task_timer ELSE
+[  110.714351] struharv: deadline.c.replenish_dl_entity
+[  110.714359] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.714361] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.862605] struharv:inactive_task_timer
+[  110.902335] struharv: dl_task_timer
+[  110.902336] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  110.902343] struharv: deadline.c.dl_task_timer ELSE
+[  110.902345] struharv: deadline.c.replenish_dl_entity
+[  110.902351] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.902354] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.902355] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.902358] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.904257] struharv: deadline.enqueue_dl_entity
+[  110.904261] struharv: update_dl_entity
+[  110.904271] struharv: deadline.c.pick_next_task_dl
+[  110.906227] struharv: update_curr_rt pid: 1466 
+[  110.906230] struharv: update_curr_rt now=110906224509 deadline=111302273674
+[  110.906232] struharv: update_curr_rt dl_runtime_exceeded
+[  110.906234] struharv: deadline.c.start_dl_timer
+[  110.906236] 	 act=111302273674
+[  110.906237] 	 now=110904327520
+[  110.906239] 	 delta=-1896989 ktime_to_ns(now)=110904327520  rq_clock(rq)=110906224509
+[  110.906240] 	 act=111300376685
+[  110.906271] struharv: deadline.c.pick_next_task_dl
+[  110.906276] struharv: update_curr_rt pid: 1466 
+[  110.906285] struharv: update_curr_rt now=110906265715 deadline=111302273674
+[  110.906293] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  110.906305] struharv: update_curr_rt pid: 1466 
+[  110.906316] struharv: deadline.enqueue_dl_entity
+[  110.906318] struharv: update_dl_entity
+[  110.906320] struharv: update_dl_entity STEP1
+[  110.906321] struharv: update_dl_entity rq_clock(rq): 110906315177
+[  110.906331] struharv: deadline.c.pick_next_task_dl
+[  110.910213] struharv: update_curr_rt pid: 1466 
+[  110.910217] struharv: update_curr_rt now=110910209690 deadline=111006315177
+[  110.910219] struharv: update_curr_rt dl_runtime_exceeded
+[  110.910224] struharv: deadline.c.start_dl_timer
+[  110.910226] 	 act=111006315177
+[  110.910227] 	 now=110908317509
+[  110.910229] 	 delta=-1892181 ktime_to_ns(now)=110908317509  rq_clock(rq)=110910209690
+[  110.910230] 	 act=111004422996
+[  110.910255] struharv: update_curr_rt pid: 1466 
+[  110.910257] struharv: update_curr_rt now=110910251949 deadline=111006315177
+[  110.910258] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  110.910278] struharv: deadline.c.pick_next_task_dl
+[  110.910336] struharv: deadline.c.pick_next_task_dl
+[  110.910369] struharv: deadline.c.pick_next_task_dl
+[  110.914299] struharv: deadline.c.pick_next_task_dl
+[  110.916350] struharv: deadline.c.init_dl_task_timer 0 0
+[  110.986314] struharv: dl_task_timer
+[  110.986316] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  110.986326] struharv: deadline.enqueue_dl_entity
+[  110.986328] struharv: deadline.c.replenish_dl_entity
+[  110.986334] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.986337] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.986339] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.986340] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  110.986348] struharv: deadline.c.pick_next_task_dl
+[  110.990236] struharv: update_curr_rt pid: 1466 
+[  110.990240] struharv: update_curr_rt now=110990232830 deadline=111386283353
+[  110.990247] struharv: update_curr_rt dl_runtime_exceeded
+[  110.990254] struharv: deadline.c.start_dl_timer
+[  110.990260] 	 act=111386283353
+[  110.990267] 	 now=110988355718
+[  110.990275] 	 delta=-1877112 ktime_to_ns(now)=110988355718  rq_clock(rq)=110990232830
+[  110.990281] 	 act=111384406241
+[  110.990306] struharv: deadline.c.pick_next_task_dl
+[  110.990310] struharv: update_curr_rt pid: 1466 
+[  110.990315] struharv: update_curr_rt now=110990304378 deadline=111386283353
+[  110.990317] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  110.990322] struharv: update_curr_rt pid: 1466 
+[  111.006347] struharv: dl_task_timer
+[  111.006349] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  111.006360] struharv: deadline.enqueue_dl_entity
+[  111.006362] struharv: deadline.c.replenish_dl_entity
+[  111.006368] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.006371] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.006373] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.006375] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.006404] struharv: deadline.c.pick_next_task_dl
+[  111.008885] struhar: sys_custom_syscall_now: ------ 
+[  111.008889] 	 now=111006978260
+[  111.008891] 	 delta=576084 ktime_to_ns(now)=111006978260  rq_clock(rq)=111006402176
+[  111.008903] struhar: sys_custom_syscall_change: ------ 
+[  111.008905] 	 act=111406315177
+[  111.008907] 	 now=111006997317
+[  111.008909] 	 delta=595141 ktime_to_ns(now)=111006997317  rq_clock(rq)=111006402176
+[  111.008910] 	 act=111406910318
+[  111.008911] struharv sys_custom_syscall_change runtime deadline=111406315177
+[  111.008931] struharv: update_curr_rt pid: 1466 
+[  111.008939] struharv: update_curr_rt now=111008929278 deadline=111406315177
+[  111.008943] struharv: update_curr_rt dl_runtime_exceeded
+[  111.008950] struharv: deadline.c.start_dl_timer
+[  111.008952] 	 act=111406315177
+[  111.008954] 	 now=111007044587
+[  111.008957] 	 delta=-1884691 ktime_to_ns(now)=111007044587  rq_clock(rq)=111008929278
+[  111.008960] 	 act=111404430486
+[  111.008966] struharv: deadline.c.pick_next_task_dl
+[  111.008969] struharv: update_curr_rt pid: 1466 
+[  111.008972] struharv: update_curr_rt pid: 1466 
+[  111.010302] struharv: deadline.c.pick_next_task_dl
+[  111.098360] struharv: dl_task_timer
+[  111.098364] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  111.098368] struharv: deadline.c.dl_task_timer ELSE
+[  111.098370] struharv: deadline.c.replenish_dl_entity
+[  111.098376] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.098378] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.098380] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.098382] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.302293] struharv: dl_task_timer
+[  111.302295] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  111.302300] struharv: deadline.c.dl_task_timer ELSE
+[  111.302302] struharv: deadline.c.replenish_dl_entity
+[  111.302307] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.302309] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.386327] struharv: dl_task_timer
+[  111.386328] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  111.386333] struharv: deadline.c.dl_task_timer ELSE
+[  111.386335] struharv: deadline.c.replenish_dl_entity
+[  111.386340] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.386342] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.386344] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.386346] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.386348] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.406348] struharv: dl_task_timer
+[  111.406350] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  111.406354] struharv: deadline.c.dl_task_timer ELSE
+[  111.406355] struharv: deadline.c.replenish_dl_entity
+[  111.406360] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.406363] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.406365] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.408268] struharv: deadline.enqueue_dl_entity
+[  111.408272] struharv: update_dl_entity
+[  111.408281] struharv: deadline.c.pick_next_task_dl
+[  111.410226] struharv: update_curr_rt pid: 1466 
+[  111.410229] struharv: update_curr_rt now=111410222725 deadline=111706315177
+[  111.410232] struharv: update_curr_rt dl_runtime_exceeded
+[  111.410234] struharv: deadline.c.start_dl_timer
+[  111.410236] 	 act=111706315177
+[  111.410237] 	 now=111408327880
+[  111.410240] 	 delta=-1894845 ktime_to_ns(now)=111408327880  rq_clock(rq)=111410222725
+[  111.410241] 	 act=111704420332
+[  111.410259] struharv: deadline.c.pick_next_task_dl
+[  111.410263] struharv: update_curr_rt pid: 1466 
+[  111.410270] struharv: update_curr_rt now=111410258576 deadline=111706315177
+[  111.410276] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  111.410281] struharv: update_curr_rt pid: 1466 
+[  111.410295] struharv: deadline.enqueue_dl_entity
+[  111.410298] struharv: update_dl_entity
+[  111.410307] struharv: deadline.c.pick_next_task_dl
+[  111.414209] struharv: update_curr_rt pid: 1466 
+[  111.414213] struharv: update_curr_rt now=111414207008 deadline=111886283353
+[  111.414214] struharv: update_curr_rt dl_runtime_exceeded
+[  111.414217] struharv: deadline.c.start_dl_timer
+[  111.414218] 	 act=111886283353
+[  111.414220] 	 now=111412310378
+[  111.414222] 	 delta=-1896630 ktime_to_ns(now)=111412310378  rq_clock(rq)=111414207008
+[  111.414224] 	 act=111884386723
+[  111.414241] struharv: deadline.c.pick_next_task_dl
+[  111.414244] struharv: update_curr_rt pid: 1466 
+[  111.414249] struharv: update_curr_rt now=111414240113 deadline=111886283353
+[  111.414250] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  111.414252] struharv: update_curr_rt pid: 1466 
+[  111.414259] struharv: deadline.enqueue_dl_entity
+[  111.414261] struharv: update_dl_entity
+[  111.414266] struharv: deadline.c.pick_next_task_dl
+[  111.416558] struharv: deadline.c.pick_next_task_dl
+[  111.418211] struharv: update_curr_rt pid: 1466 
+[  111.418214] struharv: update_curr_rt now=111418209171 deadline=111502273674
+[  111.418216] struharv: update_curr_rt dl_runtime_exceeded
+[  111.418218] struharv: deadline.c.start_dl_timer
+[  111.418220] 	 act=111502273674
+[  111.418221] 	 now=111416311530
+[  111.418224] 	 delta=-1897641 ktime_to_ns(now)=111416311530  rq_clock(rq)=111418209171
+[  111.418225] 	 act=111500376033
+[  111.418237] struharv: deadline.c.pick_next_task_dl
+[  111.418239] struharv: update_curr_rt pid: 1466 
+[  111.418259] struharv: update_curr_rt now=111418236516 deadline=111502273674
+[  111.418265] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  111.418277] struharv: update_curr_rt pid: 1466 
+[  111.418283] struharv: update_curr_rt now=111418268669 deadline=111502273674
+[  111.418285] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  111.418290] struharv: deadline.enqueue_dl_entity
+[  111.418292] struharv: update_dl_entity
+[  111.418296] struharv: deadline.c.pick_next_task_dl
+[  111.420416] struhar: sys_custom_syscall_now: ------ 
+[  111.420419] 	 now=111418508614
+[  111.420421] 	 delta=212760 ktime_to_ns(now)=111418508614  rq_clock(rq)=111418295854
+[  111.420458] struhar: sys_custom_syscall_change: ------ 
+[  111.420460] 	 act=111498303285
+[  111.420461] 	 now=111418551496
+[  111.420463] 	 delta=-1904646 ktime_to_ns(now)=111418551496  rq_clock(rq)=111420456142
+[  111.420464] 	 act=111496398639
+[  111.420466] struharv sys_custom_syscall_change runtime deadline=111498303285
+[  111.420480] struharv: update_curr_rt pid: 1466 
+[  111.420482] struharv: update_curr_rt now=111420478407 deadline=111498303285
+[  111.420484] struharv: update_curr_rt dl_runtime_exceeded
+[  111.420488] struharv: deadline.c.start_dl_timer
+[  111.420490] 	 act=111498303285
+[  111.420491] 	 now=111418581464
+[  111.420493] 	 delta=-1896943 ktime_to_ns(now)=111418581464  rq_clock(rq)=111420478407
+[  111.420494] 	 act=111496406342
+[  111.420498] struharv: deadline.c.pick_next_task_dl
+[  111.420500] struharv: update_curr_rt pid: 1466 
+[  111.420504] struharv: update_curr_rt pid: 1466 
+[  111.420731] struharv: deadline.c.pick_next_task_dl
+[  111.498328] struharv: dl_task_timer
+[  111.498345] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  111.498349] struharv: deadline.c.dl_task_timer ELSE
+[  111.498350] struharv: deadline.c.replenish_dl_entity
+[  111.498355] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.498357] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.500276] struharv: deadline.enqueue_dl_entity
+[  111.500281] struharv: update_dl_entity
+[  111.500290] struharv: deadline.c.pick_next_task_dl
+[  111.502228] struharv: update_curr_rt pid: 1466 
+[  111.502231] struharv: update_curr_rt now=111502225577 deadline=111698303285
+[  111.502233] struharv: update_curr_rt dl_runtime_exceeded
+[  111.502235] struharv: deadline.c.start_dl_timer
+[  111.502236] 	 act=111698303285
+[  111.502237] 	 now=111500327526
+[  111.502239] 	 delta=-1898051 ktime_to_ns(now)=111500327526  rq_clock(rq)=111502225577
+[  111.502239] 	 act=111696405234
+[  111.502270] struharv: deadline.c.pick_next_task_dl
+[  111.502274] struharv: update_curr_rt pid: 1466 
+[  111.502280] struharv: update_curr_rt now=111502255942 deadline=111698303285
+[  111.502286] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  111.502291] struharv: dl_task_timer
+[  111.502293] struharv: update_curr_rt pid: 1466 
+[  111.502295] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  111.502318] struharv: deadline.enqueue_dl_entity
+[  111.502322] struharv: deadline.c.replenish_dl_entity
+[  111.502327] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.502330] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.502333] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.502335] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.502351] struharv: deadline.c.pick_next_task_dl
+[  111.502461] struharv: update_curr_rt pid: 1466 
+[  111.502465] struharv: update_curr_rt now=111502456778 deadline=111902273674
+[  111.502478] struharv: deadline.c.pick_next_task_dl
+[  111.506220] struharv: update_curr_rt pid: 1466 
+[  111.506223] struharv: update_curr_rt now=111506217424 deadline=111902273674
+[  111.506239] struharv: update_curr_rt dl_runtime_exceeded
+[  111.506242] struharv: deadline.c.start_dl_timer
+[  111.506244] 	 act=111902273674
+[  111.506245] 	 now=111504335705
+[  111.506261] 	 delta=-1881719 ktime_to_ns(now)=111504335705  rq_clock(rq)=111506217424
+[  111.506262] 	 act=111900391955
+[  111.506276] struharv: deadline.c.pick_next_task_dl
+[  111.506280] struharv: update_curr_rt pid: 1466 
+[  111.506287] struharv: update_curr_rt now=111506275000 deadline=111902273674
+[  111.506292] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  111.506296] struharv: update_curr_rt pid: 1466 
+[  111.698322] struharv: dl_task_timer
+[  111.698324] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  111.698334] struharv: deadline.enqueue_dl_entity
+[  111.698336] struharv: deadline.c.replenish_dl_entity
+[  111.698342] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.698344] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.698346] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.698353] struharv: deadline.c.pick_next_task_dl
+[  111.702233] struharv: update_curr_rt pid: 1466 
+[  111.702236] struharv: update_curr_rt now=111702230705 deadline=111998303285
+[  111.702238] struharv: update_curr_rt dl_runtime_exceeded
+[  111.702240] struharv: deadline.c.start_dl_timer
+[  111.702241] 	 act=111998303285
+[  111.702242] 	 now=111700333045
+[  111.702244] 	 delta=-1897660 ktime_to_ns(now)=111700333045  rq_clock(rq)=111702230705
+[  111.702246] 	 act=111996405625
+[  111.702260] struharv: deadline.c.pick_next_task_dl
+[  111.702263] struharv: update_curr_rt pid: 1466 
+[  111.702266] struharv: update_curr_rt now=111702259494 deadline=111998303285
+[  111.702267] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  111.702269] struharv: update_curr_rt pid: 1466 
+[  111.706336] struharv: dl_task_timer
+[  111.706338] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  111.706346] struharv: deadline.enqueue_dl_entity
+[  111.706348] struharv: deadline.c.replenish_dl_entity
+[  111.706353] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.706356] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.706360] struharv: deadline.c.pick_next_task_dl
+[  111.708813] struhar: sys_custom_syscall_now: ------ 
+[  111.708815] 	 now=111706905177
+[  111.708817] 	 delta=545207 ktime_to_ns(now)=111706905177  rq_clock(rq)=111706359970
+[  111.708828] struhar: sys_custom_syscall_change: ------ 
+[  111.708829] 	 act=111906315177
+[  111.708831] 	 now=111706921431
+[  111.708833] 	 delta=561461 ktime_to_ns(now)=111706921431  rq_clock(rq)=111706359970
+[  111.708834] 	 act=111906876638
+[  111.708835] struharv sys_custom_syscall_change runtime deadline=111906315177
+[  111.708846] struharv: update_curr_rt pid: 1466 
+[  111.708849] struharv: update_curr_rt now=111708844909 deadline=111906315177
+[  111.708851] struharv: update_curr_rt dl_runtime_exceeded
+[  111.708853] struharv: deadline.c.start_dl_timer
+[  111.708855] 	 act=111906315177
+[  111.708856] 	 now=111706946648
+[  111.708858] 	 delta=-1898261 ktime_to_ns(now)=111706946648  rq_clock(rq)=111708844909
+[  111.708859] 	 act=111904416916
+[  111.708861] struharv: deadline.c.pick_next_task_dl
+[  111.708863] struharv: update_curr_rt pid: 1466 
+[  111.708865] struharv: update_curr_rt pid: 1466 
+[  111.886330] struharv: dl_task_timer
+[  111.886332] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  111.886339] struharv: deadline.c.dl_task_timer ELSE
+[  111.886341] struharv: deadline.c.replenish_dl_entity
+[  111.886347] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.886349] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.886351] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.886353] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.902309] struharv: dl_task_timer
+[  111.902311] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  111.902315] struharv: deadline.c.dl_task_timer ELSE
+[  111.902317] struharv: deadline.c.replenish_dl_entity
+[  111.902323] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.902326] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.902327] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.902329] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.902331] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.906336] struharv: dl_task_timer
+[  111.906338] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  111.906343] struharv: deadline.c.dl_task_timer ELSE
+[  111.906346] struharv: deadline.c.replenish_dl_entity
+[  111.906352] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.906355] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.906357] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.908262] struharv: deadline.enqueue_dl_entity
+[  111.908268] struharv: update_dl_entity
+[  111.908280] struharv: deadline.c.pick_next_task_dl
+[  111.910231] struharv: update_curr_rt pid: 1466 
+[  111.910234] struharv: update_curr_rt now=111910228113 deadline=112206315177
+[  111.910236] struharv: update_curr_rt dl_runtime_exceeded
+[  111.910245] struharv: deadline.c.start_dl_timer
+[  111.910251] 	 act=112206315177
+[  111.910257] 	 now=111908346489
+[  111.910261] 	 delta=-1881624 ktime_to_ns(now)=111908346489  rq_clock(rq)=111910228113
+[  111.910262] 	 act=112204433553
+[  111.910277] struharv: deadline.c.pick_next_task_dl
+[  111.910280] struharv: update_curr_rt pid: 1466 
+[  111.910282] struharv: update_curr_rt now=111910276844 deadline=112206315177
+[  111.910283] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  111.910286] struharv: update_curr_rt pid: 1466 
+[  111.910298] struharv: deadline.enqueue_dl_entity
+[  111.910300] struharv: update_dl_entity
+[  111.910311] struharv: deadline.c.pick_next_task_dl
+[  111.914211] struharv: update_curr_rt pid: 1466 
+[  111.914216] struharv: update_curr_rt now=111914208520 deadline=112286283353
+[  111.914218] struharv: update_curr_rt dl_runtime_exceeded
+[  111.914221] struharv: deadline.c.start_dl_timer
+[  111.914223] 	 act=112286283353
+[  111.914224] 	 now=111912314732
+[  111.914227] 	 delta=-1893788 ktime_to_ns(now)=111912314732  rq_clock(rq)=111914208520
+[  111.914228] 	 act=112284389565
+[  111.914253] struharv: deadline.c.pick_next_task_dl
+[  111.914255] struharv: update_curr_rt pid: 1466 
+[  111.914257] struharv: update_curr_rt now=111914243911 deadline=112286283353
+[  111.914259] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  111.914260] struharv: update_curr_rt pid: 1466 
+[  111.914268] struharv: deadline.enqueue_dl_entity
+[  111.914271] struharv: update_dl_entity
+[  111.914275] struharv: deadline.c.pick_next_task_dl
+[  111.918210] struharv: update_curr_rt pid: 1466 
+[  111.918213] struharv: update_curr_rt now=111918207944 deadline=112402273674
+[  111.918215] struharv: update_curr_rt dl_runtime_exceeded
+[  111.918219] struharv: deadline.c.start_dl_timer
+[  111.918220] 	 act=112402273674
+[  111.918222] 	 now=111916312152
+[  111.918224] 	 delta=-1895792 ktime_to_ns(now)=111916312152  rq_clock(rq)=111918207944
+[  111.918225] 	 act=112400377882
+[  111.918237] struharv: deadline.c.pick_next_task_dl
+[  111.918240] struharv: update_curr_rt pid: 1466 
+[  111.918247] struharv: update_curr_rt now=111918236515 deadline=112402273674
+[  111.918251] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  111.918255] struharv: update_curr_rt pid: 1466 
+[  111.998350] struharv: dl_task_timer
+[  111.998352] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  111.998364] struharv: deadline.enqueue_dl_entity
+[  111.998366] struharv: deadline.c.replenish_dl_entity
+[  111.998372] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.998374] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.998376] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.998378] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  111.998415] struharv: deadline.c.pick_next_task_dl
+[  112.001035] struhar: sys_custom_syscall_now: ------ 
+[  112.001041] 	 now=111999129333
+[  112.001044] 	 delta=715933 ktime_to_ns(now)=111999129333  rq_clock(rq)=111998413400
+[  112.001068] struhar: sys_custom_syscall_change: ------ 
+[  112.001072] 	 act=112398303285
+[  112.001078] 	 now=111999164225
+[  112.001080] 	 delta=750825 ktime_to_ns(now)=111999164225  rq_clock(rq)=111998413400
+[  112.001082] 	 act=112399054110
+[  112.001084] struharv sys_custom_syscall_change runtime deadline=112398303285
+[  112.001108] struharv: update_curr_rt pid: 1466 
+[  112.001119] struharv: update_curr_rt now=112001104239 deadline=112398303285
+[  112.001124] struharv: update_curr_rt dl_runtime_exceeded
+[  112.001130] struharv: deadline.c.start_dl_timer
+[  112.001133] 	 act=112398303285
+[  112.001136] 	 now=111999225317
+[  112.001139] 	 delta=-1878922 ktime_to_ns(now)=111999225317  rq_clock(rq)=112001104239
+[  112.001140] 	 act=112396424363
+[  112.001145] struharv: deadline.c.pick_next_task_dl
+[  112.001151] struharv: update_curr_rt pid: 1466 
+[  112.001155] struharv: update_curr_rt pid: 1466 
+[  112.002399] struharv: deadline.c.pick_next_task_dl
+[  112.002462] struharv: deadline.c.pick_next_task_dl
+[  112.026289] struharv: deadline.c.pick_next_task_dl
+[  112.186232] struharv: deadline.c.pick_next_task_dl
+[  112.186233] struharv: deadline.c.pick_next_task_dl
+[  112.190240] struharv: deadline.c.pick_next_task_dl
+[  112.194252] struharv: deadline.c.pick_next_task_dl
+[  112.206349] struharv: dl_task_timer
+[  112.206352] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  112.206355] struharv: deadline.c.dl_task_timer ELSE
+[  112.206357] struharv: deadline.c.replenish_dl_entity
+[  112.206362] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.206364] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.286309] struharv: dl_task_timer
+[  112.286310] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  112.286314] struharv: deadline.c.dl_task_timer ELSE
+[  112.286316] struharv: deadline.c.replenish_dl_entity
+[  112.286321] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.286322] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.286324] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.286326] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.330643] struharv:inactive_task_timer
+[  112.398344] struharv: dl_task_timer
+[  112.398345] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  112.398349] struharv: deadline.c.dl_task_timer ELSE
+[  112.398350] struharv: deadline.c.replenish_dl_entity
+[  112.398355] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.398357] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.398359] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.400277] struharv: deadline.enqueue_dl_entity
+[  112.400281] struharv: update_dl_entity
+[  112.400290] struharv: deadline.c.pick_next_task_dl
+[  112.402224] struharv: update_curr_rt pid: 1466 
+[  112.402228] struharv: update_curr_rt now=112402221524 deadline=112698303285
+[  112.402234] struharv: update_curr_rt dl_runtime_exceeded
+[  112.402237] struharv: deadline.c.start_dl_timer
+[  112.402242] 	 act=112698303285
+[  112.402247] 	 now=112400336199
+[  112.402251] 	 delta=-1885325 ktime_to_ns(now)=112400336199  rq_clock(rq)=112402221524
+[  112.402252] 	 act=112696417960
+[  112.402279] struharv: deadline.c.pick_next_task_dl
+[  112.402281] struharv: update_curr_rt pid: 1466 
+[  112.402284] struharv: update_curr_rt now=112402275877 deadline=112698303285
+[  112.402285] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  112.402293] struharv: dl_task_timer
+[  112.402295] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  112.402300] struharv: update_curr_rt pid: 1466 
+[  112.402306] struharv: update_curr_rt now=112402286210 deadline=112698303285
+[  112.402312] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  112.402323] struharv: deadline.enqueue_dl_entity
+[  112.402325] struharv: deadline.c.replenish_dl_entity
+[  112.402331] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.402335] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.402338] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.402342] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.402346] struharv: deadline.c.pick_next_task_dl
+[  112.406218] struharv: update_curr_rt pid: 1466 
+[  112.406221] struharv: update_curr_rt now=112406216384 deadline=112802273674
+[  112.406223] struharv: update_curr_rt dl_runtime_exceeded
+[  112.406226] struharv: deadline.c.start_dl_timer
+[  112.406227] 	 act=112802273674
+[  112.406229] 	 now=112404319226
+[  112.406231] 	 delta=-1897158 ktime_to_ns(now)=112404319226  rq_clock(rq)=112406216384
+[  112.406233] 	 act=112800376516
+[  112.406243] struharv: deadline.c.pick_next_task_dl
+[  112.406245] struharv: update_curr_rt pid: 1466 
+[  112.406247] struharv: update_curr_rt now=112406242500 deadline=112802273674
+[  112.406249] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  112.406250] struharv: update_curr_rt pid: 1466 
+[  112.406260] struharv: deadline.enqueue_dl_entity
+[  112.406262] struharv: update_dl_entity
+[  112.406268] struharv: deadline.c.pick_next_task_dl
+[  112.410209] struharv: update_curr_rt pid: 1466 
+[  112.410214] struharv: update_curr_rt now=112410206998 deadline=112686283353
+[  112.410215] struharv: update_curr_rt dl_runtime_exceeded
+[  112.410218] struharv: deadline.c.start_dl_timer
+[  112.410220] 	 act=112686283353
+[  112.410222] 	 now=112408312122
+[  112.410224] 	 delta=-1894876 ktime_to_ns(now)=112408312122  rq_clock(rq)=112410206998
+[  112.410225] 	 act=112684388477
+[  112.410250] struharv: deadline.c.pick_next_task_dl
+[  112.410253] struharv: update_curr_rt pid: 1466 
+[  112.410259] struharv: update_curr_rt now=112410237647 deadline=112686283353
+[  112.410263] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  112.410267] struharv: update_curr_rt pid: 1466 
+[  112.410276] struharv: deadline.enqueue_dl_entity
+[  112.410282] struharv: update_dl_entity
+[  112.410288] struharv: update_dl_entity STEP1
+[  112.410292] struharv: update_dl_entity rq_clock(rq): 112410274360
+[  112.410299] struharv: deadline.c.pick_next_task_dl
+[  112.410379] struharv: deadline.c.pick_next_task_dl
+[  112.412843] struhar: sys_custom_syscall_now: ------ 
+[  112.412846] 	 now=112410935588
+[  112.412848] 	 delta=379794 ktime_to_ns(now)=112410935588  rq_clock(rq)=112410555794
+[  112.412858] struhar: sys_custom_syscall_change: ------ 
+[  112.412859] 	 act=112510274360
+[  112.412860] 	 now=112410950813
+[  112.412861] 	 delta=395019 ktime_to_ns(now)=112410950813  rq_clock(rq)=112410555794
+[  112.412862] 	 act=112510669379
+[  112.412863] struharv sys_custom_syscall_change runtime deadline=112510274360
+[  112.412873] struharv: update_curr_rt pid: 1466 
+[  112.412875] struharv: update_curr_rt now=112412872212 deadline=112510274360
+[  112.412877] struharv: update_curr_rt dl_runtime_exceeded
+[  112.412880] struharv: deadline.c.start_dl_timer
+[  112.412881] 	 act=112510274360
+[  112.412882] 	 now=112410972829
+[  112.412883] 	 delta=-1899383 ktime_to_ns(now)=112410972829  rq_clock(rq)=112412872212
+[  112.412884] 	 act=112508374977
+[  112.412886] struharv: deadline.c.pick_next_task_dl
+[  112.412887] struharv: update_curr_rt pid: 1466 
+[  112.412889] struharv: update_curr_rt pid: 1466 
+[  112.510319] struharv: dl_task_timer
+[  112.510321] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  112.510328] struharv: deadline.c.dl_task_timer ELSE
+[  112.510329] struharv: deadline.c.replenish_dl_entity
+[  112.510336] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.510339] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.512227] struharv: deadline.enqueue_dl_entity
+[  112.512234] struharv: update_dl_entity
+[  112.512247] struharv: deadline.c.pick_next_task_dl
+[  112.514235] struharv: update_curr_rt pid: 1466 
+[  112.514238] struharv: update_curr_rt now=112514232181 deadline=112710274360
+[  112.514240] struharv: update_curr_rt dl_runtime_exceeded
+[  112.514243] struharv: deadline.c.start_dl_timer
+[  112.514244] 	 act=112710274360
+[  112.514246] 	 now=112512336363
+[  112.514247] 	 delta=-1895818 ktime_to_ns(now)=112512336363  rq_clock(rq)=112514232181
+[  112.514248] 	 act=112708378542
+[  112.514288] struharv: deadline.c.pick_next_task_dl
+[  112.514292] struharv: update_curr_rt pid: 1466 
+[  112.514300] struharv: update_curr_rt now=112514286698 deadline=112710274360
+[  112.514305] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  112.514315] struharv: update_curr_rt pid: 1466 
+[  112.686335] struharv: dl_task_timer
+[  112.686337] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  112.686348] struharv: deadline.enqueue_dl_entity
+[  112.686350] struharv: deadline.c.replenish_dl_entity
+[  112.686357] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.686360] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.686362] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.686363] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.686365] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.686402] struharv: deadline.c.pick_next_task_dl
+[  112.690216] struharv: update_curr_rt pid: 1466 
+[  112.690221] struharv: update_curr_rt now=112690212297 deadline=113186283353
+[  112.690223] struharv: update_curr_rt dl_runtime_exceeded
+[  112.690226] struharv: deadline.c.start_dl_timer
+[  112.690228] 	 act=113186283353
+[  112.690229] 	 now=112688319584
+[  112.690231] 	 delta=-1892713 ktime_to_ns(now)=112688319584  rq_clock(rq)=112690212297
+[  112.690232] 	 act=113184390640
+[  112.690263] struharv: deadline.c.pick_next_task_dl
+[  112.690267] struharv: update_curr_rt pid: 1466 
+[  112.690270] struharv: update_curr_rt now=112690251206 deadline=113186283353
+[  112.690272] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  112.690273] struharv: update_curr_rt pid: 1466 
+[  112.698335] struharv: dl_task_timer
+[  112.698336] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  112.698346] struharv: deadline.enqueue_dl_entity
+[  112.698348] struharv: deadline.c.replenish_dl_entity
+[  112.698354] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.698357] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.698362] struharv: deadline.c.pick_next_task_dl
+[  112.702232] struharv: update_curr_rt pid: 1466 
+[  112.702236] struharv: update_curr_rt now=112702229617 deadline=112898303285
+[  112.702239] struharv: update_curr_rt dl_runtime_exceeded
+[  112.702243] struharv: deadline.c.start_dl_timer
+[  112.702245] 	 act=112898303285
+[  112.702247] 	 now=112700337536
+[  112.702251] 	 delta=-1892081 ktime_to_ns(now)=112700337536  rq_clock(rq)=112702229617
+[  112.702254] 	 act=112896411204
+[  112.702274] struharv: deadline.c.pick_next_task_dl
+[  112.702277] struharv: update_curr_rt pid: 1466 
+[  112.702284] struharv: update_curr_rt now=112702272825 deadline=112898303285
+[  112.702289] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  112.702313] struharv: update_curr_rt pid: 1466 
+[  112.702319] struharv: update_curr_rt now=112702292788 deadline=112898303285
+[  112.702321] struharv: update_curr_rt dl_se->dl_throttled!!!!
+[  112.710295] struharv: dl_task_timer
+[  112.710297] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  112.710307] struharv: deadline.enqueue_dl_entity
+[  112.710310] struharv: deadline.c.replenish_dl_entity
+[  112.710315] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.710318] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.710320] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.710326] struharv: deadline.c.pick_next_task_dl
+[  112.712759] struhar: sys_custom_syscall_now: ------ 
+[  112.712762] 	 now=112710851418
+[  112.712764] 	 delta=525796 ktime_to_ns(now)=112710851418  rq_clock(rq)=112710325622
+[  112.712776] struhar: sys_custom_syscall_change: ------ 
+[  112.712777] 	 act=113010274360
+[  112.712779] 	 now=112710869212
+[  112.712781] 	 delta=543590 ktime_to_ns(now)=112710869212  rq_clock(rq)=112710325622
+[  112.712782] 	 act=113010817950
+[  112.712783] struharv sys_custom_syscall_change runtime deadline=113010274360
+[  112.712799] struharv: update_curr_rt pid: 1466 
+[  112.712804] struharv: update_curr_rt now=112712795550 deadline=113010274360
+[  112.712806] struharv: update_curr_rt dl_runtime_exceeded
+[  112.712809] struharv: deadline.c.start_dl_timer
+[  112.712810] 	 act=113010274360
+[  112.712812] 	 now=112710902567
+[  112.712814] 	 delta=-1892983 ktime_to_ns(now)=112710902567  rq_clock(rq)=112712795550
+[  112.712816] 	 act=113008381377
+[  112.712818] struharv: deadline.c.pick_next_task_dl
+[  112.712820] struharv: update_curr_rt pid: 1466 
+[  112.712822] struharv: update_curr_rt pid: 1466 
+[  112.713242] struharv: deadline.c.pick_next_task_dl
+[  112.796786] struharv: deadline.c.init_dl_task_timer 0 0
+[  112.802292] struharv: dl_task_timer
+[  112.802294] struharv: deadline.c.dl_task_timer !dl_entity_is_task(dl_se)
+[  112.802298] struharv: deadline.c.dl_task_timer ELSE
+[  112.802300] struharv: deadline.c.replenish_dl_entity
+[  112.802305] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.802307] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.802309] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.802311] struharv: deadline.c.replenish_dl_entity pi_se->dl_period:100000000 pi_se->dl_runtime:900000
+[  112.808856] struharv: deadline.c.init_dl_task_timer 0 0

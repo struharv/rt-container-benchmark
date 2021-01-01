@@ -11,42 +11,6 @@
 #include <unistd.h>
 #include <sys/time.h>
 
-#define SCHED_DEADLINE  6
-
-/* XXX use the proper syscall numbers */
-#ifdef __x86_64__
-#define __NR_sched_setattr      314
-#define __NR_sched_getattr      315
-#endif
-#ifdef __i386__
-#define __NR_sched_setattr      351
-#define __NR_sched_getattr      352
-#endif
-#ifdef __arm__
-#define __NR_sched_setattr      380
-#define __NR_sched_getattr      381
-#endif
-
- static volatile int done;
-
- struct sched_attr {
-     __u32 size;
-
-     __u32 sched_policy;
-     __u64 sched_flags;
-
-     /* SCHED_NORMAL, SCHED_BATCH */
-     __s32 sched_nice;
-
-     /* SCHED_FIFO, SCHED_RR */
-     __u32 sched_priority;
-
-     /* SCHED_DEADLINE (nsec) */
-     __u64 sched_runtime;
-     __u64 sched_deadline;
-     __u64 sched_period;
- };
-
 
 #define handle_error_en(en, msg) \
 	do { errno = en; perror(msg); exit(EXIT_FAILURE); } while (0)
@@ -114,15 +78,6 @@ unsigned long measureMultiple(int repeat, int steps) {
 	return sum / repeat;	
 }
 
- int sched_setattr(pid_t pid, const struct sched_attr *attr, unsigned int flags)
- {     return syscall(__NR_sched_setattr, pid, attr, flags);
- }
-
- int sched_getattr(pid_t pid, struct sched_attr *attr, unsigned int size, unsigned int flags)
- {
-     return syscall(__NR_sched_getattr, pid, attr, size, flags);
- }
-
 //1000000 loops = 2322 us
 //10000000 loops = 22532 us
 //100000000 loops = 221987 us
@@ -132,20 +87,10 @@ int main(int argc, char *argv[]) {
 	struct sched_param param;
 	int i;
 	
-	int steps = 3*100000000; 
- 
-	struct sched_attr attr;
-	attr.size = sizeof(attr);
-     	attr.sched_flags = 0;
-	attr.sched_nice = 0;
-	attr.sched_priority = 0;
-
-     	attr.sched_policy = SCHED_FIFO;
-	attr.sched_priority = 21;
+	int steps = 3*100000000;  
 	
-	sched_setattr(0, &attr, 0);	
-	//pthread_setschedparam(pthread_self(), SCHED_FIFO, &param);
-
+	param.sched_priority = 20;
+	pthread_setschedparam(pthread_self(), SCHED_FIFO, &param);
 	display_thread_sched_attr("Scheduler settings of main thread\n");
 	
 	while(1) {
@@ -160,7 +105,7 @@ int main(int argc, char *argv[]) {
 		unsigned long start1 = timenow();		
 		
 		sched_yield();	
-		usleep(1000);
+		//usleep(1000);
 
 		unsigned long end = timenow();		
 			
