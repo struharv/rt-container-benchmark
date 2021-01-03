@@ -1,0 +1,108 @@
+global counter
+
+
+
+global last = -1
+global overhead = 0
+
+
+global rt_sample0 = 0;
+global rt_sample1 = 0;
+global rt_sample2 = 0;
+global rt_sample3 = 0;
+global rt_sample4 = 0;
+global rt_sample5 = 0;
+global rt_sample6 = 0;
+global nr0 = 0;
+global nr1 = 0;
+global nr2 = 0;
+global nr3 = 0;
+global nr4 = 0;
+global nr5 = 0;
+global nr6 = 0;
+global nr7 = 0;
+global nr8 = 0;
+global nr9 = 0;
+
+
+probe begin 
+{
+	printf("Start %lu\n", gettimeofday_ns());
+
+}
+
+probe end 
+{	printf("Overhead %d\n", overhead);
+	printf("rt_sample0 %d\n", rt_sample0);
+printf("rt_sample1 %d\n", rt_sample1);
+printf("rt_sample2 %d\n", rt_sample2);
+printf("rt_sample3 %d\n", rt_sample3);
+printf("rt_sample4 %d\n", rt_sample4);
+printf("rt_sample5 %d\n", rt_sample5);
+printf("rt_sample6 %d\n", rt_sample6);
+printf("nr0 %d\n", nr0);
+printf("nr1 %d\n", nr1);
+printf("nr2 %d\n", nr2);
+printf("nr3 %d\n", nr3);
+printf("nr4 %d\n", nr4);
+printf("nr5 %d\n", nr5);
+printf("nr6 %d\n", nr6);
+printf("nr7 %d\n", nr7);
+printf("nr8 %d\n", nr8);
+printf("nr9 %d\n", nr9);
+	
+	printf("End %lu\n", gettimeofday_ns());
+	printf("Preemptions %d\n", counter)
+}
+
+probe scheduler.cpu_on
+{
+	counter = counter +1;
+    	last = gettimeofday_ns()
+	
+}
+
+probe scheduler.cpu_off
+{	
+
+	if (last != -1) {	
+			if (execname() == "rt_sample0") 
+				 { rt_sample0 += gettimeofday_ns() - last;}
+			 else if (execname() == "rt_sample1") 
+				 { rt_sample1 += gettimeofday_ns() - last;}
+			 else if (execname() == "rt_sample2") 
+				 { rt_sample2 += gettimeofday_ns() - last;}
+			 else if (execname() == "rt_sample3") 
+				 { rt_sample3 += gettimeofday_ns() - last;}
+			 else if (execname() == "rt_sample4") 
+				 { rt_sample4 += gettimeofday_ns() - last;}
+			 else if (execname() == "rt_sample5") 
+				 { rt_sample5 += gettimeofday_ns() - last;}
+			 else if (execname() == "rt_sample6") 
+				 { rt_sample6 += gettimeofday_ns() - last;}
+			 else if (execname() == "nr0") 
+				 { nr0 += gettimeofday_ns() - last;}
+			 else if (execname() == "nr1") 
+				 { nr1 += gettimeofday_ns() - last;}
+			 else if (execname() == "nr2") 
+				 { nr2 += gettimeofday_ns() - last;}
+			 else if (execname() == "nr3") 
+				 { nr3 += gettimeofday_ns() - last;}
+			 else if (execname() == "nr4") 
+				 { nr4 += gettimeofday_ns() - last;}
+			 else if (execname() == "nr5") 
+				 { nr5 += gettimeofday_ns() - last;}
+			 else if (execname() == "nr6") 
+				 { nr6 += gettimeofday_ns() - last;}
+			 else if (execname() == "nr7") 
+				 { nr7 += gettimeofday_ns() - last;}
+			 else if (execname() == "nr8") 
+				 { nr8 += gettimeofday_ns() - last;}
+			 else if (execname() == "nr9") 
+				 { nr9 += gettimeofday_ns() - last;}
+			 else {overhead += gettimeofday_ns() - last;}
+		
+		
+	}
+}
+
