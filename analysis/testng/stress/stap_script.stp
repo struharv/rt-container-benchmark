@@ -1,0 +1,54 @@
+global counter
+
+
+
+global last = -1
+global overhead = 0
+global ok = 0
+
+global rtcontainer_0 = 0;
+global container_0 = 0;
+global stress_ng = 0;
+
+
+
+
+probe end 
+{	printf("Overhead %d\n", overhead);
+	printf("rtcontainer_0 %d\n", rtcontainer_0);
+printf("container_0 %d\n", container_0);
+printf("stress-ng %d\n", stress_ng);
+	
+	printf("End %lu\n", gettimeofday_ns());
+	printf("Preemptions %d\n", counter)
+}
+
+probe scheduler.cpu_on
+{
+	counter = counter +1;
+    	last = gettimeofday_ns()
+	
+}
+
+probe scheduler.cpu_off
+{	
+	if (ok == 0 && isinstr(execname(), "stress-ng")) {
+		printf("Start %lu\n", gettimeofday_ns());		
+		ok = 1;
+		printf("stress-ng!\n");
+		
+	}	
+	if (last != -1 && ok == 1) {	
+			if (execname() == "rtcontainer_0") 
+				 { rtcontainer_0 += gettimeofday_ns() - last;}
+			 else if (execname() == "container_0") 
+				 { container_0 += gettimeofday_ns() - last;}
+			 else if (execname() == "stress-ng") 
+				 { stress_ng += gettimeofday_ns() - last;}
+else if (isinstr(execname(), "stress-ng")) {stress_ng += gettimeofday_ns() - last;}
+			 else {overhead += gettimeofday_ns() - last;}
+		
+		
+	}
+}
+

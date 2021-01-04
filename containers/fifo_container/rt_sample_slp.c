@@ -218,7 +218,7 @@ void *worker(void *x_void_ptr) {
 
 	printf("hou\n");
 	while(1) {
-		long elapsed = job(100000);
+		long elapsed = job(10000000);
 		printf("elapsed: %d %d \n", elapsed, id);
 		startTimer();
 		

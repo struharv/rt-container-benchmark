@@ -26,6 +26,14 @@ class DockerTester:
 		f = open(runtime, "w")
 		f.write(str(value))
 		f.close()
+	
+	def stress_ng(self, time):
+		command =  "sudo docker run -it --cap-add=ALL --privileged --rm alexeiled/stress-ng --cpu 30 --hdd 20 --x86syscall 20 --io 40 --link 30 --clock 30 --context 30  --vm-bytes 1G --timeout %ds --metrics-brief" % time
+		self.run(command)	
+
+	def stress_ng_rt(self, runtime, period, time):
+		command =  "sudo docker run -it --cap-add=ALL --privileged --cpu-rt-runtime=%d --cpu-rt-period=%d --rm alexeiled/stress-ng --cyclic 100 --cyclic-policy fifo --metrics-brief --timeout %ds" % (runtime, period, time)
+		self.run(command)	
 
 
 	def stap(self, file_name, time):
@@ -44,7 +52,7 @@ class DockerTester:
 		process = subprocess.Popen(command, shell=True)
 	
 	def generate_stap(self, processes):
-		command = "python ../stap-generator.py %s > stap_script.stp"		
+		command = "python stap-generator.py %s > stap_script.stp"		
 		
 		arg = ""		
 		for p in processes:
@@ -147,27 +155,32 @@ def makeRT(number, period, budget):
 
 def runRT():
 	tst = DockerTester()		
-	for i in range(10):
-		tst.runrtcontainer("container_%d" % i, 20000, 1000)
+	container_names = []
+	
+	for i in range(1):
+		cname = "rtcontainer_%d" % i		
+		tst.runrtcontainer(cname, 20000, 10000)
+		
+		container_names += [cname]
+	
+	for i in range(1):
+		cname = "container_%d" % i		
+		tst.runcontainer(cname)
+		
+		container_names += [cname]
+
+
+	container_names += ["stress-ng"]
+	tst.generate_stap(container_names)	
+	tst.stress_ng_rt(10000, 30000, 200);
+	time.sleep(2)
+	tst.stap("result", 40)
+	tst.killall()
+	time.sleep(5)
 
 		
 
 runRT()
-
-
-#
-#i=0
-#for i in range(5):
-#	scenario("results/scenario1/scenario1_nr%%d_%d.txt"  % i, [("rt_sample1", 10000, 1000)], 1000000, 900000, True)
-#	scenario("results/scenario2/scenario2_nr%%d_%d.txt" % i, [("rt_sample1", 100000, 10000)], 1000000, 900000, True)
-#	scenario("results/scenario3/scenario3_nr%%d_%d.txt" % i, [("rt_sample1", 1000000, 100000)], 1000000, 900000, True)
-
-
-#for i in range(5):
-#	scenario("results/xscenario1_nr%%d_%d.txt"  % i, makeRT(1, 100000, 10000), 1000000, 900000, True)
-#	scenario("results/xscenario2_nr%%d_%d.txt"  % i, makeRT(3, 100000, 10000), 1000000, 900000, True)
-#	scenario("results/xscenario3_nr%%d_%d.txt"  % i, makeRT(5, 100000, 10000), 1000000, 900000, True)
-#	scenario("results/xscenario4_nr%%d_%d.txt"  % i, makeRT(7, 100000, 10000), 1000000, 900000, True)
 
 
 
